@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Coaching de transition, personnel et professionnel : Armonia</title>
+<meta name="description" content="Clarifier les possibles et se mettre en mouvement : un coaching des transitions de vie et de carrière, en individuel ou en collectif, en présentiel ou à distance.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://armonia-maquette.vercel.app/coaching-de-transition">
+<style>:root{--fond:#FAF5EC;--texte:#16335B;--voile-fond:#BF3F1A;--ouverture-fond:#FAF5EC;--menu-fond:#FAF5EC}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--texte); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); } .ouverture-panneau { gap: 22px; } .intro-goutte { position: relative; display: block; width: 92px; height: 92px; } .intro-coeur { position: absolute; inset: 0; background: #BF3F1A; border-radius: 58% 42% 55% 45% / 48% 60% 40% 52%; transform: translateY(-34vh) scale(.45, .62); } .intro-halo { position: absolute; inset: -34px; border-radius: 50% 50% 46% 54% / 55% 45% 55% 45%; background: #DCEBE8; transform: scale(0); } .ouverture-logo { width: min(298px, 64vw); height: auto; } .ouverture-ligne { margin: 0; font-size: .82rem; letter-spacing: .18em; text-transform: uppercase; }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#FAF5EC">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Armonia">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Coaching de transition, personnel et professionnel : Armonia">
+<meta property="og:description" content="Clarifier les possibles et se mettre en mouvement : un coaching des transitions de vie et de carrière, en individuel ou en collectif, en présentiel ou à distance.">
+<meta property="og:url" content="https://armonia-maquette.vercel.app/coaching-de-transition">
+<meta property="og:image" content="https://armonia-maquette.vercel.app/assets/partage/coaching-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Coaching de transition chez Armonia : clarifier les possibles et se mettre en mouvement">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Armonia, Corinne Fonteneau","url":"https://armonia-maquette.vercel.app/","telephone":"+33674293031","description":"Art-thérapie, coaching de transition et pratiques énergétiques à Nuaillé, près de Cholet.","address":{"@type":"PostalAddress","streetAddress":"13 place du Gerbier","postalCode":"49340","addressLocality":"Nuaillé","addressCountry":"FR"},"sameAs":["https://www.facebook.com/Corinne.ARMONIA","https://www.linkedin.com/in/corinne-armonia"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair.png" alt="" width="186" height="50"><span data-voile-libelle>Coaching de transition</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <span class="intro-goutte" data-ouverture-objet><span class="intro-halo"></span><span class="intro-coeur"></span></span>
+  <img class="ouverture-logo" src="/assets/images/logo.png" alt="" width="298" height="80">
+  <p class="ouverture-ligne">Transitions de vie et mieux-être</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Armonia, retour à l&#39;accueil" data-libelle="Bienvenue">
+      <img src="/assets/images/logo.png" alt="" width="149" height="40">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/art-therapie" data-libelle="Art-thérapie">Art-thérapie</a></li><li><a href="/coaching-de-transition" data-libelle="Coaching de transition" aria-current="page">Coaching de transition</a></li><li><a href="/energie-et-liberations" data-libelle="Énergie et libérations">Énergie et libérations</a></li><li><a href="/echangeons" data-libelle="Échangeons">Échangeons</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/echangeons#rendez-vous" data-libelle="Échangeons">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Bienvenue">Bienvenue</a></li><li style="--i:1"><a href="/art-therapie" class="menu-lien" data-libelle="Art-thérapie">Art-thérapie</a></li><li style="--i:2"><a href="/coaching-de-transition" class="menu-lien" data-libelle="Coaching de transition" aria-current="page">Coaching de transition</a></li><li style="--i:3"><a href="/energie-et-liberations" class="menu-lien" data-libelle="Énergie et libérations">Énergie et libérations</a></li><li style="--i:4"><a href="/echangeons" class="menu-lien" data-libelle="Échangeons">Échangeons</a></li></ul>
+  <p><a class="bouton" href="tel:+33674293031">Appeler 06 74 29 30 31</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-arche" id="debut">
+  <div class="ouv-arche-texte">
+    <p class="surtitre ouv-fondu">Coaching des transitions</p>
+    <h1 class="ouv-arche-titre"><span class="ligne-masque"><span class="ouv-ligne">Clarifier</span></span><span class="ligne-masque"><span class="ouv-ligne">les possibles,</span></span><span class="ligne-masque"><span class="ouv-ligne">se mettre en</span></span><span class="ligne-masque"><span class="ouv-ligne"><em>mouvement</em></span></span></h1>
+    <p class="chapo ouv-fondu masque-ecran-tres-bas">Mieux vous connaître, clarifier vos besoins et mobiliser vos ressources pour passer à l&#39;action, concrètement.</p>
+    <p class="hero-actions ouv-fondu">
+      <a class="bouton" href="#point" data-action-principale data-survol="magnetique">Faire le point sur mon projet</a>
+    </p>
+    <p class="hero-info ouv-fondu" data-info-cle>En individuel ou en collectif · en présentiel ou à distance</p>
+  </div>
+  <div class="ouv-arche-visuel">
+    <svg class="tache ouv-arche-tache" viewBox="0 0 100 100" aria-hidden="true" data-audit-ignorer preserveAspectRatio="none"><path d="M44 6c17-6 38-1 48 15 11 17 9 42-4 58-13 16-37 23-57 15C12 86 0 66 2 46 4 27 26 12 44 6z" fill="currentColor"/></svg>
+    <figure class="media ouv-arche-media" data-grok data-fx="parallaxe" data-fx-force="6" data-iris-centre style="--cadrage:50% 60%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/coaching-ouverture-mobile-640.webp 640w, /assets/images/grok/coaching-ouverture-mobile-1080.webp 1080w" sizes="(max-width: 760px) 70vw, 36vw">
+    <img src="/assets/images/grok/coaching-ouverture-1400.webp" srcset="/assets/images/grok/coaching-ouverture-640.webp 640w, /assets/images/grok/coaching-ouverture-1000.webp 1000w, /assets/images/grok/coaching-ouverture-1400.webp 1400w" sizes="(max-width: 760px) 70vw, 36vw" alt="Un chemin d&#39;herbe entre deux haies qui se sépare en deux au lever du jour" width="1400" height="1750" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="situations fond-lavis" id="situations">
+  <div class="conteneur">
+    <p class="surtitre " data-anime>Les situations</p>
+    <h2 class="titre " data-anime="lignes">Vous reconnaissez-vous dans ces <em>situations</em> ?</h2>
+    <ol class="situations-grille" data-anime="cascade" data-visuel><li class="situation"><span class="num" aria-hidden="true">01</span><p>Une période de changement ou de transition, personnelle ou professionnelle</p></li><li class="situation"><span class="num" aria-hidden="true">02</span><p>Une perte de sens, de motivation ou de repères</p></li><li class="situation"><span class="num" aria-hidden="true">03</span><p>Un besoin de retrouver l&#39;équilibre face à la surcharge, au stress ou à l&#39;épuisement</p></li><li class="situation"><span class="num" aria-hidden="true">04</span><p>Des doutes sur vos capacités, votre légitimité ou votre place</p></li><li class="situation"><span class="num" aria-hidden="true">05</span><p>Une difficulté à poser vos limites, à dire non ou à affirmer vos choix</p></li><li class="situation"><span class="num" aria-hidden="true">06</span><p>Une évolution ou une reconversion professionnelle à préciser</p></li></ol>
+    <p class="situations-fin" data-anime>Il n&#39;est pas nécessaire d&#39;avoir un projet précis pour commencer.</p>
+  </div>
+</section>
+<section class="cadre conteneur" id="cadre">
+  <div class="cadre-tete">
+    <p class="surtitre " data-anime>Le cadre</p>
+    <h2 class="titre " data-anime="lignes">Un espace d'écoute, un cadre de <em>confiance</em></h2>
+    <p class="chapo" data-anime>Corinne ne propose pas de solutions toutes faites : elle vous aide à trouver les vôtres, en préservant votre liberté de choix et votre autonomie.</p>
+  </div>
+  <ul class="cadre-liste" data-visuel><li><h3 data-anime="lettres">L&#39;écoute</h3><p data-anime>Un espace où ce que vous traversez peut se dire.</p></li><li><h3 data-anime="lettres">La bienveillance</h3><p data-anime>Aucun jugement, aucune direction imposée.</p></li><li><h3 data-anime="lettres">La confidentialité</h3><p data-anime>Ce qui se dit en séance reste en séance.</p></li><li><h3 data-anime="lettres">Votre rythme</h3><p data-anime>Vous avancez comme cela vous convient.</p></li></ul>
+</section>
+<section class="duo duo--inverse conteneur" id="methode">
+  <div class="duo-visuel">
+    <svg class="tache duo-tache" viewBox="0 0 100 100" aria-hidden="true" data-audit-ignorer preserveAspectRatio="none"><path d="M52 2c19-2 39 9 45 28 6 20-1 44-18 57-18 13-45 15-62 1C1 74-4 49 5 29 13 12 33 4 52 2z" fill="currentColor"/></svg>
+    <figure class="media duo-media" data-grok data-effet="tache" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/coaching-avancer-1280.webp" srcset="/assets/images/grok/coaching-avancer-640.webp 640w, /assets/images/grok/coaching-avancer-1280.webp 1280w" sizes="(max-width: 760px) 92vw, 42vw" alt="Un carnet à spirale vierge, un crayon et une tasse sur une table en bois" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+  <div class="duo-texte">
+    <p class="surtitre " data-anime>La méthode</p>
+    <h2 class="titre " data-anime="lignes">Comment nous <em>avançons</em> ensemble</h2>
+    <p class="chapo" data-anime>Les séances mêlent échanges, exercices de connaissance de soi et outils adaptés à vos besoins.</p>
+    <p data-anime>Entre les séances, de petites observations ou expérimentations prolongent les découvertes dans votre quotidien.</p>
+    <p data-anime>En cas de blocages profonds ou de schémas qui se répètent, le coaching peut être complété par des pratiques de libération émotionnelle.</p>
+    <p data-anime><a href="/energie-et-liberations" class="lien-fleche" data-libelle="Énergie et libérations">Voir les pratiques de libération</a></p>
+  </div>
+</section>
+<section class="parcours fond-lavis" id="parcours">
+  <svg class="chemins-trait" viewBox="0 0 1200 600" preserveAspectRatio="none" aria-hidden="true" data-effet="deux-chemins" data-audit-ignorer>
+    <path class="chemin-a" pathLength="1" d="M0 80 C 260 40, 420 220, 600 300 S 960 520, 1200 470"/>
+    <path class="chemin-b" pathLength="1" d="M0 520 C 240 560, 430 380, 600 300 S 940 60, 1200 120"/>
+  </svg>
+  <div class="conteneur">
+    <p class="surtitre " data-anime>Deux parcours sur mesure</p>
+    <h2 class="titre " data-anime="lignes">Mieux-être ou <em>emploi</em> : deux parcours</h2>
+    <div class="parcours-grille" data-anime="cascade" data-visuel>
+      <article class="parcours-carte" id="parcours-equilibre">
+        <p class="surtitre">Accompagnement mieux-être</p>
+        <h3>Retrouver mon équilibre</h3>
+        <p>Pour les femmes qui se sentent fatiguées, perdues ou désorientées.</p>
+        <ul class="puces"><li>Coaching</li><li>Art-thérapie</li><li>Expression de soi</li><li>Travail émotionnel et psycho-corporel</li></ul>
+      </article><article class="parcours-carte" id="parcours-emploi">
+        <p class="surtitre">Transitions professionnelles</p>
+        <h3>Tremplin vers l&#39;emploi</h3>
+        <p>Pour les personnes qui souhaitent clarifier un projet professionnel.</p>
+        <ul class="puces"><li>Coaching</li><li>Outils RH</li><li>Expression orale</li><li>Posture professionnelle</li><li>Travail sur la confiance</li></ul>
+      </article>
+    </div>
+    <p class="situations-fin" data-anime>Le coaching se pratique aussi en entreprise et en organisme de formation.</p>
+  </div>
+</section>
+<section class="point conteneur" id="point">
+  <div class="point-tete">
+    <p class="surtitre " data-anime>Faites un point sur votre projet</p>
+    <h2 class="titre " data-anime="lignes">Par où <em>commencer</em> ?</h2>
+    <p class="chapo" data-anime>Cochez ce qui vous ressemble aujourd&#39;hui : vous préparez ainsi votre premier échange avec Corinne.</p>
+    <p class="petit" data-anime>Coaching de transition : tarif sur demande.</p>
+  </div>
+  <div class="point-outil" data-point data-anime data-visuel>
+    <fieldset class="point-groupe">
+      <legend>Ce que je traverse</legend>
+      <div class="point-choix"><label class="choix"><input type="checkbox" name="situation" value="1" data-libelle-court="Changement ou transition"><span>Changement ou transition</span></label><label class="choix"><input type="checkbox" name="situation" value="2" data-libelle-court="Perte de sens ou de repères"><span>Perte de sens ou de repères</span></label><label class="choix"><input type="checkbox" name="situation" value="3" data-libelle-court="Surcharge, stress, épuisement"><span>Surcharge, stress, épuisement</span></label><label class="choix"><input type="checkbox" name="situation" value="4" data-libelle-court="Doutes sur ma légitimité"><span>Doutes sur ma légitimité</span></label><label class="choix"><input type="checkbox" name="situation" value="5" data-libelle-court="Poser mes limites"><span>Poser mes limites</span></label><label class="choix"><input type="checkbox" name="situation" value="6" data-libelle-court="Évolution ou reconversion"><span>Évolution ou reconversion</span></label></div>
+    </fieldset>
+    <fieldset class="point-groupe">
+      <legend>Ce que je préfère</legend>
+      <div class="point-choix">
+        <label class="choix"><input type="radio" name="cadre" value="individuel" checked data-libelle-court="En individuel"><span>En individuel</span></label>
+        <label class="choix"><input type="radio" name="cadre" value="collectif" data-libelle-court="En collectif"><span>En collectif</span></label>
+        <label class="choix"><input type="radio" name="lieu" value="presentiel" checked data-libelle-court="En présentiel"><span>En présentiel</span></label>
+        <label class="choix"><input type="radio" name="lieu" value="distance" data-libelle-court="À distance"><span>À distance</span></label>
+      </div>
+    </fieldset>
+    <div class="point-resultat" aria-live="polite">
+      <h3>Votre point de départ</h3>
+      <p data-point-resume data-vide="Cochez une ou plusieurs situations pour préparer votre point de départ.">Cochez une ou plusieurs situations pour préparer votre point de départ.</p>
+      <p><a href="/echangeons?demande=coaching#rendez-vous" class="bouton" data-libelle="Échangeons" data-point-lien>Poursuivre avec ces réponses</a></p>
+      <p class="petit">Rien n&#39;est enregistré : vos réponses servent seulement à préparer le formulaire de rendez-vous.</p>
+    </div>
+  </div>
+</section>
+<section class="appel" id="rencontre">
+  <svg class="rosace appel-rosace" viewBox="0 0 200 200" aria-hidden="true" data-effet="rosace" data-visuel data-audit-ignorer>
+  <g class="rosace-tour" fill="none" stroke="currentColor" stroke-width=".7" stroke-linecap="round">
+    <circle pathLength="1" cx="100" cy="100" r="96"/>
+    <g class="rosace-a"><path pathLength="1" d="M162.0 100.0 Q177.1 85.4 195.0 100.0 Q177.1 114.6 162.0 100.0Z"/><path pathLength="1" d="M157.3 123.7 Q176.8 116.1 187.8 136.4 Q165.7 143.0 157.3 123.7Z"/><path pathLength="1" d="M143.8 143.8 Q164.8 144.3 167.2 167.2 Q144.3 164.8 143.8 143.8Z"/><path pathLength="1" d="M123.7 157.3 Q143.0 165.7 136.4 187.8 Q116.1 176.8 123.7 157.3Z"/><path pathLength="1" d="M100.0 162.0 Q114.6 177.1 100.0 195.0 Q85.4 177.1 100.0 162.0Z"/><path pathLength="1" d="M76.3 157.3 Q83.9 176.8 63.6 187.8 Q57.0 165.7 76.3 157.3Z"/><path pathLength="1" d="M56.2 143.8 Q55.7 164.8 32.8 167.2 Q35.2 144.3 56.2 143.8Z"/><path pathLength="1" d="M42.7 123.7 Q34.3 143.0 12.2 136.4 Q23.2 116.1 42.7 123.7Z"/><path pathLength="1" d="M38.0 100.0 Q22.9 114.6 5.0 100.0 Q22.9 85.4 38.0 100.0Z"/><path pathLength="1" d="M42.7 76.3 Q23.2 83.9 12.2 63.6 Q34.3 57.0 42.7 76.3Z"/><path pathLength="1" d="M56.2 56.2 Q35.2 55.7 32.8 32.8 Q55.7 35.2 56.2 56.2Z"/><path pathLength="1" d="M76.3 42.7 Q57.0 34.3 63.6 12.2 Q83.9 23.2 76.3 42.7Z"/><path pathLength="1" d="M100.0 38.0 Q85.4 22.9 100.0 5.0 Q114.6 22.9 100.0 38.0Z"/><path pathLength="1" d="M123.7 42.7 Q116.1 23.2 136.4 12.2 Q143.0 34.3 123.7 42.7Z"/><path pathLength="1" d="M143.8 56.2 Q144.3 35.2 167.2 32.8 Q164.8 55.7 143.8 56.2Z"/><path pathLength="1" d="M157.3 76.3 Q165.7 57.0 187.8 63.6 Q176.8 83.9 157.3 76.3Z"/></g>
+    <g class="rosace-b"><path pathLength="1" d="M134.0 100.0 Q148.1 86.4 166.0 100.0 Q148.1 113.6 134.0 100.0Z"/><path pathLength="1" d="M129.4 117.0 Q148.5 112.3 157.2 133.0 Q134.9 135.8 129.4 117.0Z"/><path pathLength="1" d="M117.0 129.4 Q135.8 134.9 133.0 157.2 Q112.3 148.5 117.0 129.4Z"/><path pathLength="1" d="M100.0 134.0 Q113.6 148.1 100.0 166.0 Q86.4 148.1 100.0 134.0Z"/><path pathLength="1" d="M83.0 129.4 Q87.7 148.5 67.0 157.2 Q64.2 134.9 83.0 129.4Z"/><path pathLength="1" d="M70.6 117.0 Q65.1 135.8 42.8 133.0 Q51.5 112.3 70.6 117.0Z"/><path pathLength="1" d="M66.0 100.0 Q51.9 113.6 34.0 100.0 Q51.9 86.4 66.0 100.0Z"/><path pathLength="1" d="M70.6 83.0 Q51.5 87.7 42.8 67.0 Q65.1 64.2 70.6 83.0Z"/><path pathLength="1" d="M83.0 70.6 Q64.2 65.1 67.0 42.8 Q87.7 51.5 83.0 70.6Z"/><path pathLength="1" d="M100.0 66.0 Q86.4 51.9 100.0 34.0 Q113.6 51.9 100.0 66.0Z"/><path pathLength="1" d="M117.0 70.6 Q112.3 51.5 133.0 42.8 Q135.8 65.1 117.0 70.6Z"/><path pathLength="1" d="M129.4 83.0 Q134.9 64.2 157.2 67.0 Q148.5 87.7 129.4 83.0Z"/></g>
+    <g class="rosace-c"><path pathLength="1" d="M110.0 100.0 Q120.5 89.6 136.0 100.0 Q120.5 110.4 110.0 100.0Z"/><path pathLength="1" d="M107.1 107.1 Q121.9 107.1 125.5 125.5 Q107.1 121.9 107.1 107.1Z"/><path pathLength="1" d="M100.0 110.0 Q110.4 120.5 100.0 136.0 Q89.6 120.5 100.0 110.0Z"/><path pathLength="1" d="M92.9 107.1 Q92.9 121.9 74.5 125.5 Q78.1 107.1 92.9 107.1Z"/><path pathLength="1" d="M90.0 100.0 Q79.5 110.4 64.0 100.0 Q79.5 89.6 90.0 100.0Z"/><path pathLength="1" d="M92.9 92.9 Q78.1 92.9 74.5 74.5 Q92.9 78.1 92.9 92.9Z"/><path pathLength="1" d="M100.0 90.0 Q89.6 79.5 100.0 64.0 Q110.4 79.5 100.0 90.0Z"/><path pathLength="1" d="M107.1 92.9 Q107.1 78.1 125.5 74.5 Q121.9 92.9 107.1 92.9Z"/></g>
+    <circle pathLength="1" cx="100" cy="100" r="8"/>
+  </g>
+</svg>
+  <div class="conteneur appel-contenu">
+    <h2 class="titre appel-titre" data-anime="lignes">Et si nous faisions <em>connaissance</em> ?</h2>
+    <p class="appel-texte" data-anime>Un rendez-vous découverte, en ligne ou par téléphone, pour échanger sur vos besoins et choisir l&#39;approche qui vous convient.</p>
+    <p class="appel-actions" data-anime>
+      <a href="/echangeons?demande=coaching#rendez-vous" class="bouton" data-libelle="Échangeons" data-survol="magnetique">Prendre rendez-vous</a>
+      <a class="bouton bouton--contour" href="tel:+33674293031">06 74 29 30 31</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair.png" alt="Armonia" width="224" height="60" loading="lazy">
+      <p>Accompagnement des transitions de vie et du mieux-être</p>
+      <p>Corinne Fonteneau, art-thérapeute certifiée et praticienne holistique</p>
+    </div>
+    <div>
+      <p><strong>Échangeons</strong></p>
+      <p>13 place du Gerbier, 49340 Nuaillé<br><a href="tel:+33674293031">06 74 29 30 31</a><br>Sur rendez-vous, au cabinet ou à distance</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Bienvenue">Bienvenue</a></li><li><a href="/art-therapie" data-libelle="Art-thérapie">Art-thérapie</a></li><li><a href="/coaching-de-transition" data-libelle="Coaching de transition" aria-current="page">Coaching de transition</a></li><li><a href="/energie-et-liberations" data-libelle="Énergie et libérations">Énergie et libérations</a></li><li><a href="/echangeons" data-libelle="Échangeons">Échangeons</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Suivre Corinne</strong></p>
+      <ul>
+        <li><a href="https://www.facebook.com/Corinne.ARMONIA" target="_blank" rel="noopener">Facebook <span class="visuellement-cache">(nouvel onglet)</span></a></li>
+        <li><a href="https://www.linkedin.com/in/corinne-armonia" target="_blank" rel="noopener">LinkedIn <span class="visuellement-cache">(nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales (à compléter) · Politique de confidentialité (à compléter)</p><p>Maquette de démonstration : les formulaires sont simulés, rien n&#39;est envoyé.</p><p>© Armonia</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33674293031">Appeler</a>
+  <a class="bouton" href="/echangeons#rendez-vous" data-libelle="Échangeons">Rendez-vous</a>
+</div>
+</body>
+</html>

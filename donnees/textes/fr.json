@@ -1,0 +1,333 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "actionEntete": "Prendre rendez-vous",
+    "appeler": "Appeler",
+    "sommaire": "Sommaire",
+    "suivre": "Suivre Corinne",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de démonstration : les formulaires sont simulés, rien n'est envoyé.",
+    "legal": "Mentions légales (à compléter) · Politique de confidentialité (à compléter)",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "introLigne": "Transitions de vie et mieux-être",
+    "signature": "Accompagnement des transitions de vie et du mieux-être",
+    "praticienne": "Corinne Fonteneau, art-thérapeute certifiée et praticienne holistique",
+    "surRdv": "Sur rendez-vous, au cabinet ou à distance",
+    "nouvelOnglet": "(nouvel onglet)",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn",
+    "reserverEnLigne": "Réserver en ligne sur SensFlow",
+    "appelTitre": "Et si nous faisions <em>connaissance</em> ?",
+    "appelTexte": "Un rendez-vous découverte, en ligne ou par téléphone, pour échanger sur vos besoins et choisir l'approche qui vous convient.",
+    "appelAction": "Prendre rendez-vous",
+    "toileDe": "Corinne Fonteneau",
+    "prixSurDemande": "Prix sur demande",
+    "oeuvreLien": "Une toile vous parle ? Écrivez à Corinne",
+    "actionBarre": "Rendez-vous",
+    "logoLien": "Armonia, retour à l'accueil"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Armonia : art-thérapie, coaching de transition et mieux-être à Nuaillé, près de Cholet",
+      "description": "Corinne Fonteneau vous accompagne dans vos transitions de vie : art-thérapie, coaching de transition, libération quantique et Reiki, au cabinet à Nuaillé (49) ou à distance.",
+      "nav": "Bienvenue",
+      "partageAlt": "Armonia, accompagnement des transitions de vie et du mieux-être, avec un mandala peint par Corinne Fonteneau",
+      "accroche": "Mieux vous comprendre, retrouver votre équilibre"
+    },
+    "art-therapie": {
+      "titre": "Art-thérapie humaniste à Nuaillé, près de Cholet : Armonia",
+      "description": "Exprimer, créer et symboliser autrement : peinture, écriture, modelage, mouvement. Séances individuelles et ateliers de groupe avec Corinne Fonteneau, sans prérequis artistique.",
+      "nav": "Art-thérapie",
+      "partageAlt": "Art-thérapie humaniste chez Armonia : exprimer, créer et symboliser autrement",
+      "accroche": "Exprimer, créer et symboliser autrement"
+    },
+    "coaching": {
+      "titre": "Coaching de transition, personnel et professionnel : Armonia",
+      "description": "Clarifier les possibles et se mettre en mouvement : un coaching des transitions de vie et de carrière, en individuel ou en collectif, en présentiel ou à distance.",
+      "nav": "Coaching de transition",
+      "partageAlt": "Coaching de transition chez Armonia : clarifier les possibles et se mettre en mouvement",
+      "accroche": "Clarifier les possibles et se mettre en mouvement"
+    },
+    "energie": {
+      "titre": "Libération quantique et Reiki, pratiques de bien-être : Armonia",
+      "description": "Libération quantique et émotionnelle à distance ou au cabinet, pratique énergétique Reiki à Nuaillé : deux pratiques de bien-être proposées par Corinne Fonteneau.",
+      "nav": "Énergie et libérations",
+      "partageAlt": "Énergie et libérations chez Armonia : libération quantique et Reiki",
+      "accroche": "Énergie et libérations"
+    },
+    "contact": {
+      "titre": "Échangeons : prendre rendez-vous avec Corinne Fonteneau, Armonia",
+      "description": "Prenez rendez-vous au cabinet Armonia, 13 place du Gerbier à Nuaillé, ou à distance : réservation en ligne, téléphone 06 74 29 30 31, tarifs et accès.",
+      "nav": "Échangeons",
+      "partageAlt": "Échangeons : prendre rendez-vous avec Corinne Fonteneau, cabinet Armonia à Nuaillé",
+      "accroche": "Échangeons : faisons connaissance"
+    },
+    "404": {
+      "titre": "Page introuvable : Armonia",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Ce chemin ne mène nulle part"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "sur": "Cabinet Armonia · Nuaillé, près de Cholet",
+      "t1": "Mieux vous",
+      "t2": "comprendre,",
+      "t3": "retrouver votre",
+      "texte": "Art-thérapie, coaching de transition et pratiques énergétiques : Corinne Fonteneau vous accompagne dans vos transitions de vie, à votre rythme.",
+      "action": "Prendre rendez-vous",
+      "second": "Découvrir les approches",
+      "info": "Au cabinet à Nuaillé ou à distance · sur rendez-vous",
+      "legende": "Acrylique sur toile, Corinne Fonteneau",
+      "t4": "<em>équilibre</em>"
+    },
+    "chemins": {
+      "sur": "Deux parcours sur mesure",
+      "titre": "Deux chemins, une même <em>intention</em>",
+      "texte": "Que vous cherchiez un mieux-être ou une nouvelle direction professionnelle, l'accompagnement part de vous : de ce que vous traversez, de vos besoins et de vos ressources.",
+      "lien": "Voir ce parcours"
+    },
+    "reconnaitre": {
+      "sur": "Vous traversez peut-être",
+      "titre": "Ce qui vous amène",
+      "fin": "Il n'est pas nécessaire d'avoir un projet précis pour commencer."
+    },
+    "approches": {
+      "sur": "Trois approches",
+      "titre": "Une approche <em>intégrative</em>, adaptée à vos besoins",
+      "texte": "Coaching, art-thérapie, pratiques psychocorporelles et énergétiques : elles se choisissent et se combinent selon votre situation et votre rythme."
+    },
+    "leviers": {
+      "titre": "Les leviers de l'accompagnement"
+    },
+    "oeuvres": {
+      "sur": "EXP'Oser sa créativité",
+      "titre": "Elle accompagne, et elle <em>peint</em>",
+      "texte": "Acryliques, aquarelles et encres de Chine : Corinne expose ses propres créations. En voici quelques-unes, avec leur format et leur prix.",
+      "region": "Œuvres de Corinne Fonteneau, défilement horizontal",
+      "glisser": "Faites glisser pour voir les toiles"
+    },
+    "corinne": {
+      "sur": "Corinne Fonteneau",
+      "titre": "Derrière chaque difficulté, <em>une personne</em>",
+      "p1": "Après une quinzaine d'années dans les ressources humaines, Corinne a choisi d'accompagner celles et ceux qui traversent des questionnements, des changements ou des difficultés, au travail comme dans leur vie personnelle.",
+      "p2": "Formée au coaching, à l'art-thérapie, au Reiki et à la libération des mémoires inconscientes, elle propose un espace d'écoute, de confiance et de liberté, pour retrouver votre capacité à choisir, à agir et à avancer.",
+      "citation": "Il y a une personne avec son histoire, ses émotions, ses besoins.",
+      "lien": "Faire connaissance"
+    },
+    "temoignages": {
+      "sur": "Témoignages",
+      "titre": "Ce sont elles et eux qui en parlent <em>le mieux</em>"
+    },
+    "tarifs": {
+      "sur": "Tarifs et questions",
+      "titre": "Avant de <em>venir</em>",
+      "conditions": "Paiement en espèces ou par virement. En cas d'imprévu, merci de prévenir au moins 24 h à l'avance.",
+      "faq": "Questions fréquentes"
+    },
+    "citation": {
+      "texte": "Ils ne savaient pas que c'était impossible… Alors ils l'ont fait !",
+      "auteur": "Mark Twain"
+    }
+  },
+  "art": {
+    "sur": "Art-thérapie humaniste",
+    "titre": "Exprimer, créer et <em>symboliser</em> autrement",
+    "texte": "Laisser s'exprimer les mains, les sens et le cœur pour oser être qui vous êtes vraiment.",
+    "action": "Réserver une séance",
+    "info": "Première séance : 80 € · 1 h 30 à 1 h 45",
+    "quoi": {
+      "sur": "Ce que c'est",
+      "titre": "La création comme <em>médiation</em>",
+      "p1": "L'art-thérapie est un accompagnement par la médiation artistique. La créativité aide à explorer ce que l'on ressent, à dépasser les blocages et à transformer les doutes en nouvelles possibilités.",
+      "p2": "Aucun prérequis : le but n'est pas de produire une belle œuvre, mais de laisser émerger ce qui vous habite.",
+      "p3": "Le geste créatif peut faire remonter des ressentis, des émotions ou des souvenirs. Si vous le souhaitez, l'art-thérapie peut se combiner avec les pratiques d'harmonisation énergétique de Corinne.",
+      "lien": "Voir les pratiques énergétiques"
+    },
+    "mediations": {
+      "sur": "Les médiations",
+      "titre": "Quatre façons de <em>dire</em>"
+    },
+    "pourqui": {
+      "sur": "Pour qui",
+      "titre": "Cela peut vous <em>parler</em> si vous vivez…"
+    },
+    "formats": {
+      "sur": "Les formats",
+      "titre": "Seul ou à <em>plusieurs</em>",
+      "deroule": "Une séance individuelle en trois temps",
+      "note": "Le nombre de séances n'est pas fixé : une seule peut suffire, ou un parcours progressif se dessine au fil des rendez-vous."
+    },
+    "arbres": {
+      "sur": "Les toiles de Corinne",
+      "titre": "Quatre <em>arbres de vie</em>",
+      "texte": "Corinne peint, elle aussi. Ces quatre acryliques font partie de ses créations exposées."
+    },
+    "mention": "L'art-thérapie ne remplace pas la médecine conventionnelle, un diagnostic ou un traitement prescrit par un professionnel de santé."
+  },
+  "coaching": {
+    "sur": "Coaching des transitions",
+    "t1": "Clarifier",
+    "t2": "les possibles,",
+    "t3": "se mettre en",
+    "t4": "<em>mouvement</em>",
+    "texte": "Mieux vous connaître, clarifier vos besoins et mobiliser vos ressources pour passer à l'action, concrètement.",
+    "action": "Faire le point sur mon projet",
+    "info": "En individuel ou en collectif · en présentiel ou à distance",
+    "situations": {
+      "sur": "Les situations",
+      "titre": "Vous reconnaissez-vous dans ces <em>situations</em> ?",
+      "fin": "Il n'est pas nécessaire d'avoir un projet précis pour commencer."
+    },
+    "cadre": {
+      "sur": "Le cadre",
+      "titre": "Un espace d'écoute, un cadre de <em>confiance</em>",
+      "texte": "Corinne ne propose pas de solutions toutes faites : elle vous aide à trouver les vôtres, en préservant votre liberté de choix et votre autonomie."
+    },
+    "avancer": {
+      "sur": "La méthode",
+      "titre": "Comment nous <em>avançons</em> ensemble",
+      "p1": "Les séances mêlent échanges, exercices de connaissance de soi et outils adaptés à vos besoins.",
+      "p2": "Entre les séances, de petites observations ou expérimentations prolongent les découvertes dans votre quotidien.",
+      "p3": "En cas de blocages profonds ou de schémas qui se répètent, le coaching peut être complété par des pratiques de libération émotionnelle.",
+      "lien": "Voir les pratiques de libération"
+    },
+    "parcours": {
+      "sur": "Deux parcours sur mesure",
+      "titre": "Mieux-être ou <em>emploi</em> : deux parcours",
+      "aussi": "Le coaching se pratique aussi en entreprise et en organisme de formation."
+    },
+    "point": {
+      "sur": "Faites un point sur votre projet",
+      "titre": "Par où <em>commencer</em> ?",
+      "texte": "Cochez ce qui vous ressemble aujourd'hui : vous préparez ainsi votre premier échange avec Corinne.",
+      "q1": "Ce que je traverse",
+      "q2": "Ce que je préfère",
+      "individuel": "En individuel",
+      "collectif": "En collectif",
+      "presentiel": "En présentiel",
+      "distance": "À distance",
+      "vide": "Cochez une ou plusieurs situations pour préparer votre point de départ.",
+      "resultat": "Votre point de départ",
+      "envoyer": "Poursuivre avec ces réponses",
+      "tarif": "Coaching de transition : tarif sur demande.",
+      "simule": "Rien n'est enregistré : vos réponses servent seulement à préparer le formulaire de rendez-vous."
+    }
+  },
+  "energie": {
+    "sur": "Pratiques énergétiques et quantiques",
+    "titre": "Énergie et <em>libérations</em>",
+    "texte": "Deux pratiques de bien-être pour explorer ce qui se répète, s'apaiser et se recentrer.",
+    "action": "Réserver une séance",
+    "info": "Libération quantique : 70 € la séance · au cabinet ou en visio",
+    "mention": {
+      "titre": "Une démarche de bien-être",
+      "texte": "Ces pratiques ne remplacent pas un accompagnement médical ou psychologique lorsque celui-ci est nécessaire. Leurs effets thérapeutiques spécifiques ne sont pas prouvés scientifiquement."
+    },
+    "liberation": {
+      "sur": "À distance ou au cabinet",
+      "titre": "La libération <em>quantique</em> et émotionnelle",
+      "p1": "Une approche énergétique et de développement personnel, centrée sur les empreintes et les mémoires inconscientes.",
+      "p2": "Elle explore les blocages récurrents, ces émotions ou ces situations qui se répètent, à travers les expériences passées, les croyances, les conditionnements et les mémoires familiales, sans jamais imposer d'interprétation.",
+      "distance": "En visio, il suffit d'une connexion internet et d'un endroit calme.",
+      "temps": "Une séance en quatre temps",
+      "action": "Réserver une séance de libération"
+    },
+    "reiki": {
+      "sur": "Au cabinet",
+      "titre": "La pratique énergétique, <em>Reiki</em>",
+      "p1": "Le Reiki est une pratique énergétique japonaise fondée sur l'imposition des mains.",
+      "p2": "Les séances sont individuelles, sur rendez-vous, dans un cadre de détente et de recentrage.",
+      "action": "Demander une séance de Reiki"
+    },
+    "choisir": {
+      "sur": "Échangeons sur vos besoins",
+      "titre": "Comment <em>choisir</em> ?",
+      "texte": "L'art-thérapie convient quand les mots ne suffisent pas. La libération quantique et émotionnelle s'intéresse aux ressentis, aux émotions et aux blocages. Un échange avec Corinne permet de trouver l'approche la plus adaptée.",
+      "lien1": "Voir l'art-thérapie",
+      "lien2": "En parler avec Corinne"
+    }
+  },
+  "contact": {
+    "sur": "Échangeons",
+    "titre": "Faisons <em>connaissance</em>",
+    "texte": "Un rendez-vous découverte pour parler de vos besoins, en ligne ou par téléphone.",
+    "action": "Préparer mon rendez-vous",
+    "telLibelle": "Appeler Corinne au",
+    "portrait": "Corinne Fonteneau",
+    "rdv": {
+      "sur": "Rendez-vous",
+      "titre": "Préparez votre <em>rendez-vous</em>",
+      "texte": "Quatre étapes courtes. Vous pouvez revenir en arrière et tout vérifier avant l'envoi.",
+      "simule": "Démonstration : aucune donnée n'est envoyée.",
+      "direct": "Vous préférez réserver directement un créneau ?",
+      "e1": "Votre demande",
+      "e1q": "Pour quoi souhaitez-vous venir ?",
+      "e1l": "Demande",
+      "e2": "Le format",
+      "e2q": "Comment préférez-vous échanger ?",
+      "e2l": "Format",
+      "cabinet": "Au cabinet, à Nuaillé",
+      "visio": "À distance, en visio",
+      "telephone": "Par téléphone, pour un premier échange",
+      "situations": "Votre situation",
+      "messageL": "Un mot sur ce qui vous amène (facultatif)",
+      "e3": "Vos coordonnées",
+      "e3q": "Comment vous joindre ?",
+      "prenom": "Prénom",
+      "nom": "Nom",
+      "email": "E-mail",
+      "tel": "Téléphone",
+      "accord": "J'accepte que ces informations servent uniquement à répondre à ma demande.",
+      "donnees": "Vos données servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.",
+      "aide": "Les champs marqués d'un astérisque sont obligatoires.",
+      "e4": "Récapitulatif",
+      "e4q": "Tout est juste ?",
+      "recapVide": "Le récapitulatif de vos réponses s'affiche ici.",
+      "retour": "Retour",
+      "continuer": "Continuer",
+      "revenir": "Revenir au récapitulatif",
+      "envoyer": "Envoyer la demande",
+      "finTitre": "Merci, votre demande est prête.",
+      "finTexte": "Démonstration : rien n'a été envoyé. Sur le site en ligne, Corinne recevra votre demande et vous rappellera.",
+      "recommencer": "Nouvelle demande"
+    },
+    "lieu": {
+      "sur": "Le cabinet",
+      "titre": "À Nuaillé, près de <em>Cholet</em>",
+      "adresseL": "Adresse",
+      "telL": "Téléphone",
+      "horairesL": "Horaires",
+      "horaires": "Sur rendez-vous. Réservation en ligne possible 24 h sur 24.",
+      "distanceL": "À distance",
+      "distance": "Séances de libération quantique en visio, partout en France.",
+      "itineraire": "Voir l'itinéraire",
+      "carteAlt": "Carte schématique : Nuaillé, au nord-est de Cholet, dans le Maine-et-Loire",
+      "carteCholet": "Cholet",
+      "carteNuaille": "Nuaillé",
+      "carteCabinet": "Cabinet Armonia",
+      "carteNord": "N",
+      "carteNote": "Carte schématique, sans échelle."
+    },
+    "tarifs": {
+      "sur": "Tarifs",
+      "titre": "Les tarifs, <em>clairement</em>",
+      "conditions": "Paiement en espèces ou par virement. En cas d'imprévu, merci de prévenir au moins 24 h à l'avance. Les séances payées en ligne ne sont pas remboursables, mais peuvent être reportées."
+    },
+    "fin": {
+      "titre": "Un créneau en <em>quelques clics</em>",
+      "texte": "La réservation en ligne est ouverte 24 h sur 24. Vous pouvez aussi appeler Corinne."
+    }
+  },
+  "introuvable": {
+    "titre": "Ce chemin ne mène <em>nulle part</em>",
+    "texte": "La page que vous cherchez n'existe pas ou plus. Reprenons depuis le début.",
+    "retour": "Revenir à l'accueil",
+    "legende": "Spirale, Chemin de vie · aquarelle et encre de Chine, Corinne Fonteneau"
+  }
+}

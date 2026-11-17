@@ -1,0 +1,393 @@
+[
+ {
+  "source": "recu/site/corinne-fonteneau.jpg",
+  "nom": "toile-mandala-bleu",
+  "role": "galerie",
+  "ratio": "1978:2000",
+  "largeurs": [
+   640,
+   1000,
+   1400
+  ],
+  "alt": "Mandala bleu et vermillon, acrylique sur toile de Corinne Fonteneau",
+  "beaute": 4
+ },
+ {
+  "source": "recu/site/yin-yang-acrylique-40.jpg",
+  "nom": "toile-yin-yang",
+  "role": "galerie",
+  "ratio": "1920:1566",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Yin Yang, soleil et terre enlacés, acrylique de Corinne Fonteneau",
+  "beaute": 4
+ },
+ {
+  "source": "recu/site/fenetre-fleur-lotus-aquarelle.jpg",
+  "nom": "toile-fenetre-lotus",
+  "role": "galerie",
+  "ratio": "1291:888",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Fenêtre sur… Fleur de lotus, aquarelle et encre de Chine de Corinne Fonteneau",
+  "beaute": 4
+ },
+ {
+  "source": "recu/site/zebres-family-aquarelle-encre.jpg",
+  "nom": "toile-zebres",
+  "role": "galerie",
+  "ratio": "1034:822",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Zèbres, Family : cinq zèbres vus de dos, aquarelle et encre de Chine",
+  "beaute": 4
+ },
+ {
+  "source": "recu/site/soleil-feu-acrylique-40.jpg",
+  "nom": "toile-soleil-feu",
+  "role": "galerie",
+  "ratio": "648:647",
+  "largeurs": [
+   480,
+   640
+  ],
+  "alt": "Soleil de feu, acrylique de Corinne Fonteneau",
+  "beaute": 3
+ },
+ {
+  "source": "recu/site/elephant-acrylique-100-x.jpg",
+  "nom": "toile-elephant",
+  "role": "galerie",
+  "ratio": "804:987",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Éléphant aux oreilles colorées, acrylique de Corinne Fonteneau",
+  "beaute": 3
+ },
+ {
+  "source": "recu/site/papillons-aquarelle-encre-chine.jpg",
+  "nom": "toile-papillons",
+  "role": "galerie",
+  "ratio": "882:682",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Papillons, aquarelle et encre de Chine de Corinne Fonteneau",
+  "beaute": 3
+ },
+ {
+  "source": "recu/site/tortuga-aquarelle-encre-chine.jpg",
+  "nom": "toile-tortuga",
+  "role": "galerie",
+  "ratio": "810:522",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Tortuga, une tortue marine, aquarelle et encre de Chine",
+  "beaute": 3
+ },
+ {
+  "source": "recu/site/corinne-fonteneau-4.jpg",
+  "nom": "toile-lotus-rouge",
+  "role": "galerie",
+  "ratio": "1954:2000",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Lotus rouge et ses racines, acrylique sur toile de Corinne Fonteneau",
+  "beaute": 4
+ },
+ {
+  "source": "recu/site/arbre-vie-automne-acrylique.jpg",
+  "nom": "toile-arbre-automne",
+  "role": "galerie",
+  "ratio": "568:577",
+  "largeurs": [
+   480,
+   560
+  ],
+  "alt": "Arbre de vie, Automne, acrylique de Corinne Fonteneau",
+  "beaute": 3
+ },
+ {
+  "source": "recu/site/arbre-vie-hiver-acrylique.jpg",
+  "nom": "toile-arbre-hiver",
+  "role": "galerie",
+  "ratio": "568:569",
+  "largeurs": [
+   480,
+   560
+  ],
+  "alt": "Arbre de vie, Hiver, acrylique de Corinne Fonteneau",
+  "beaute": 3
+ },
+ {
+  "source": "recu/site/arbre-vie-ete-acrylique.jpg",
+  "nom": "toile-arbre-ete",
+  "role": "galerie",
+  "ratio": "568:568",
+  "largeurs": [
+   480,
+   560
+  ],
+  "alt": "Arbre de vie, Été, acrylique de Corinne Fonteneau",
+  "beaute": 3
+ },
+ {
+  "source": "recu/site/arbre-vie-medaillon-beige.jpg",
+  "nom": "toile-arbre-medaillon",
+  "role": "galerie",
+  "ratio": "568:567",
+  "largeurs": [
+   480,
+   560
+  ],
+  "alt": "Arbre de vie, Médaillon beige, acrylique de Corinne Fonteneau",
+  "beaute": 3
+ },
+ {
+  "source": "recu/site/spirale-chemin-vie-aquarelle.jpg",
+  "nom": "toile-spirale",
+  "role": "galerie",
+  "ratio": "660:834",
+  "largeurs": [
+   480,
+   660
+  ],
+  "alt": "Spirale, Chemin de vie, aquarelle et encre de Chine de Corinne Fonteneau",
+  "beaute": 3
+ },
+ {
+  "source": "recu/site/faisons-plus-ample-connaissance.jpg",
+  "nom": "corinne",
+  "role": "portrait",
+  "largeurs": [
+   480,
+   640
+  ],
+  "alt": "Corinne Fonteneau, souriante, devant une plante verte",
+  "beaute": 3,
+  "cadrage": [
+   52,
+   36
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-chemin-equilibre.jpg",
+  "nom": "grok/accueil-chemin-equilibre",
+  "role": "carte-service",
+  "page": "Accueil",
+  "emplacement": "Deux chemins : carte Retrouver mon équilibre",
+  "priorite": "Indispensable",
+  "gabarit": "texture",
+  "alt": "Un bol d'eau claire où se diffuse une goutte de pigment, un pinceau posé sur le bord",
+  "consigne_scene": "A white stoneware bowl of clear water on a table covered with raw linen, one thin watercolor brush resting across the rim, a single drop of vermilion pigment slowly diffusing in the water in soft swirls, seen from slightly above, a lot of calm empty linen around the bowl, a village practice room, nothing like a spa",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/accueil-chemin-emploi.jpg",
+  "nom": "grok/accueil-chemin-emploi",
+  "role": "carte-service",
+  "page": "Accueil",
+  "emplacement": "Deux chemins : carte Tremplin vers l'emploi",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "alt": "Un bureau en bois devant une fenêtre : un carnet vierge, un crayon et une tasse",
+  "consigne_scene": "A plain pale wooden desk by a bright window, a large open sketchpad with completely blank cream paper, one wooden pencil, a stoneware cup, a simple wooden chair pulled slightly back as if someone is about to sit down, softly blurred hedgerow fields and oaks outside the window, nobody present, a modest village room, nothing like a corporate office",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/accueil-approche-art.jpg",
+  "nom": "grok/accueil-approche-art",
+  "role": "portrait",
+  "page": "Accueil",
+  "emplacement": "Trois approches : carte Art-thérapie",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "alt": "Des pinceaux dans un pot en verre, une boîte d'aquarelle et une feuille aux lavis de couleur",
+  "consigne_scene": "Top-down view of a painting table in a small village art workshop: a watercolor palette with wet vermilion, navy blue and turquoise paint wells, several brushes standing in a glass jar of tinted water, a large sheet of completely blank textured watercolor paper filling most of the table, a few loose paint drops on the pale wood, no finished painting or drawing anywhere, nobody present",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/accueil-approche-coaching.jpg",
+  "nom": "grok/accueil-approche-coaching",
+  "role": "portrait",
+  "page": "Accueil",
+  "emplacement": "Trois approches : carte Coaching de transition",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "alt": "Une pièce claire aux murs de pierre : une table en bois, une chaise et un bouquet devant la fenêtre",
+  "consigne_scene": "Two simple fabric armchairs facing each other at a slight angle in a small bright village practice room, a low pale wooden table between them with two stoneware cups, a tall window with a linen curtain, one green plant, both chairs empty, nobody present, modest and homely, nothing like a corporate office or a hotel lounge",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/accueil-approche-energie-v2.jpg",
+  "nom": "grok/accueil-approche-energie",
+  "role": "portrait",
+  "page": "Accueil",
+  "emplacement": "Trois approches : carte Énergie et libérations",
+  "priorite": "Indispensable",
+  "gabarit": "texture",
+  "alt": "Des ondes concentriques à la surface d'une eau claire, dans une vasque en grès",
+  "consigne_scene": "Close view from above of perfectly still clear water in a wide shallow stoneware basin, one single set of fine concentric ripples spreading from the center, soft daylight reflections on the surface, raw linen cloth under the basin, minimal and calm, no flower, no stone, no candle",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/art-therapie-ouverture-v2.jpg",
+  "source_mobile": "recu/grok/art-therapie-ouverture-mobile-v2.jpg",
+  "nom": "grok/art-therapie-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "Art-thérapie",
+  "emplacement": "Ouverture plein cadre",
+  "priorite": "Indispensable",
+  "alt": "Un atelier lumineux : pinceaux dans un pot, boîte d'aquarelle et feuille aux lavis de couleur sur une grande table, devant une fenêtre",
+  "consigne_scene": "Wide view of a small bright village art workshop room: a long pale wooden table by a tall window, glass jars of brushes, pans and tubes of paint, a stack of blank paper sheets, a lump of grey modelling clay on a wooden board, a wooden easel with a completely blank white canvas on it, a linen apron hanging on a chair, nobody present, a calm empty pale plaster wall, no finished painting or drawing anywhere, nothing like a professional studio or a classroom",
+  "beaute": 5,
+  "largeurs": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "source": "recu/grok/art-therapie-pigments.jpg",
+  "nom": "grok/art-therapie-pigments",
+  "role": "produit",
+  "page": "Art-thérapie",
+  "emplacement": "Fond de la citation",
+  "priorite": "Conseillée",
+  "gabarit": "texture",
+  "alt": "Des pigments bleu et vermillon qui se mêlent dans l'eau sur un papier épais",
+  "consigne_scene": "Extreme close-up of vermilion and deep navy watercolor pigments blooming and merging in clear water on thick cold-pressed cream paper, soft feathered edges, abstract wet stains only on the left third, the rest of the paper bare, clean and empty, no shape, no figure, no pattern",
+  "beaute": 5,
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/grok/art-therapie-mediations.jpg",
+  "nom": "grok/art-therapie-mediations",
+  "role": "produit",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "page": "Art-thérapie",
+  "emplacement": "Les médiations : peinture, écriture, modelage",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "alt": "De la terre à modeler, un carnet, un outil en bois et une aquarelle sur une table",
+  "consigne_scene": "Still life on a pale wooden table in three loose groups: a ball of grey modelling clay with two wooden sculpting tools, a fountain pen lying on completely blank cream writing paper, a few brushes with a small open watercolor box, soft side light, generous empty wood between the groups, seen from a low three-quarter angle, nobody present",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/coaching-ouverture.jpg",
+  "nom": "grok/coaching-ouverture",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "mobile": true,
+  "zone_texte": "haut",
+  "page": "Coaching de transition",
+  "emplacement": "Ouverture scindée, image à droite",
+  "priorite": "Indispensable",
+  "gabarit": "lieu",
+  "alt": "Un chemin d'herbe entre deux haies qui se sépare en deux au lever du jour",
+  "consigne_scene": "A narrow grass path between hedgerows and old oak trees in gently rolling farmland at sunrise, the path clearly forking in two directions a little further ahead, low mist over the meadows, dew on the grass, warm light on the horizon, calm sky in the upper third, hedgerow countryside of western France only: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no fence, no signpost",
+  "beaute": 5,
+  "largeurs": [
+   640,
+   1000,
+   1400
+  ]
+ },
+ {
+  "source": "recu/grok/coaching-avancer.jpg",
+  "nom": "grok/coaching-avancer",
+  "role": "produit",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "page": "Coaching de transition",
+  "emplacement": "Comment nous avançons ensemble",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "alt": "Un carnet à spirale vierge, un crayon et une tasse sur une table en bois",
+  "consigne_scene": "A pale wooden table by a window: an open journal with completely blank cream paper and a ribbon marker, five small blank paper cards laid out in a loose row, one pencil, a stoneware cup of herbal tea, seen from above at a slight angle, nobody present, a modest village practice room",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/energie-ouverture-v2.jpg",
+  "source_mobile": "recu/grok/energie-ouverture-mobile-v2.jpg",
+  "nom": "grok/energie-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "haut",
+  "page": "Énergie et libérations",
+  "emplacement": "Bandeau sous le grand titre",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "alt": "Une pièce calme : table de soin couverte d'un drap clair, couverture pliée, bouquet et lumière douce sur le mur",
+  "consigne_scene": "A quiet small village practice room: a treatment table covered with a cream cotton sheet and a folded wool blanket, a linen curtain glowing with soft daylight, a stoneware bowl of water on a wooden stool, one green plant, pale plaster walls, nobody present, nothing like a spa or a hotel, no candle, no statue",
+  "beaute": 5,
+  "largeurs": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "source": "recu/grok/energie-distance.jpg",
+  "nom": "grok/energie-distance",
+  "role": "produit",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1100
+  ],
+  "page": "Énergie et libérations",
+  "emplacement": "Libération quantique : séance à distance",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "alt": "Une tasse et un petit bouquet sur le rebord d'une fenêtre ouverte sur la campagne",
+  "consigne_scene": "A calm corner of an ordinary home prepared for a remote session: a comfortable armchair with a soft wool blanket by a window, a closed laptop and a pair of earphones on a small wooden side table, a stoneware cup of herbal tea, one green plant, soft daylight, nobody present",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/energie-reiki-v2.jpg",
+  "nom": "grok/energie-reiki",
+  "role": "produit",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "page": "Énergie et libérations",
+  "emplacement": "Pratique énergétique, Reiki : séance au cabinet",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "alt": "Une table de soin, un coussin de lin et une couverture pliée près d'une fenêtre",
+  "consigne_scene": "Close view of a folded cream wool blanket and a small linen cushion at the head of a treatment table covered with a cotton sheet, soft daylight from the side, shallow depth of field, pale plaster wall behind, plain and calm, nobody present, no candle, no stone, no flower",
+  "beaute": 4
+ }
+]

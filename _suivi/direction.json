@@ -1,0 +1,13 @@
+{
+  "client": "Armonia",
+  "nom": "Papier et pigments",
+  "ambiance": "calm, bright and warm",
+  "palette": "warm paper cream, pale aqua, deep navy blue and a small touch of vermilion",
+  "lumiere": "soft morning window light from the left",
+  "matieres": "raw linen, pale wood, stoneware and thick watercolor paper",
+  "saison": "a clear spring morning",
+  "lieu": "a small village in the hedgerow countryside of western France",
+  "sujet": "a quiet village practice room",
+  "fonds": { "papier": "#FAF5EC", "lavis": "#DCEBE8", "encre": "#16335B", "accent": "#BF3F1A" },
+  "polices": { "titres": "Fraunces", "texte": "Figtree" }
+}

@@ -1,0 +1,7585 @@
+{
+  "dossier": "/Users/paul/Downloads/armonia-recu",
+  "date": "2026-11-17T12:38:50.951Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg",
+    "planche-3.jpg",
+    "planche-4.jpg",
+    "planche-5.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [
+    {
+      "garder": "liberation-memoires-approche-quantique.jpg",
+      "ecarter": "liberation-memoires-approche-quantique-2.jpg",
+      "type": "doublon",
+      "distance": 6,
+      "ressemblance": 1
+    }
+  ],
+  "images": [
+    {
+      "fichier": "logo-jimdologo-footer-ad-sombre.png",
+      "nom": "logo-jimdologo-footer-ad-sombre",
+      "drapeau": "logo",
+      "largeur": 74,
+      "hauteur": 27,
+      "ratio": "2.74",
+      "ratio_valeur": 2.741,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 3385,
+      "transparence": true,
+      "sujet": {
+        "x": 22.1,
+        "y": 29.4,
+        "l": 51.5,
+        "h": 30.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        45
+      ],
+      "cadrage_css": "49% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 0,
+        "bruit": 1.2,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "8aa2a59a1a45a28a",
+      "drapeaux": [
+        "logo"
+      ]
+    },
+    {
+      "fichier": "logo-jimdo-logocreatordark.svg",
+      "nom": "logo-jimdo-logocreatordark",
+      "drapeau": "logo",
+      "largeur": 170,
+      "hauteur": 29,
+      "ratio": "5.86",
+      "ratio_valeur": 5.862,
+      "orientation": "paysage",
+      "format": "svg",
+      "poids": 6053,
+      "transparence": true,
+      "sujet": null,
+      "cadrage": [
+        50,
+        50
+      ],
+      "cadrage_css": "50% 50%",
+      "zones_calmes": [],
+      "qualite": null,
+      "lisible": null,
+      "drapeaux": [
+        "svg"
+      ]
+    },
+    {
+      "fichier": "deux-chemins-meme-intention.png",
+      "nom": "deux-chemins-meme-intention",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1404,
+      "ratio": "1.42",
+      "ratio_valeur": 1.425,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1191246,
+      "transparence": true,
+      "sujet": {
+        "x": 55.9,
+        "y": 16.2,
+        "l": 30.9,
+        "h": 35.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        73,
+        35
+      ],
+      "cadrage_css": "73% 35%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "bas",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        }
+      ],
+      "qualite": {
+        "nettete": 14.5,
+        "bruit": 0.11,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "18189898d0d0d949",
+      "drapeaux": [
+        "autre",
+        "calme gauche/haut/bas"
+      ]
+    },
+    {
+      "fichier": "sont-elles-eux-parlent.png",
+      "nom": "sont-elles-eux-parlent",
+      "drapeau": "autre",
+      "largeur": 882,
+      "hauteur": 576,
+      "ratio": "3:2",
+      "ratio_valeur": 1.531,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 44263,
+      "transparence": true,
+      "sujet": {
+        "x": 10.3,
+        "y": 5.9,
+        "l": 32.4,
+        "h": 22.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        25,
+        17
+      ],
+      "cadrage_css": "25% 17%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 82.8,
+        "bruit": 0.33,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "882 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "\"Ayant connu Corinne par le biais de ma compagne, je l'ai · sollicitée à la fois pour un coaching emploi ainsi que pour · un travail de développement personnel.",
+        "blocs": 10,
+        "surface": 38.5,
+        "details": [
+          {
+            "texte": "\"Ayant connu Corinne par le biais de ma compagne, je l'ai",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "sollicitée à la fois pour un coaching emploi ainsi que pour",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "un travail de développement personnel.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Je suis complètement satisfait de cette collaboration.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Grâce à Corinne, j'ai pu formuler mes différentes",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "compétences acquises pendant mes expériences",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "professionnelles et personnelles et un travail sur l'oralité",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "est en cours. Un grand merci déjà pour m'avoir redonner",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "confiance en moi.\"",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FILIPE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "49630d0f473b7341",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "sont-elles-eux-parlent-2.png",
+      "nom": "sont-elles-eux-parlent-2",
+      "drapeau": "autre",
+      "largeur": 882,
+      "hauteur": 506,
+      "ratio": "16:9",
+      "ratio_valeur": 1.743,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 200999,
+      "transparence": true,
+      "sujet": {
+        "x": 3.4,
+        "y": 9.8,
+        "l": 91.8,
+        "h": 80.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        37
+      ],
+      "cadrage_css": "42% 37%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.73
+        }
+      ],
+      "qualite": {
+        "nettete": 81,
+        "bruit": 0.29,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "882 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "«J'ai participé à une séance d'Art Thérapie, ce fût une très · belle découverte. Corinne est vraiment très à l'écoute et · sans jugement aucun. Une belle person",
+        "blocs": 7,
+        "surface": 30.4,
+        "details": [
+          {
+            "texte": "«J'ai participé à une séance d'Art Thérapie, ce fût une très",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "belle découverte. Corinne est vraiment très à l'écoute et",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "sans jugement aucun. Une belle personne que j'espère",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "recroiser un jour. Je lui transmets toute mon amitié et lui",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "souhaite bonne route dans cette activité. Félicitation aussi",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "pour tes tableaux sur Facebook, j'aime beaucoup.»",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MONIQUE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0947636b6f63530d",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "approche-integrative-adaptee-besoins.png",
+      "nom": "approche-integrative-adaptee-besoins",
+      "drapeau": "autre",
+      "largeur": 568,
+      "hauteur": 568,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 508305,
+      "transparence": true,
+      "sujet": {
+        "x": 0.7,
+        "y": 22.5,
+        "l": 41.3,
+        "h": 57.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        32,
+        57
+      ],
+      "cadrage_css": "32% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "droite",
+          "score": 0.41,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "gauche",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.57
+        }
+      ],
+      "qualite": {
+        "nettete": 27,
+        "bruit": 0.88,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "568 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "b19fc9ede7f3f03e",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "approche-integrative-adaptee-besoins-2.png",
+      "nom": "approche-integrative-adaptee-besoins-2",
+      "drapeau": "autre",
+      "largeur": 568,
+      "hauteur": 568,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 491032,
+      "transparence": true,
+      "sujet": {
+        "x": 8.7,
+        "y": 9.1,
+        "l": 82.5,
+        "h": 57.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        34
+      ],
+      "cadrage_css": "53% 34%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        }
+      ],
+      "qualite": {
+        "nettete": 25.8,
+        "bruit": 0.81,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "568 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "bcf4ea63270281c9",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "approche-integrative-adaptee-besoins-3.png",
+      "nom": "approche-integrative-adaptee-besoins-3",
+      "drapeau": "autre",
+      "largeur": 566,
+      "hauteur": 566,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 511673,
+      "transparence": true,
+      "sujet": {
+        "x": 15.7,
+        "y": 56.6,
+        "l": 64.1,
+        "h": 27.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        63
+      ],
+      "cadrage_css": "56% 63%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "droite",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 41.1,
+        "bruit": 0.95,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "566 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "ccccf4389233b4d8",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "armonia-art-therapie-developpement.jpg",
+      "nom": "armonia-art-therapie-developpement",
+      "drapeau": "portrait",
+      "largeur": 586,
+      "hauteur": 525,
+      "ratio": "1.12",
+      "ratio_valeur": 1.116,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 44217,
+      "transparence": false,
+      "sujet": {
+        "x": 29.5,
+        "y": 25.7,
+        "l": 41.8,
+        "h": 45.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        47
+      ],
+      "cadrage_css": "50% 47%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "gauche",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        }
+      ],
+      "qualite": {
+        "nettete": 66.5,
+        "bruit": 0.49,
+        "compression": 1.06,
+        "faible": true,
+        "raisons": [
+          "586 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0e0f173333170f0e",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "sont-elles-eux-parlent-3.png",
+      "nom": "sont-elles-eux-parlent-3",
+      "drapeau": "autre",
+      "largeur": 797,
+      "hauteur": 354,
+      "ratio": "2.25",
+      "ratio_valeur": 2.251,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 8999,
+      "transparence": true,
+      "sujet": {
+        "x": 11.8,
+        "y": 25,
+        "l": 63.2,
+        "h": 30.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        39
+      ],
+      "cadrage_css": "42% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "gauche",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        }
+      ],
+      "qualite": {
+        "nettete": 100.7,
+        "bruit": 0.12,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "797 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "\"Rencontrer Corinne, c'est rencontrer la bienveillance, · une écoute sans faille, avancer à son rythme quelle que · soit votre demande.» · KARINE",
+        "blocs": 4,
+        "surface": 19.8,
+        "details": [
+          {
+            "texte": "\"Rencontrer Corinne, c'est rencontrer la bienveillance,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "une écoute sans faille, avancer à son rythme quelle que",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "soit votre demande.»",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "KARINE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0151631331334304",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/haut"
+      ]
+    },
+    {
+      "fichier": "leviers.png",
+      "nom": "leviers",
+      "drapeau": "autre",
+      "largeur": 563,
+      "hauteur": 473,
+      "ratio": "1.19",
+      "ratio_valeur": 1.19,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 24957,
+      "transparence": true,
+      "sujet": {
+        "x": 37.2,
+        "y": 28.7,
+        "l": 48.4,
+        "h": 47.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        49
+      ],
+      "cadrage_css": "51% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "bas",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "droite",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "gauche",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        }
+      ],
+      "qualite": {
+        "nettete": 52.9,
+        "bruit": 0.14,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "563 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "« Ils ne savaient pas · que c'était impossible... · Alors ils l'ont fait! » · MARK TWAIN",
+        "blocs": 4,
+        "surface": 25.7,
+        "details": [
+          {
+            "texte": "« Ils ne savaient pas",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "que c'était impossible...",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Alors ils l'ont fait! »",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MARK TWAIN",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "25a50b5347595981",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/bas"
+      ]
+    },
+    {
+      "fichier": "deux-chemins-meme-intention-2.png",
+      "nom": "deux-chemins-meme-intention-2",
+      "drapeau": "autre",
+      "largeur": 882,
+      "hauteur": 296,
+      "ratio": "3:1",
+      "ratio_valeur": 2.98,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 144307,
+      "transparence": true,
+      "sujet": {
+        "x": 29.7,
+        "y": 0.7,
+        "l": 41.9,
+        "h": 89.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        46
+      ],
+      "cadrage_css": "45% 46%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "bas",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 72.5,
+        "bruit": 0.33,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "882 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Accompagnement · des transitions professionnelles · RETROUVER UNE DIRECTION · ET CONSTRUIRE VOS PROJETS",
+        "blocs": 4,
+        "surface": 32.3,
+        "details": [
+          {
+            "texte": "Accompagnement",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "des transitions professionnelles",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "RETROUVER UNE DIRECTION",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ET CONSTRUIRE VOS PROJETS",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "28381819072c2c60",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "parcours-mesure.png",
+      "nom": "parcours-mesure",
+      "drapeau": "autre",
+      "largeur": 450,
+      "hauteur": 562,
+      "ratio": "4:5",
+      "ratio_valeur": 0.801,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 490197,
+      "transparence": false,
+      "sujet": {
+        "x": 2.7,
+        "y": 22.8,
+        "l": 93,
+        "h": 77.2,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        64,
+        41
+      ],
+      "cadrage_css": "64% 41%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.93
+        }
+      ],
+      "qualite": {
+        "nettete": 42.5,
+        "bruit": 1.84,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "450 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e9388998fc9cb8ac",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "deux-chemins-meme-intention-3.png",
+      "nom": "deux-chemins-meme-intention-3",
+      "drapeau": "autre",
+      "largeur": 864,
+      "hauteur": 286,
+      "ratio": "3:1",
+      "ratio_valeur": 3.021,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 128674,
+      "transparence": true,
+      "sujet": {
+        "x": 10.2,
+        "y": 0.8,
+        "l": 86.6,
+        "h": 80.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        49
+      ],
+      "cadrage_css": "44% 49%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        }
+      ],
+      "qualite": {
+        "nettete": 50.5,
+        "bruit": 0.3,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "864 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Accompagnement · mieux-être · RETROUVER SON ÉQUILIBRE · ET SE RECONNECTER À SOI",
+        "blocs": 4,
+        "surface": 22.4,
+        "details": [
+          {
+            "texte": "Accompagnement",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "mieux-être",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "RETROUVER SON ÉQUILIBRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ET SE RECONNECTER À SOI",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "2c1cc838982d1d22",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "parcours-mesure-2.png",
+      "nom": "parcours-mesure-2",
+      "drapeau": "autre",
+      "largeur": 444,
+      "hauteur": 555,
+      "ratio": "4:5",
+      "ratio_valeur": 0.8,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 426905,
+      "transparence": true,
+      "sujet": {
+        "x": 28.3,
+        "y": 6.3,
+        "l": 37.2,
+        "h": 39.2,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        47,
+        23
+      ],
+      "cadrage_css": "47% 23%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 32.1,
+        "bruit": 1,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "444 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "f8cc86c64e8ed9d9",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "leviers-2.png",
+      "nom": "leviers-2",
+      "drapeau": "autre",
+      "largeur": 487,
+      "hauteur": 485,
+      "ratio": "1:1",
+      "ratio_valeur": 1.004,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 564613,
+      "transparence": true,
+      "sujet": {
+        "x": 12.7,
+        "y": 5.4,
+        "l": 59.7,
+        "h": 56.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        36
+      ],
+      "cadrage_css": "42% 36%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "droite",
+          "score": 0.38,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        }
+      ],
+      "qualite": {
+        "nettete": 21.2,
+        "bruit": 0.77,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "487 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "1707a6a6879538a9",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "deux-chemins-meme-intention-4.png",
+      "nom": "deux-chemins-meme-intention-4",
+      "drapeau": "autre",
+      "largeur": 820,
+      "hauteur": 266,
+      "ratio": "3.08",
+      "ratio_valeur": 3.083,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 73891,
+      "transparence": true,
+      "sujet": {
+        "x": 14.7,
+        "y": 44.1,
+        "l": 55.9,
+        "h": 22.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        55
+      ],
+      "cadrage_css": "40% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 54.6,
+        "bruit": 0.23,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "820 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ARMONIA",
+        "blocs": 1,
+        "surface": 41.8,
+        "details": [
+          {
+            "texte": "ARMONIA",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4149c9e91a5a2902",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "sont-elles-eux-parlent-4.png",
+      "nom": "sont-elles-eux-parlent-4",
+      "drapeau": "autre",
+      "largeur": 443,
+      "hauteur": 319,
+      "ratio": "1.39",
+      "ratio_valeur": 1.389,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 32108,
+      "transparence": true,
+      "sujet": {
+        "x": 11.8,
+        "y": 2.9,
+        "l": 60.3,
+        "h": 66.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        30
+      ],
+      "cadrage_css": "40% 30%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "bas",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 156.5,
+        "bruit": 0.22,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "443 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "«Je suis très contente d'avoir réalisé enfin cette séance · découverte d'art thérapie. · Je suis curieuse, j'ai besoin de découvrir, · mon âme d'enfant me perme",
+        "blocs": 11,
+        "surface": 51.6,
+        "details": [
+          {
+            "texte": "«Je suis très contente d'avoir réalisé enfin cette séance",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "découverte d'art thérapie.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Je suis curieuse, j'ai besoin de découvrir,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "mon âme d'enfant me permet de vibrer et de m'amuser.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "C'est bien toi Corinne que j'ai choisi pour faire cette séance,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ta voix, ta douceur, crée un bain de bien-être qui permet de",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "me relâcher, me détendre, c était pour moi une après-midi",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "bien-être. E En me dessinant, j'ai compris que je vais",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "mieux et avant de repartir vers l'emploi, je vais penser à ma",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "bulle, pour palier à ma sensibilité ».",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ANNE SOPHIE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "235d2d414d294943",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "sont-elles-eux-parlent-5.png",
+      "nom": "sont-elles-eux-parlent-5",
+      "drapeau": "autre",
+      "largeur": 441,
+      "hauteur": 277,
+      "ratio": "16:10",
+      "ratio_valeur": 1.592,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 38314,
+      "transparence": true,
+      "sujet": {
+        "x": 11.8,
+        "y": 1.5,
+        "l": 47.1,
+        "h": 33.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        18
+      ],
+      "cadrage_css": "35% 18%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        }
+      ],
+      "qualite": {
+        "nettete": 166.2,
+        "bruit": 0.22,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "441 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "\"Corinne écoute, partage et guide. · Elle a su m'accompagner sans jugement et sans pression · dans mes questionnements et mon mal-être. · Je ne suis pas douée p",
+        "blocs": 10,
+        "surface": 50.8,
+        "details": [
+          {
+            "texte": "\"Corinne écoute, partage et guide.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Elle a su m'accompagner sans jugement et sans pression",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "dans mes questionnements et mon mal-être.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Je ne suis pas douée pour le dessin mais lors de mes deux",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "séances d'art-thérapie, j'ai réussi à exprimer grâce à la",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "peinture mes ressentis et j'ai réalisé que les réponses à mes",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "questions se manifestaient au travers de mes dessins.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Des séances où les émotions ressortent afin de nous aider",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "à avancer sereinement.\"",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MATHILDE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4d1d372d11577133",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "fenetre-fleur-lotus-aquarelle.jpg",
+      "nom": "fenetre-fleur-lotus-aquarelle",
+      "drapeau": "oeuvre",
+      "largeur": 1291,
+      "hauteur": 888,
+      "ratio": "1.45",
+      "ratio_valeur": 1.454,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 153574,
+      "transparence": false,
+      "sujet": {
+        "x": 19.7,
+        "y": 16.9,
+        "l": 58,
+        "h": 59.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        44
+      ],
+      "cadrage_css": "49% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        }
+      ],
+      "qualite": {
+        "nettete": 44.4,
+        "bruit": 0.97,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "cec6b68a2eb2ce4e",
+      "drapeaux": [
+        "oeuvre"
+      ]
+    },
+    {
+      "fichier": "zebres-family-aquarelle-encre.jpg",
+      "nom": "zebres-family-aquarelle-encre",
+      "drapeau": "oeuvre",
+      "largeur": 1034,
+      "hauteur": 822,
+      "ratio": "5:4",
+      "ratio_valeur": 1.258,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 96912,
+      "transparence": false,
+      "sujet": {
+        "x": 18.1,
+        "y": 26.7,
+        "l": 62.3,
+        "h": 54.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        50
+      ],
+      "cadrage_css": "49% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "sombre",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "droite",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 59.5,
+        "bruit": 0.69,
+        "compression": 0.98,
+        "faible": true,
+        "raisons": [
+          "1034 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e2c0d0a6aaaad0e0",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "oiseaux-aquarelle-encre-chine.jpg",
+      "nom": "oiseaux-aquarelle-encre-chine",
+      "drapeau": "oeuvre",
+      "largeur": 629,
+      "hauteur": 1230,
+      "ratio": "1:2",
+      "ratio_valeur": 0.511,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 84704,
+      "transparence": false,
+      "sujet": {
+        "x": 23.5,
+        "y": 7.4,
+        "l": 61.8,
+        "h": 69.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        41
+      ],
+      "cadrage_css": "59% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        }
+      ],
+      "qualite": {
+        "nettete": 42.4,
+        "bruit": 0.79,
+        "compression": 1.16,
+        "faible": true,
+        "raisons": [
+          "629 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "3333278bdb590d13",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "papillons-aquarelle-encre-chine.jpg",
+      "nom": "papillons-aquarelle-encre-chine",
+      "drapeau": "oeuvre",
+      "largeur": 882,
+      "hauteur": 682,
+      "ratio": "1.29",
+      "ratio_valeur": 1.293,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 166861,
+      "transparence": false,
+      "sujet": {
+        "x": 1.7,
+        "y": 13.1,
+        "l": 93.1,
+        "h": 80.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        45
+      ],
+      "cadrage_css": "45% 45%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.76
+        }
+      ],
+      "qualite": {
+        "nettete": 67.7,
+        "bruit": 1.28,
+        "compression": 1.21,
+        "faible": true,
+        "raisons": [
+          "882 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8c96cc49723a3a3e",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "mandala-aquarelle-40-x.jpg",
+      "nom": "mandala-aquarelle-40-x",
+      "drapeau": "oeuvre",
+      "largeur": 798,
+      "hauteur": 736,
+      "ratio": "1.08",
+      "ratio_valeur": 1.084,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 189230,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 7.7,
+        "l": 67.1,
+        "h": 87.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        48
+      ],
+      "cadrage_css": "46% 48%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "haut",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        }
+      ],
+      "qualite": {
+        "nettete": 72.7,
+        "bruit": 1.3,
+        "compression": 0.96,
+        "faible": true,
+        "raisons": [
+          "798 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "aae8d6929a96eab2",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "spirale-chemin-vie-aquarelle.jpg",
+      "nom": "spirale-chemin-vie-aquarelle",
+      "drapeau": "oeuvre",
+      "largeur": 660,
+      "hauteur": 834,
+      "ratio": "4:5",
+      "ratio_valeur": 0.791,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 133682,
+      "transparence": false,
+      "sujet": {
+        "x": 12.6,
+        "y": 3.6,
+        "l": 81,
+        "h": 83.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        40
+      ],
+      "cadrage_css": "56% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "haut",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "gauche",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.7
+        }
+      ],
+      "qualite": {
+        "nettete": 94.2,
+        "bruit": 1.26,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "660 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "ba86a6a6a6b29235",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "mandala-aquarelle-40-x-2.jpg",
+      "nom": "mandala-aquarelle-40-x-2",
+      "drapeau": "oeuvre",
+      "largeur": 848,
+      "hauteur": 641,
+      "ratio": "4:3",
+      "ratio_valeur": 1.323,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 123829,
+      "transparence": false,
+      "sujet": {
+        "x": 20.9,
+        "y": 8.6,
+        "l": 59.1,
+        "h": 84.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        47
+      ],
+      "cadrage_css": "50% 47%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.4
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        }
+      ],
+      "qualite": {
+        "nettete": 64.3,
+        "bruit": 0.92,
+        "compression": 1.15,
+        "faible": true,
+        "raisons": [
+          "848 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e8cc969696968ca8",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "zebre-duo-aquarelle-encre.jpg",
+      "nom": "zebre-duo-aquarelle-encre",
+      "drapeau": "oeuvre",
+      "largeur": 616,
+      "hauteur": 868,
+      "ratio": "0.71",
+      "ratio_valeur": 0.71,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 127296,
+      "transparence": false,
+      "sujet": {
+        "x": 10.1,
+        "y": 7.9,
+        "l": 80.9,
+        "h": 85.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        46
+      ],
+      "cadrage_css": "50% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 104.1,
+        "bruit": 1.19,
+        "compression": 1.04,
+        "faible": true,
+        "raisons": [
+          "616 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "9637310b23554987",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "mandala-rouge-or-aquarelle.jpg",
+      "nom": "mandala-rouge-or-aquarelle",
+      "drapeau": "oeuvre",
+      "largeur": 730,
+      "hauteur": 732,
+      "ratio": "1:1",
+      "ratio_valeur": 0.997,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 154093,
+      "transparence": false,
+      "sujet": {
+        "x": 9.2,
+        "y": 6.3,
+        "l": 82.7,
+        "h": 85.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        44
+      ],
+      "cadrage_css": "50% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        }
+      ],
+      "qualite": {
+        "nettete": 126,
+        "bruit": 1.12,
+        "compression": 1.02,
+        "faible": true,
+        "raisons": [
+          "730 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "fa8e96aaaa96ceaa",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "arbre-vie-saule-aquarelle.jpg",
+      "nom": "arbre-vie-saule-aquarelle",
+      "drapeau": "oeuvre",
+      "largeur": 574,
+      "hauteur": 763,
+      "ratio": "3:4",
+      "ratio_valeur": 0.752,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 66261,
+      "transparence": false,
+      "sujet": {
+        "x": 6.2,
+        "y": 4.9,
+        "l": 90.9,
+        "h": 77.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        43
+      ],
+      "cadrage_css": "51% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 45.8,
+        "bruit": 1.1,
+        "compression": 1.17,
+        "faible": true,
+        "raisons": [
+          "574 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "0000008",
+        "blocs": 1,
+        "surface": 0.3,
+        "details": [
+          {
+            "texte": "0000008",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "9eb6ae8e8a889e98",
+      "drapeaux": [
+        "oeuvre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "tortuga-aquarelle-encre-chine.jpg",
+      "nom": "tortuga-aquarelle-encre-chine",
+      "drapeau": "oeuvre",
+      "largeur": 810,
+      "hauteur": 522,
+      "ratio": "1.55",
+      "ratio_valeur": 1.552,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 75839,
+      "transparence": false,
+      "sujet": {
+        "x": 17.9,
+        "y": 20.2,
+        "l": 69.8,
+        "h": 66.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        49
+      ],
+      "cadrage_css": "49% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "sombre",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "droite",
+          "score": 0.12,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "bas",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.44
+        }
+      ],
+      "qualite": {
+        "nettete": 79.2,
+        "bruit": 1.28,
+        "compression": 1.17,
+        "faible": true,
+        "raisons": [
+          "810 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "b8ba9ca0a8b090a0",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "elephant-vintage-aquarelle-encre.jpg",
+      "nom": "elephant-vintage-aquarelle-encre",
+      "drapeau": "oeuvre",
+      "largeur": 476,
+      "hauteur": 343,
+      "ratio": "1.39",
+      "ratio_valeur": 1.388,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 31997,
+      "transparence": false,
+      "sujet": {
+        "x": 7.8,
+        "y": 19.5,
+        "l": 70.9,
+        "h": 71.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        48
+      ],
+      "cadrage_css": "44% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        }
+      ],
+      "qualite": {
+        "nettete": 39.8,
+        "bruit": 0.79,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "476 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c0e48abaeac6d2f8",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "elephant-flower-power-aquarelle.jpg",
+      "nom": "elephant-flower-power-aquarelle",
+      "drapeau": "oeuvre",
+      "largeur": 476,
+      "hauteur": 340,
+      "ratio": "1.4",
+      "ratio_valeur": 1.4,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 29442,
+      "transparence": false,
+      "sujet": {
+        "x": 20.5,
+        "y": 24.1,
+        "l": 59.7,
+        "h": 62.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        47
+      ],
+      "cadrage_css": "42% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.36
+        }
+      ],
+      "qualite": {
+        "nettete": 37.3,
+        "bruit": 0.8,
+        "compression": 0.94,
+        "faible": true,
+        "raisons": [
+          "476 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "809a9e8eae8a9aee",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau.jpg",
+      "nom": "corinne-fonteneau",
+      "drapeau": "oeuvre",
+      "largeur": 1978,
+      "hauteur": 2000,
+      "ratio": "1:1",
+      "ratio_valeur": 0.989,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 1134040,
+      "transparence": false,
+      "sujet": {
+        "x": 0.5,
+        "y": 24.9,
+        "l": 85.4,
+        "h": 57.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        50
+      ],
+      "cadrage_css": "47% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "bas",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 35.9,
+        "bruit": 1.27,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "3accf0c8ccf082f0",
+      "drapeaux": [
+        "oeuvre"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-2.jpg",
+      "nom": "corinne-fonteneau-2",
+      "drapeau": "oeuvre",
+      "largeur": 1973,
+      "hauteur": 2000,
+      "ratio": "1:1",
+      "ratio_valeur": 0.987,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 1063755,
+      "transparence": false,
+      "sujet": {
+        "x": 44.1,
+        "y": 33.8,
+        "l": 19.1,
+        "h": 23.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        46
+      ],
+      "cadrage_css": "54% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.58,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.57,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.54,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "droite",
+          "score": 0.53,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        }
+      ],
+      "qualite": {
+        "nettete": 37.4,
+        "bruit": 1.74,
+        "compression": 0.96,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f9fcf6f1f9fbfbfb",
+      "drapeaux": [
+        "oeuvre"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-3.jpg",
+      "nom": "corinne-fonteneau-3",
+      "drapeau": "oeuvre",
+      "largeur": 2000,
+      "hauteur": 1969,
+      "ratio": "1:1",
+      "ratio_valeur": 1.016,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 1132798,
+      "transparence": false,
+      "sujet": {
+        "x": 38.2,
+        "y": 8.8,
+        "l": 20.6,
+        "h": 57.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        38
+      ],
+      "cadrage_css": "49% 38%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "moyen",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "gauche",
+          "score": 0.38,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        }
+      ],
+      "qualite": {
+        "nettete": 42.8,
+        "bruit": 1.16,
+        "compression": 1.11,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "5f82a29e9a8280b0",
+      "drapeaux": [
+        "oeuvre"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-4.jpg",
+      "nom": "corinne-fonteneau-4",
+      "drapeau": "oeuvre",
+      "largeur": 1954,
+      "hauteur": 2000,
+      "ratio": "1:1",
+      "ratio_valeur": 0.977,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 1307471,
+      "transparence": false,
+      "sujet": {
+        "x": 14.3,
+        "y": 3.5,
+        "l": 68.3,
+        "h": 57.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        38
+      ],
+      "cadrage_css": "48% 38%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.54,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.43,
+          "ton": "moyen",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "gauche",
+          "score": 0.38,
+          "ton": "moyen",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        }
+      ],
+      "qualite": {
+        "nettete": 52,
+        "bruit": 1.54,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "8e0e2733960e4e48",
+      "drapeaux": [
+        "oeuvre"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-5.jpg",
+      "nom": "corinne-fonteneau-5",
+      "drapeau": "oeuvre",
+      "largeur": 2000,
+      "hauteur": 1905,
+      "ratio": "1.05",
+      "ratio_valeur": 1.05,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 783349,
+      "transparence": false,
+      "sujet": {
+        "x": 42.6,
+        "y": 23.5,
+        "l": 16.2,
+        "h": 33.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        41
+      ],
+      "cadrage_css": "50% 41%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "gauche",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 27.4,
+        "bruit": 1.07,
+        "compression": 1.19,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "b2abe98aa28aaaa0",
+      "drapeaux": [
+        "oeuvre"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-6.jpg",
+      "nom": "corinne-fonteneau-6",
+      "drapeau": "oeuvre",
+      "largeur": 2000,
+      "hauteur": 1840,
+      "ratio": "1.09",
+      "ratio_valeur": 1.087,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 952311,
+      "transparence": false,
+      "sujet": {
+        "x": 26,
+        "y": 30.4,
+        "l": 43.5,
+        "h": 69.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        55
+      ],
+      "cadrage_css": "48% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        }
+      ],
+      "qualite": {
+        "nettete": 55.6,
+        "bruit": 1.05,
+        "compression": 1.18,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "bae0cd96b4ccd8e0",
+      "drapeaux": [
+        "oeuvre"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-7.jpg",
+      "nom": "corinne-fonteneau-7",
+      "drapeau": "oeuvre",
+      "largeur": 2000,
+      "hauteur": 1806,
+      "ratio": "1.11",
+      "ratio_valeur": 1.107,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 701499,
+      "transparence": false,
+      "sujet": {
+        "x": 38.2,
+        "y": 14.7,
+        "l": 25,
+        "h": 54.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        39
+      ],
+      "cadrage_css": "51% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.43,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 37.2,
+        "bruit": 1.19,
+        "compression": 1.17,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "92b296cc69b1e1c9",
+      "drapeaux": [
+        "oeuvre"
+      ]
+    },
+    {
+      "fichier": "yin-yang-acrylique-40.jpg",
+      "nom": "yin-yang-acrylique-40",
+      "drapeau": "oeuvre",
+      "largeur": 1920,
+      "hauteur": 1566,
+      "ratio": "5:4",
+      "ratio_valeur": 1.226,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 614717,
+      "transparence": false,
+      "sujet": {
+        "x": 2.6,
+        "y": 10.2,
+        "l": 74.5,
+        "h": 89.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        49
+      ],
+      "cadrage_css": "46% 49%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "sombre",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        }
+      ],
+      "qualite": {
+        "nettete": 34.5,
+        "bruit": 1.37,
+        "compression": 1.14,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e6e0909484c4c147",
+      "drapeaux": [
+        "oeuvre"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-8.jpg",
+      "nom": "corinne-fonteneau-8",
+      "drapeau": "oeuvre",
+      "largeur": 356,
+      "hauteur": 2000,
+      "ratio": "0.18",
+      "ratio_valeur": 0.178,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 103232,
+      "transparence": false,
+      "sujet": {
+        "x": 14.3,
+        "y": 1.1,
+        "l": 71.7,
+        "h": 98.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        42
+      ],
+      "cadrage_css": "50% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "droite",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "haut",
+          "score": 0.02,
+          "ton": "sombre",
+          "recouvre_sujet": 0.69
+        }
+      ],
+      "qualite": {
+        "nettete": 26,
+        "bruit": 0.6,
+        "compression": 1.3,
+        "faible": true,
+        "raisons": [
+          "356 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "332333336d410f0f",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "elephant-acrylique-100-x.jpg",
+      "nom": "elephant-acrylique-100-x",
+      "drapeau": "oeuvre",
+      "largeur": 804,
+      "hauteur": 987,
+      "ratio": "4:5",
+      "ratio_valeur": 0.815,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 167347,
+      "transparence": false,
+      "sujet": {
+        "x": 36.8,
+        "y": 23.5,
+        "l": 23.5,
+        "h": 20.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        34
+      ],
+      "cadrage_css": "49% 34%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        }
+      ],
+      "qualite": {
+        "nettete": 38.7,
+        "bruit": 1.06,
+        "compression": 1.1,
+        "faible": true,
+        "raisons": [
+          "804 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c96b174d37368e8e",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "soleil-feu-acrylique-40.jpg",
+      "nom": "soleil-feu-acrylique-40",
+      "drapeau": "oeuvre",
+      "largeur": 648,
+      "hauteur": 647,
+      "ratio": "1:1",
+      "ratio_valeur": 1.002,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 116869,
+      "transparence": false,
+      "sujet": {
+        "x": 4.7,
+        "y": 18,
+        "l": 84.6,
+        "h": 82,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        51
+      ],
+      "cadrage_css": "48% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "gauche",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.6
+        }
+      ],
+      "qualite": {
+        "nettete": 46.5,
+        "bruit": 1.27,
+        "compression": 1.09,
+        "faible": true,
+        "raisons": [
+          "648 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Comme!.",
+        "blocs": 1,
+        "surface": 0.6,
+        "details": [
+          {
+            "texte": "Comme!.",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0f3373737123070f",
+      "drapeaux": [
+        "oeuvre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "spirale-acrylique-38-x.jpg",
+      "nom": "spirale-acrylique-38-x",
+      "drapeau": "oeuvre",
+      "largeur": 568,
+      "hauteur": 695,
+      "ratio": "4:5",
+      "ratio_valeur": 0.817,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 64431,
+      "transparence": false,
+      "sujet": {
+        "x": 38.2,
+        "y": 33.8,
+        "l": 22.1,
+        "h": 26.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        47
+      ],
+      "cadrage_css": "49% 47%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "droite",
+          "score": 0.41,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        }
+      ],
+      "qualite": {
+        "nettete": 23.4,
+        "bruit": 0.59,
+        "compression": 1.09,
+        "faible": true,
+        "raisons": [
+          "568 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "9189380e0f0f0f8e",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "terre-ciel-guidance-acrylique.jpg",
+      "nom": "terre-ciel-guidance-acrylique",
+      "drapeau": "oeuvre",
+      "largeur": 528,
+      "hauteur": 662,
+      "ratio": "4:5",
+      "ratio_valeur": 0.798,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 84517,
+      "transparence": false,
+      "sujet": {
+        "x": 14.2,
+        "y": 67.4,
+        "l": 72.7,
+        "h": 32.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        76
+      ],
+      "cadrage_css": "50% 76%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.55,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.39,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "sombre",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.68
+        }
+      ],
+      "qualite": {
+        "nettete": 52.5,
+        "bruit": 1.72,
+        "compression": 0.97,
+        "faible": true,
+        "raisons": [
+          "528 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "93f170772f71e49a",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "terre-ciel-spirit-acrylique.jpg",
+      "nom": "terre-ciel-spirit-acrylique",
+      "drapeau": "oeuvre",
+      "largeur": 520,
+      "hauteur": 662,
+      "ratio": "4:5",
+      "ratio_valeur": 0.785,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 77370,
+      "transparence": false,
+      "sujet": {
+        "x": 6.1,
+        "y": 0.4,
+        "l": 80.7,
+        "h": 98.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        40
+      ],
+      "cadrage_css": "48% 40%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "sombre",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 43.2,
+        "bruit": 1.24,
+        "compression": 0.98,
+        "faible": true,
+        "raisons": [
+          "520 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "96dc49693371cc26",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "arbre-vie-automne-acrylique.jpg",
+      "nom": "arbre-vie-automne-acrylique",
+      "drapeau": "oeuvre",
+      "largeur": 568,
+      "hauteur": 577,
+      "ratio": "1:1",
+      "ratio_valeur": 0.984,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 100913,
+      "transparence": false,
+      "sujet": {
+        "x": 38.2,
+        "y": 17.6,
+        "l": 27.9,
+        "h": 64.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        49
+      ],
+      "cadrage_css": "51% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.45,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 52.9,
+        "bruit": 1.61,
+        "compression": 1.02,
+        "faible": true,
+        "raisons": [
+          "568 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "2b373d7d0f4fcd4d",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "arbre-vie-hiver-acrylique.jpg",
+      "nom": "arbre-vie-hiver-acrylique",
+      "drapeau": "oeuvre",
+      "largeur": 568,
+      "hauteur": 569,
+      "ratio": "1:1",
+      "ratio_valeur": 0.998,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 96666,
+      "transparence": false,
+      "sujet": {
+        "x": 11.4,
+        "y": 18.9,
+        "l": 47.1,
+        "h": 80.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        52
+      ],
+      "cadrage_css": "44% 52%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.38,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.58
+        }
+      ],
+      "qualite": {
+        "nettete": 34.8,
+        "bruit": 2,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "568 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "070d0c070d0d4d0f",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "arbre-vie-ete-acrylique.jpg",
+      "nom": "arbre-vie-ete-acrylique",
+      "drapeau": "oeuvre",
+      "largeur": 568,
+      "hauteur": 568,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 86320,
+      "transparence": false,
+      "sujet": {
+        "x": 0.5,
+        "y": 0,
+        "l": 62,
+        "h": 99,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        39,
+        49
+      ],
+      "cadrage_css": "39% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.49,
+          "ton": "moyen",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "droite",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "haut",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.98
+        }
+      ],
+      "qualite": {
+        "nettete": 42.9,
+        "bruit": 1.26,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "568 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0b4d190f4b484d4d",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "arbre-vie-medaillon-beige.jpg",
+      "nom": "arbre-vie-medaillon-beige",
+      "drapeau": "oeuvre",
+      "largeur": 568,
+      "hauteur": 567,
+      "ratio": "1:1",
+      "ratio_valeur": 1.002,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 85529,
+      "transparence": false,
+      "sujet": {
+        "x": 2.6,
+        "y": 6.4,
+        "l": 90.6,
+        "h": 83.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        45
+      ],
+      "cadrage_css": "48% 45%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 46.8,
+        "bruit": 1.3,
+        "compression": 1.06,
+        "faible": true,
+        "raisons": [
+          "568 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "716cde9eaecc4df1",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "bouquet-fleurs-acrylique-40.jpg",
+      "nom": "bouquet-fleurs-acrylique-40",
+      "drapeau": "oeuvre",
+      "largeur": 568,
+      "hauteur": 566,
+      "ratio": "1:1",
+      "ratio_valeur": 1.004,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 108199,
+      "transparence": false,
+      "sujet": {
+        "x": 22.9,
+        "y": 17.9,
+        "l": 55.7,
+        "h": 63.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        48
+      ],
+      "cadrage_css": "49% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        }
+      ],
+      "qualite": {
+        "nettete": 84.1,
+        "bruit": 2,
+        "compression": 1.06,
+        "faible": true,
+        "raisons": [
+          "568 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c94d0793930f4f75",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "arbre-vie-medaillon-jaune.jpg",
+      "nom": "arbre-vie-medaillon-jaune",
+      "drapeau": "oeuvre",
+      "largeur": 568,
+      "hauteur": 558,
+      "ratio": "1:1",
+      "ratio_valeur": 1.018,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 95548,
+      "transparence": false,
+      "sujet": {
+        "x": 12.2,
+        "y": 10.9,
+        "l": 72.5,
+        "h": 71.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        44
+      ],
+      "cadrage_css": "49% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        }
+      ],
+      "qualite": {
+        "nettete": 61.8,
+        "bruit": 1.39,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "568 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "386cc6868ecccd06",
+      "drapeaux": [
+        "oeuvre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-9.png",
+      "nom": "corinne-fonteneau-9",
+      "drapeau": "oeuvre",
+      "largeur": 487,
+      "hauteur": 590,
+      "ratio": "0.83",
+      "ratio_valeur": 0.825,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 604349,
+      "transparence": true,
+      "sujet": {
+        "x": 6.8,
+        "y": 5.6,
+        "l": 92,
+        "h": 91,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        50
+      ],
+      "cadrage_css": "51% 50%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "haut",
+          "score": 0.02,
+          "ton": "clair",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 55,
+        "bruit": 1.24,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "487 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "OSER ÊTRE · SOI- MÊME !!!",
+        "blocs": 2,
+        "surface": 4.3,
+        "details": [
+          {
+            "texte": "OSER ÊTRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SOI- MÊME !!!",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "ab69251b0f2d2d4c",
+      "drapeaux": [
+        "oeuvre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "55-ans-n-est.png",
+      "nom": "55-ans-n-est",
+      "drapeau": "autre",
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2157044,
+      "transparence": false,
+      "sujet": {
+        "x": 26.6,
+        "y": 19.1,
+        "l": 16.7,
+        "h": 73.1,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        41
+      ],
+      "cadrage_css": "35% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.6,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 18.7,
+        "bruit": 1.21,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f8f072f0b090f0f0",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moi-tout-ca.png",
+      "nom": "moi-tout-ca",
+      "drapeau": "portrait",
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2012920,
+      "transparence": true,
+      "sujet": {
+        "x": 17.3,
+        "y": 4.8,
+        "l": 41.1,
+        "h": 95.2,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        41,
+        35
+      ],
+      "cadrage_css": "41% 35%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.54
+        }
+      ],
+      "qualite": {
+        "nettete": 18.8,
+        "bruit": 0.97,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "d63637f4b5b3b195",
+      "drapeaux": [
+        "portrait",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "tu-essaies-y-voir.png",
+      "nom": "tu-essaies-y-voir",
+      "drapeau": "autre",
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2181324,
+      "transparence": true,
+      "sujet": {
+        "x": 34,
+        "y": 3.7,
+        "l": 51.9,
+        "h": 91.4,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        58,
+        34
+      ],
+      "cadrage_css": "58% 34%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.45
+        }
+      ],
+      "qualite": {
+        "nettete": 20.5,
+        "bruit": 1.22,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "34161235150f4743",
+      "drapeaux": [
+        "autre",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "preparer-entretien-autrement.png",
+      "nom": "preparer-entretien-autrement",
+      "drapeau": "autre",
+      "largeur": 1306,
+      "hauteur": 1176,
+      "ratio": "1.11",
+      "ratio_valeur": 1.111,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 88132,
+      "transparence": true,
+      "sujet": {
+        "x": 29.4,
+        "y": 17.6,
+        "l": 32.4,
+        "h": 45.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        40
+      ],
+      "cadrage_css": "45% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 40.3,
+        "bruit": 0.09,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "On voit souvent · l'entretien · d'embauche · comme une · épreuve",
+        "blocs": 5,
+        "surface": 24,
+        "details": [
+          {
+            "texte": "On voit souvent",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "l'entretien",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "d'embauche",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "comme une",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "épreuve",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "414d4d51593d3c5f",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "il-y-moments.jpg",
+      "nom": "il-y-moments",
+      "drapeau": "autre",
+      "largeur": 876,
+      "hauteur": 695,
+      "ratio": "5:4",
+      "ratio_valeur": 1.26,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 145148,
+      "transparence": false,
+      "sujet": {
+        "x": 25.2,
+        "y": 40.5,
+        "l": 15.9,
+        "h": 50.2,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        33,
+        56
+      ],
+      "cadrage_css": "33% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.19
+        }
+      ],
+      "qualite": {
+        "nettete": 39.4,
+        "bruit": 1.2,
+        "compression": 1.22,
+        "faible": true,
+        "raisons": [
+          "876 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "d8d8eebc3d3bb198",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "si-nous-prenions-temps.jpg",
+      "nom": "si-nous-prenions-temps",
+      "drapeau": "autre",
+      "largeur": 680,
+      "hauteur": 655,
+      "ratio": "1.04",
+      "ratio_valeur": 1.038,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 87871,
+      "transparence": false,
+      "sujet": {
+        "x": 1.1,
+        "y": 8.8,
+        "l": 95.2,
+        "h": 85.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        47
+      ],
+      "cadrage_css": "49% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        }
+      ],
+      "qualite": {
+        "nettete": 42.9,
+        "bruit": 0.77,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "680 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "363734d71b596f92",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "j-ai-envie-changer.jpg",
+      "nom": "j-ai-envie-changer",
+      "drapeau": "autre",
+      "largeur": 600,
+      "hauteur": 400,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 51465,
+      "transparence": false,
+      "sujet": {
+        "x": 41.2,
+        "y": 66.2,
+        "l": 17.6,
+        "h": 20.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        77
+      ],
+      "cadrage_css": "50% 77%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.5,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.49,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 60.7,
+        "bruit": 2.03,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "600 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "7272f0d2f0f2b0f0",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "faisons-plus-ample-connaissance.jpg",
+      "nom": "faisons-plus-ample-connaissance",
+      "drapeau": "autre",
+      "largeur": 692,
+      "hauteur": 1024,
+      "ratio": "2:3",
+      "ratio_valeur": 0.676,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 147877,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 87.4,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        55,
+        36
+      ],
+      "cadrage_css": "55% 36%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 39.2,
+        "bruit": 1.53,
+        "compression": 1.15,
+        "faible": true,
+        "raisons": [
+          "692 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "cb533535b0b8b1f2",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "sont-elles-eux-parlent-6.png",
+      "nom": "sont-elles-eux-parlent-6",
+      "drapeau": "autre",
+      "largeur": 882,
+      "hauteur": 558,
+      "ratio": "16:10",
+      "ratio_valeur": 1.581,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 48539,
+      "transparence": true,
+      "sujet": {
+        "x": 14.7,
+        "y": 8.8,
+        "l": 38.2,
+        "h": 33.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        34,
+        25
+      ],
+      "cadrage_css": "34% 25%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "gauche",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 93.4,
+        "bruit": 0.33,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "882 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "\"Corinne écoute, partage et guide. · Elle a su m'accompagner sans jugement et sans pression · dans mes questionnements et mon mal-être. · Je ne suis pas douée p",
+        "blocs": 10,
+        "surface": 39.7,
+        "details": [
+          {
+            "texte": "\"Corinne écoute, partage et guide.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Elle a su m'accompagner sans jugement et sans pression",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "dans mes questionnements et mon mal-être.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Je ne suis pas douée pour le dessin mais lors de mes deux",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "séances d'art-thérapie, j'ai réussi à exprimer grâce à la",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "peinture mes ressentis et j'ai réalisé que les réponses à mes",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "questions se manifestaient au travers de mes dessins.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Des séances où les émotions ressortent afin de nous aider",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "à avancer sereinement.\"",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MATHILDE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "695d152943573353",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "sont-elles-eux-parlent-7.png",
+      "nom": "sont-elles-eux-parlent-7",
+      "drapeau": "autre",
+      "largeur": 882,
+      "hauteur": 530,
+      "ratio": "1.66",
+      "ratio_valeur": 1.664,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 37297,
+      "transparence": true,
+      "sujet": {
+        "x": 65.8,
+        "y": 55.2,
+        "l": 30,
+        "h": 36.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        73,
+        64
+      ],
+      "cadrage_css": "73% 64%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "haut",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        }
+      ],
+      "qualite": {
+        "nettete": 89.6,
+        "bruit": 0.25,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "882 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "\"Merci pour les soins réalisés qui m'ont apporté une · grande aide tant sur ma vie professionnelle · que · personnelle. · Corinne est une personne bienveillante",
+        "blocs": 9,
+        "surface": 32,
+        "details": [
+          {
+            "texte": "\"Merci pour les soins réalisés qui m'ont apporté une",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "grande aide tant sur ma vie professionnelle",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "que",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "personnelle.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Corinne est une personne bienveillante, pleine d' empathie",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "et très disponible. Ses soins sont très bénéfiques et",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "apportent un bien être immédiat.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Je ne peux que la recommander +++. Un grand merci!\"",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SOPHIE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "416b6361395b7341",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "liberation-memoires-approche-quantique.jpg",
+      "nom": "liberation-memoires-approche-quantique",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1280,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 186043,
+      "transparence": false,
+      "sujet": {
+        "x": 40.2,
+        "y": 35.5,
+        "l": 12.7,
+        "h": 57.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        55
+      ],
+      "cadrage_css": "47% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        }
+      ],
+      "qualite": {
+        "nettete": 18.1,
+        "bruit": 0.22,
+        "compression": 1.51,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e0f0e8c8d0d04949",
+      "drapeaux": [
+        "autre",
+        "compression visible",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "liberation-memoires-approche-quantique-2.jpg",
+      "nom": "liberation-memoires-approche-quantique-2",
+      "drapeau": "autre",
+      "largeur": 856,
+      "hauteur": 571,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 50930,
+      "transparence": false,
+      "sujet": {
+        "x": 40.2,
+        "y": 35.6,
+        "l": 12.9,
+        "h": 56.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        55
+      ],
+      "cadrage_css": "47% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.41,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        }
+      ],
+      "qualite": {
+        "nettete": 14,
+        "bruit": 0.46,
+        "compression": 1.29,
+        "faible": true,
+        "raisons": [
+          "856 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e0f068c85ad0c849",
+      "doublon_de": {
+        "fichier": "liberation-memoires-approche-quantique.jpg",
+        "type": "doublon",
+        "distance": 6,
+        "ressemblance": 1
+      },
+      "drapeaux": [
+        "autre",
+        "petite",
+        "doublon de liberation-memoires-approche-quantique.jpg",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "liberation-memoires-approche-quantique-3.png",
+      "nom": "liberation-memoires-approche-quantique-3",
+      "drapeau": "autre",
+      "largeur": 710,
+      "hauteur": 400,
+      "ratio": "16:9",
+      "ratio_valeur": 1.775,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 386774,
+      "transparence": false,
+      "sujet": {
+        "x": 17.3,
+        "y": 7.1,
+        "l": 58.3,
+        "h": 92.2,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        41,
+        34
+      ],
+      "cadrage_css": "41% 34%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "bas",
+          "score": 0.35,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        }
+      ],
+      "qualite": {
+        "nettete": 21.1,
+        "bruit": 1.05,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "710 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "b5b632b3999ba6e6",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "pratique-energetique-reiki.png",
+      "nom": "pratique-energetique-reiki",
+      "drapeau": "autre",
+      "largeur": 704,
+      "hauteur": 528,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 412489,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 28.1,
+        "l": 71.1,
+        "h": 66.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        49
+      ],
+      "cadrage_css": "51% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.42,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 29.7,
+        "bruit": 0.31,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "704 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "2e26264d0d6e7cfe",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-10.png",
+      "nom": "corinne-fonteneau-10",
+      "drapeau": "autre",
+      "largeur": 672,
+      "hauteur": 465,
+      "ratio": "1.45",
+      "ratio_valeur": 1.445,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 391443,
+      "transparence": false,
+      "sujet": {
+        "x": 24.4,
+        "y": 5.7,
+        "l": 38.7,
+        "h": 59.9,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        44,
+        38
+      ],
+      "cadrage_css": "44% 38%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "bas",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "haut",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "gauche",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 28.4,
+        "bruit": 0.94,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "672 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e6d3393a3c1ecb09",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite",
+        "calme droite/bas"
+      ]
+    },
+    {
+      "fichier": "liberation-quantique.jpg",
+      "nom": "liberation-quantique",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 686,
+      "ratio": "3:4",
+      "ratio_valeur": 0.746,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 46686,
+      "transparence": false,
+      "sujet": {
+        "x": 27,
+        "y": 19.2,
+        "l": 48.2,
+        "h": 80.5,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        50,
+        39
+      ],
+      "cadrage_css": "50% 39%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "gauche",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "bas",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 23.3,
+        "bruit": 0.63,
+        "compression": 1.19,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c68e8d9f8e8ecf8f",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "liberation-quantique-2.png",
+      "nom": "liberation-quantique-2",
+      "drapeau": "autre",
+      "largeur": 696,
+      "hauteur": 464,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 474637,
+      "transparence": true,
+      "sujet": {
+        "x": 29.1,
+        "y": 22.8,
+        "l": 38.9,
+        "h": 62.3,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        49,
+        56
+      ],
+      "cadrage_css": "49% 56%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.35,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.17
+        }
+      ],
+      "qualite": {
+        "nettete": 18.5,
+        "bruit": 0.74,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "696 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "d5e733b83a3c9c4c",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "espace-ecoute-cadre-confiance.png",
+      "nom": "espace-ecoute-cadre-confiance",
+      "drapeau": "portrait",
+      "largeur": 605,
+      "hauteur": 419,
+      "ratio": "1.44",
+      "ratio_valeur": 1.444,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 415255,
+      "transparence": true,
+      "sujet": {
+        "x": 11.7,
+        "y": 30.1,
+        "l": 42,
+        "h": 57.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        32,
+        53
+      ],
+      "cadrage_css": "32% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.41
+        }
+      ],
+      "qualite": {
+        "nettete": 51.1,
+        "bruit": 0.92,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "605 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "fefcde1c19f633f0",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "vous-reconnaissez-vous-situations.png",
+      "nom": "vous-reconnaissez-vous-situations",
+      "drapeau": "portrait",
+      "largeur": 603,
+      "hauteur": 412,
+      "ratio": "3:2",
+      "ratio_valeur": 1.464,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 391026,
+      "transparence": true,
+      "sujet": {
+        "x": 7.6,
+        "y": 8.4,
+        "l": 37.3,
+        "h": 57.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        36,
+        36
+      ],
+      "cadrage_css": "36% 36%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 28.7,
+        "bruit": 0.91,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "603 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "bf3f7b7fe6eaed39",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "coaching-transitions.jpg",
+      "nom": "coaching-transitions",
+      "drapeau": "portrait",
+      "largeur": 557,
+      "hauteur": 418,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 19134,
+      "transparence": false,
+      "sujet": {
+        "x": 44.1,
+        "y": 35.7,
+        "l": 47.8,
+        "h": 42.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        54
+      ],
+      "cadrage_css": "60% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.47,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "gauche",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        }
+      ],
+      "qualite": {
+        "nettete": 26.4,
+        "bruit": 0.53,
+        "compression": 1.47,
+        "faible": true,
+        "raisons": [
+          "557 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "4242820484642010",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "espace-ecoute-cadre-confiance-2.png",
+      "nom": "espace-ecoute-cadre-confiance-2",
+      "drapeau": "portrait",
+      "largeur": 568,
+      "hauteur": 379,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 299152,
+      "transparence": false,
+      "sujet": {
+        "x": 26.1,
+        "y": 40.3,
+        "l": 49.8,
+        "h": 24.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        51
+      ],
+      "cadrage_css": "45% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        }
+      ],
+      "qualite": {
+        "nettete": 34,
+        "bruit": 0.76,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "568 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "f8e0646cb25272f9",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "art-therapie-humaniste.png",
+      "nom": "art-therapie-humaniste",
+      "drapeau": "autre",
+      "largeur": 882,
+      "hauteur": 497,
+      "ratio": "16:9",
+      "ratio_valeur": 1.775,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 721675,
+      "transparence": true,
+      "sujet": {
+        "x": 56.9,
+        "y": 45.7,
+        "l": 30,
+        "h": 18.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        66,
+        55
+      ],
+      "cadrage_css": "66% 55%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 41.8,
+        "bruit": 0.99,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "882 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "29e9b998c1c7fae3",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "art-therapie-humaniste-2.jpg",
+      "nom": "art-therapie-humaniste-2",
+      "drapeau": "autre",
+      "largeur": 572,
+      "hauteur": 491,
+      "ratio": "1.16",
+      "ratio_valeur": 1.165,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 88569,
+      "transparence": false,
+      "sujet": {
+        "x": 17.3,
+        "y": 45.7,
+        "l": 40.7,
+        "h": 44.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        57
+      ],
+      "cadrage_css": "46% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 56.2,
+        "bruit": 1.34,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "572 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c9db9a0b54cece4e",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "art-therapie-humaniste-3.png",
+      "nom": "art-therapie-humaniste-3",
+      "drapeau": "autre",
+      "largeur": 704,
+      "hauteur": 396,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 198076,
+      "transparence": true,
+      "sujet": {
+        "x": 20.1,
+        "y": 3.9,
+        "l": 64,
+        "h": 91.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        42
+      ],
+      "cadrage_css": "47% 42%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        }
+      ],
+      "qualite": {
+        "nettete": 58.6,
+        "bruit": 0.56,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "704 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ART THÉRAPIE · Comment ça · se pratique ? · Qu'est-ce · que c'est ? · L'objectif · Bon à savoir",
+        "blocs": 7,
+        "surface": 8.5,
+        "details": [
+          {
+            "texte": "ART THÉRAPIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Comment ça",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "se pratique ?",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Qu'est-ce",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "que c'est ?",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "L'objectif",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bon à savoir",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4c0d4959531f9f9e",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "preparer-entretien-autrement-2.png",
+      "nom": "preparer-entretien-autrement-2",
+      "drapeau": "autre",
+      "largeur": 1150,
+      "hauteur": 1032,
+      "ratio": "1.11",
+      "ratio_valeur": 1.114,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 325579,
+      "transparence": true,
+      "sujet": {
+        "x": 16.2,
+        "y": 14.7,
+        "l": 41.2,
+        "h": 58.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        45
+      ],
+      "cadrage_css": "37% 45%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "gauche",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 48.9,
+        "bruit": 0.18,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1150 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "1ère CLÉ : · CONVICTION · zème CLÉ : · CLARTÉ · zème CLÉ : · ÉCHANGE · sème CLÉ : · ENTHOUSIASME",
+        "blocs": 8,
+        "surface": 12,
+        "details": [
+          {
+            "texte": "1ère CLÉ :",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CONVICTION",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "zème CLÉ :",
+            "niveau": "marque"
+          },
+          {
+            "texte": "CLARTÉ",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "zème CLÉ :",
+            "niveau": "marque"
+          },
+          {
+            "texte": "ÉCHANGE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "sème CLÉ :",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ENTHOUSIASME",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "7a5e7e6e84842464",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "preparer-entretien-autrement-3.png",
+      "nom": "preparer-entretien-autrement-3",
+      "drapeau": "autre",
+      "largeur": 714,
+      "hauteur": 706,
+      "ratio": "1:1",
+      "ratio_valeur": 1.011,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 195276,
+      "transparence": true,
+      "sujet": {
+        "x": 8.4,
+        "y": 11.7,
+        "l": 60.5,
+        "h": 71.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        49
+      ],
+      "cadrage_css": "40% 49%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.41,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.4
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 38.8,
+        "bruit": 0.27,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "714 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ARMONIA · ACCOMPAGNEMENT DES · TRANSITIONS PROFESSIONNELLES · Préparer son entretien d'embauche avec confiance",
+        "blocs": 4,
+        "surface": 16.5,
+        "details": [
+          {
+            "texte": "ARMONIA",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ACCOMPAGNEMENT DES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "TRANSITIONS PROFESSIONNELLES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Préparer son entretien d'embauche avec confiance",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4737716973515843",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "preparer-entretien-autrement-4.png",
+      "nom": "preparer-entretien-autrement-4",
+      "drapeau": "autre",
+      "largeur": 444,
+      "hauteur": 400,
+      "ratio": "1.11",
+      "ratio_valeur": 1.11,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 43949,
+      "transparence": true,
+      "sujet": {
+        "x": 6,
+        "y": 3.4,
+        "l": 88.5,
+        "h": 90.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        46
+      ],
+      "cadrage_css": "49% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "bas",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 51.6,
+        "bruit": 0.15,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "444 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Comme s'il · fallait · convaincre · à tout prise",
+        "blocs": 4,
+        "surface": 16.5,
+        "details": [
+          {
+            "texte": "Comme s'il",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "fallait",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "convaincre",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "à tout prise",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "5145755d7c7c7d45",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "preparer-entretien-autrement-5.png",
+      "nom": "preparer-entretien-autrement-5",
+      "drapeau": "autre",
+      "largeur": 444,
+      "hauteur": 400,
+      "ratio": "1.11",
+      "ratio_valeur": 1.11,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 62494,
+      "transparence": true,
+      "sujet": {
+        "x": 27.9,
+        "y": 19.1,
+        "l": 41.2,
+        "h": 50,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        45
+      ],
+      "cadrage_css": "48% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "droite",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "haut",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "gauche",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        }
+      ],
+      "qualite": {
+        "nettete": 68.8,
+        "bruit": 0.19,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "444 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Préparer un · entretien, · ce n'est pas · apprendre à · jouer un rôle",
+        "blocs": 5,
+        "surface": 24.9,
+        "details": [
+          {
+            "texte": "Préparer un",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "entretien,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ce n'est pas",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "apprendre à",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "jouer un rôle",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "45c1c3c783337345",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "preparer-entretien-autrement-6.png",
+      "nom": "preparer-entretien-autrement-6",
+      "drapeau": "autre",
+      "largeur": 444,
+      "hauteur": 400,
+      "ratio": "1.11",
+      "ratio_valeur": 1.11,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 90038,
+      "transparence": true,
+      "sujet": {
+        "x": 24.6,
+        "y": 5.8,
+        "l": 70.8,
+        "h": 83.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        44
+      ],
+      "cadrage_css": "54% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        }
+      ],
+      "qualite": {
+        "nettete": 69.1,
+        "bruit": 0.27,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "444 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "C'est se préparer · à une rencontre · où chacun a · à y gagner",
+        "blocs": 4,
+        "surface": 23.2,
+        "details": [
+          {
+            "texte": "C'est se préparer",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "à une rencontre",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "où chacun a",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "à y gagner",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4f71716161717155",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-11.png",
+      "nom": "corinne-fonteneau-11",
+      "drapeau": "autre",
+      "largeur": 469,
+      "hauteur": 461,
+      "ratio": "1:1",
+      "ratio_valeur": 1.017,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 72164,
+      "transparence": true,
+      "sujet": {
+        "x": 27.9,
+        "y": 8.8,
+        "l": 27.9,
+        "h": 60.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        38
+      ],
+      "cadrage_css": "42% 38%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "gauche",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        }
+      ],
+      "qualite": {
+        "nettete": 25.5,
+        "bruit": 0.4,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "469 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "COACHING · INDIVIDUEL · Se sentir mieux · dans un collectif · Gestion du stress et des · émotions, Confiance en soi, · Prise de parole, · Burn Out ...",
+        "blocs": 8,
+        "surface": 25.4,
+        "details": [
+          {
+            "texte": "COACHING",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "INDIVIDUEL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Se sentir mieux",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "dans un collectif",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Gestion du stress et des",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "émotions, Confiance en soi,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Prise de parole,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Burn Out ...",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0f3b7b797d5d330f",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-12.png",
+      "nom": "corinne-fonteneau-12",
+      "drapeau": "autre",
+      "largeur": 467,
+      "hauteur": 460,
+      "ratio": "1:1",
+      "ratio_valeur": 1.015,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 92692,
+      "transparence": true,
+      "sujet": {
+        "x": 22.1,
+        "y": 19.1,
+        "l": 48.5,
+        "h": 52.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        45
+      ],
+      "cadrage_css": "45% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        }
+      ],
+      "qualite": {
+        "nettete": 40,
+        "bruit": 0.35,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "467 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "SÉANCE Individuelle · BIEN-ÊTRE · Prendre une pause pour · prendre soin de soi ... · Stress, Fatigue, TMS",
+        "blocs": 5,
+        "surface": 23.5,
+        "details": [
+          {
+            "texte": "SÉANCE Individuelle",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BIEN-ÊTRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Prendre une pause pour",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "prendre soin de soi ...",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Stress, Fatigue, TMS",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0f03410101010307",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-13.png",
+      "nom": "corinne-fonteneau-13",
+      "drapeau": "autre",
+      "largeur": 450,
+      "hauteur": 443,
+      "ratio": "1:1",
+      "ratio_valeur": 1.016,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 99947,
+      "transparence": true,
+      "sujet": {
+        "x": 0.3,
+        "y": 5.2,
+        "l": 55,
+        "h": 90.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        42
+      ],
+      "cadrage_css": "37% 42%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 65.7,
+        "bruit": 0.42,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "450 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ATELIERS COACHING · Mieux vivre ensemble · dans le collectif · Communication, Relations · interpersonnelles, · Management, Gestion des · conflits ...",
+        "blocs": 7,
+        "surface": 28.3,
+        "details": [
+          {
+            "texte": "ATELIERS COACHING",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Mieux vivre ensemble",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "dans le collectif",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Communication, Relations",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "interpersonnelles,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Management, Gestion des",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "conflits ...",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0703010105493307",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-14.png",
+      "nom": "corinne-fonteneau-14",
+      "drapeau": "autre",
+      "largeur": 450,
+      "hauteur": 445,
+      "ratio": "1:1",
+      "ratio_valeur": 1.011,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 50098,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 16.9,
+        "l": 99.4,
+        "h": 83.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        51
+      ],
+      "cadrage_css": "50% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.99
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        }
+      ],
+      "qualite": {
+        "nettete": 53.4,
+        "bruit": 0.26,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "450 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "GUIDANCE INTUITIVE · Pour mieux vous révéler · à vous-même",
+        "blocs": 3,
+        "surface": 13.8,
+        "details": [
+          {
+            "texte": "GUIDANCE INTUITIVE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Pour mieux vous révéler",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "à vous-même",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0f0341040909130f",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-15.png",
+      "nom": "corinne-fonteneau-15",
+      "drapeau": "autre",
+      "largeur": 450,
+      "hauteur": 443,
+      "ratio": "1:1",
+      "ratio_valeur": 1.016,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 87807,
+      "transparence": true,
+      "sujet": {
+        "x": 14.1,
+        "y": 8,
+        "l": 71.5,
+        "h": 50.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        37
+      ],
+      "cadrage_css": "47% 37%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "haut",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.55
+        }
+      ],
+      "qualite": {
+        "nettete": 60.1,
+        "bruit": 0.42,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "450 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "SOINS PSYCHO- · ENERGETIQUES · REIKI · Harmoniser · les énergies · Corps Cœur Esprit",
+        "blocs": 6,
+        "surface": 20.6,
+        "details": [
+          {
+            "texte": "SOINS PSYCHO-",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ENERGETIQUES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "REIKI",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Harmoniser",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "les énergies",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Corps Cœur Esprit",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0f2b6d777f7f3f1f",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-16.png",
+      "nom": "corinne-fonteneau-16",
+      "drapeau": "autre",
+      "largeur": 410,
+      "hauteur": 400,
+      "ratio": "1:1",
+      "ratio_valeur": 1.025,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 74943,
+      "transparence": true,
+      "sujet": {
+        "x": 29.4,
+        "y": 14.7,
+        "l": 27.9,
+        "h": 38.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        34
+      ],
+      "cadrage_css": "43% 34%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.79,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "haut",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 21.1,
+        "bruit": 0.39,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "410 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "RENCONTRE · ÉCHANGES · Conférences/débats · sur des · thématiques · diverses ...",
+        "blocs": 6,
+        "surface": 17.6,
+        "details": [
+          {
+            "texte": "RENCONTRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ÉCHANGES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Conférences/débats",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "sur des",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "thématiques",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "diverses ...",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0f2b697d73733f0f",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme droite/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-17.png",
+      "nom": "corinne-fonteneau-17",
+      "drapeau": "autre",
+      "largeur": 403,
+      "hauteur": 400,
+      "ratio": "1:1",
+      "ratio_valeur": 1.008,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 107068,
+      "transparence": true,
+      "sujet": {
+        "x": 29.4,
+        "y": 11.8,
+        "l": 35.3,
+        "h": 42.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        32
+      ],
+      "cadrage_css": "47% 32%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 43.6,
+        "bruit": 0.55,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "403 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "COACHING DE VIE · - ACCOMPAGNEMENT · BIEN ÊTRE - · Retrouver la confiance · Former de nouveaux · projets · Redonner du sens · Oser être soi",
+        "blocs": 8,
+        "surface": 29.1,
+        "details": [
+          {
+            "texte": "COACHING DE VIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "- ACCOMPAGNEMENT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BIEN ÊTRE -",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Retrouver la confiance",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Former de nouveaux",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "projets",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Redonner du sens",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Oser être soi",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0f23610104010307",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "dernieres-actualites.jpg",
+      "nom": "dernieres-actualites",
+      "drapeau": "autre",
+      "largeur": 658,
+      "hauteur": 494,
+      "ratio": "4:3",
+      "ratio_valeur": 1.332,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 86503,
+      "transparence": false,
+      "sujet": {
+        "x": 5,
+        "y": 3.4,
+        "l": 77.3,
+        "h": 94.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        47
+      ],
+      "cadrage_css": "52% 47%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "haut",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.83
+        }
+      ],
+      "qualite": {
+        "nettete": 72.6,
+        "bruit": 1.08,
+        "compression": 1.04,
+        "faible": true,
+        "raisons": [
+          "658 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "A L'ESPACE CHOLET ~ 85 rue Nationale · EXPOSITION · Corinne · FONTENEAU · CRÉATIONS INTUITIVES ET INSPIRÉES · AQUARELLE ~ ACRYLIQUE ~ ENCRE DE CHINE · ENTRÉE · ",
+        "blocs": 11,
+        "surface": 18.6,
+        "details": [
+          {
+            "texte": "A L'ESPACE CHOLET ~ 85 rue Nationale",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "EXPOSITION",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Corinne",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FONTENEAU",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CRÉATIONS INTUITIVES ET INSPIRÉES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "AQUARELLE ~ ACRYLIQUE ~ ENCRE DE CHINE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ENTRÉE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LIBRE !",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "EN SEMAINE AUX HORAIRES D'OUVERTURE DE L'ESPACE CHOLET 9H00 - 18H00",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "RENCONTRONS NOUS ! JE VOUS COMMUNIQUE TRÈS VITE DE NOUVELLES DATES POUR DES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "APRÈS-MIDI EN WEEKEND POUR FAIRE CONNAISSANCE ET ÉCHANGER",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "a4a4a4a4a4a4a698",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "dernieres-actualites-2.jpg",
+      "nom": "dernieres-actualites-2",
+      "drapeau": "autre",
+      "largeur": 625,
+      "hauteur": 500,
+      "ratio": "5:4",
+      "ratio_valeur": 1.25,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 42543,
+      "transparence": false,
+      "sujet": {
+        "x": 51.5,
+        "y": 17.6,
+        "l": 23.5,
+        "h": 47.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        64,
+        40
+      ],
+      "cadrage_css": "64% 40%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.81,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.67,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.61,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.46,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        }
+      ],
+      "qualite": {
+        "nettete": 35.8,
+        "bruit": 0.6,
+        "compression": 1.32,
+        "faible": true,
+        "raisons": [
+          "625 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "f8f8f2b2f2f2e6f2",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche/bas"
+      ]
+    },
+    {
+      "fichier": "dernieres-actualites-3.jpg",
+      "nom": "dernieres-actualites-3",
+      "drapeau": "autre",
+      "largeur": 526,
+      "hauteur": 359,
+      "ratio": "3:2",
+      "ratio_valeur": 1.465,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 33597,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 8.8,
+        "l": 90.5,
+        "h": 90.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        45
+      ],
+      "cadrage_css": "49% 45%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.68
+        }
+      ],
+      "qualite": {
+        "nettete": 24,
+        "bruit": 0.63,
+        "compression": 1.36,
+        "faible": true,
+        "raisons": [
+          "526 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "979cb2e660c818e0",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-18.jpg",
+      "nom": "corinne-fonteneau-18",
+      "drapeau": "autre",
+      "largeur": 446,
+      "hauteur": 269,
+      "ratio": "1.66",
+      "ratio_valeur": 1.658,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 71616,
+      "transparence": false,
+      "sujet": {
+        "x": 29.2,
+        "y": 10.4,
+        "l": 35,
+        "h": 48.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        37
+      ],
+      "cadrage_css": "48% 37%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "gauche",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.35,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        }
+      ],
+      "qualite": {
+        "nettete": 68.6,
+        "bruit": 1,
+        "compression": 1.07,
+        "faible": true,
+        "raisons": [
+          "446 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "cccd69293b332b2f",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-19.png",
+      "nom": "corinne-fonteneau-19",
+      "drapeau": "autre",
+      "largeur": 704,
+      "hauteur": 396,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 243934,
+      "transparence": true,
+      "sujet": {
+        "x": 25.3,
+        "y": 3,
+        "l": 47.1,
+        "h": 84.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        51
+      ],
+      "cadrage_css": "47% 51%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.74,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.3
+        }
+      ],
+      "qualite": {
+        "nettete": 65.3,
+        "bruit": 0.38,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "704 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "COACHING DE VIE · BIEN ÊTRE & · DEVELOPPEMENT · PERSONNEL",
+        "blocs": 4,
+        "surface": 14.5,
+        "details": [
+          {
+            "texte": "COACHING DE VIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BIEN ÊTRE &",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DEVELOPPEMENT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PERSONNEL",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "00181810020e060c",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-20.jpg",
+      "nom": "corinne-fonteneau-20",
+      "drapeau": "autre",
+      "largeur": 630,
+      "hauteur": 260,
+      "ratio": "2.42",
+      "ratio_valeur": 2.423,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 80243,
+      "transparence": false,
+      "sujet": {
+        "x": 34.1,
+        "y": 3.6,
+        "l": 38.9,
+        "h": 92.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        48
+      ],
+      "cadrage_css": "52% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 82,
+        "bruit": 1.78,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "630 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e079f0f0f0f0f0f0",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-21.png",
+      "nom": "corinne-fonteneau-21",
+      "drapeau": "autre",
+      "largeur": 1515,
+      "hauteur": 606,
+      "ratio": "2.5",
+      "ratio_valeur": 2.5,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 892363,
+      "transparence": true,
+      "sujet": {
+        "x": 0.3,
+        "y": 0,
+        "l": 18.7,
+        "h": 50.1,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        10,
+        15
+      ],
+      "cadrage_css": "10% 15%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 106.4,
+        "bruit": 0.41,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "Atelier · Oser être soi-même ! · • Expression corporelle et vocale, · • Méditation et visualisation guidée · • Respiration, et reconnexion à soi · Revitalisatio",
+        "blocs": 20,
+        "surface": 22.7,
+        "details": [
+          {
+            "texte": "Atelier",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Oser être soi-même !",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "• Expression corporelle et vocale,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "• Méditation et visualisation guidée",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "• Respiration, et reconnexion à soi",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Revitalisation en massage et auto massage ...",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "*Contacter Corinne ARMONIA 06 74 29 30 31",
+            "niveau": "document"
+          },
+          {
+            "texte": "armonia.cf@gmail.com",
+            "niveau": "document"
+          },
+          {
+            "texte": "Pour toute question sur le contenu, l'organisation,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "le déroulement",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Cet atelier a pour but de vous faire découvrir ou redécouvrir votre potentiel",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "et vos talents, par des techniques simples à réutiliser chez soi et les échanges",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "c6db6b6969c9e8c8",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "corps-energie-spirituel-mental.png",
+      "nom": "corps-energie-spirituel-mental",
+      "drapeau": "autre",
+      "largeur": 1313,
+      "hauteur": 1005,
+      "ratio": "4:3",
+      "ratio_valeur": 1.306,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 207637,
+      "transparence": true,
+      "sujet": {
+        "x": 1.3,
+        "y": 0.7,
+        "l": 53.3,
+        "h": 92.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        28,
+        40
+      ],
+      "cadrage_css": "28% 40%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.89
+        }
+      ],
+      "qualite": {
+        "nettete": 39,
+        "bruit": 0.17,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "CORPS SPIRITUEI · CORPS MENTAL · CORPS VITAL · CORPS ETHERIQUE · CORPS PHYSIQUE",
+        "blocs": 5,
+        "surface": 3.1,
+        "details": [
+          {
+            "texte": "CORPS SPIRITUEI",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CORPS MENTAL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CORPS VITAL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CORPS ETHERIQUE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CORPS PHYSIQUE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "3757bbbbb9ad5f36",
+      "drapeaux": [
+        "autre",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "corinne-fonteneau-22.png",
+      "nom": "corinne-fonteneau-22",
+      "drapeau": "autre",
+      "largeur": 1820,
+      "hauteur": 126,
+      "ratio": "14.44",
+      "ratio_valeur": 14.444,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 46503,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 21.7,
+        "l": 97,
+        "h": 45.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        42
+      ],
+      "cadrage_css": "44% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        }
+      ],
+      "qualite": {
+        "nettete": 37.2,
+        "bruit": 0.07,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ARMONIA",
+        "blocs": 1,
+        "surface": 16.2,
+        "details": [
+          {
+            "texte": "ARMONIA",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "007571b1f1f50041",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    }
+  ]
+}

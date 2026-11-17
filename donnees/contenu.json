@@ -1,0 +1,85 @@
+{
+  "chemins": [
+    { "id": "equilibre", "image": "grok/accueil-chemin-equilibre", "alt": "Un bol d'eau claire où se diffuse une goutte de pigment, un pinceau posé sur le bord", "sur": "Accompagnement mieux-être", "titre": "Retrouver mon équilibre", "texte": "Pour les femmes qui se sentent fatiguées, perdues ou désorientées.", "outils": ["Coaching", "Art-thérapie", "Expression de soi", "Travail émotionnel et psycho-corporel"] },
+    { "id": "emploi", "image": "grok/accueil-chemin-emploi", "alt": "Un bureau en bois devant une fenêtre, un carnet vierge ouvert, un crayon et une tasse", "sur": "Transitions professionnelles", "titre": "Tremplin vers l'emploi", "texte": "Pour les personnes qui souhaitent clarifier un projet professionnel.", "outils": ["Coaching", "Outils RH", "Expression orale", "Posture professionnelle", "Travail sur la confiance"] }
+  ],
+  "reconnaitre": ["Une transition de vie.", "Une reconversion.", "Une perte de sens ou de motivation.", "Du stress, de l'anxiété, un épuisement.", "Des relations difficiles.", "Apprendre à dire non, et à dire oui."],
+  "leviers": ["Connaissance de soi", "Confiance en soi", "Libération émotionnelle", "Prise de parole", "Créativité"],
+  "approches": [
+    { "page": "art-therapie", "image": "grok/accueil-approche-art", "alt": "Une table de peinture vue de dessus : palette d'aquarelle, pinceaux dans un pot d'eau, grande feuille blanche", "titre": "Art-thérapie humaniste", "texte": "Exprimer, créer et symboliser autrement. Peinture, écriture, modelage, mouvement : aucune compétence artistique n'est nécessaire.", "format": "En individuel ou en groupe", "lien": "Découvrir l'art-thérapie" },
+    { "page": "coaching", "image": "grok/accueil-approche-coaching", "alt": "Deux fauteuils face à face près d'une fenêtre, deux tasses sur une table basse", "titre": "Coaching de transition", "texte": "Clarifier les possibles et se mettre en mouvement, dans un cadre d'écoute, de bienveillance et de confidentialité.", "format": "En présentiel ou à distance", "lien": "Découvrir le coaching" },
+    { "page": "energie", "image": "grok/accueil-approche-energie", "alt": "Des ondes concentriques à la surface d'une eau calme dans une vasque en grès", "titre": "Énergie et libérations", "texte": "Libération quantique et Reiki : deux pratiques de bien-être pour explorer ce qui se répète et se recentrer.", "format": "Au cabinet ou en visio", "lien": "Découvrir ces pratiques" }
+  ],
+  "oeuvres": [
+    { "image": "toile-yin-yang", "titre": "Yin Yang", "technique": "Acrylique", "format": "40 × 40", "prix": "140 €", "l": 1920, "h": 1566 },
+    { "image": "toile-fenetre-lotus", "titre": "Fenêtre sur… Fleur de lotus", "technique": "Aquarelle et encre de Chine", "format": "40 × 30", "prix": "165 €", "l": 1291, "h": 888 },
+    { "image": "toile-lotus-rouge", "titre": "", "technique": "Acrylique sur toile", "format": "", "prix": "", "l": 1954, "h": 2000 },
+    { "image": "toile-zebres", "titre": "Zèbres, Family", "technique": "Aquarelle et encre de Chine", "format": "40 × 30", "prix": "165 €", "l": 1034, "h": 822 },
+    { "image": "toile-elephant", "titre": "Éléphant", "technique": "Acrylique", "format": "100 × 80", "prix": "280 €", "l": 804, "h": 987 },
+    { "image": "toile-papillons", "titre": "Papillons", "technique": "Aquarelle et encre de Chine", "format": "40 × 30", "prix": "165 €", "l": 882, "h": 682 },
+    { "image": "toile-soleil-feu", "titre": "Soleil de feu", "technique": "Acrylique", "format": "40 × 40", "prix": "85 €", "l": 648, "h": 647 },
+    { "image": "toile-tortuga", "titre": "Tortuga", "technique": "Aquarelle et encre de Chine", "format": "40 × 30", "prix": "165 €", "l": 810, "h": 522 }
+  ],
+  "arbres": [
+    { "image": "toile-arbre-automne", "titre": "Arbre de vie, Automne", "technique": "Acrylique", "format": "40 × 40", "prix": "55 €", "l": 568, "h": 577 },
+    { "image": "toile-arbre-hiver", "titre": "Arbre de vie, Hiver", "technique": "Acrylique", "format": "40 × 40", "prix": "55 €", "l": 568, "h": 569 },
+    { "image": "toile-arbre-ete", "titre": "Arbre de vie, Été", "technique": "Acrylique", "format": "40 × 40", "prix": "55 €", "l": 568, "h": 568 },
+    { "image": "toile-arbre-medaillon", "titre": "Arbre de vie, Médaillon beige", "technique": "Acrylique", "format": "40 × 40", "prix": "60 €", "l": 568, "h": 567 }
+  ],
+  "valeurs": ["Écoute et bienveillance", "Respect du rythme et des choix de chacun", "Reconnaissance des ressources personnelles"],
+  "seance": [
+    { "titre": "L'accueil", "texte": "Un temps pour se poser et faire le point sur ce qui vous amène aujourd'hui." },
+    { "titre": "Le temps créatif", "texte": "Dessin, peinture, écriture ou mouvement : une proposition adaptée, sans jugement ni objectif de performance." },
+    { "titre": "Le partage", "texte": "Un temps d'échange, si vous le souhaitez. C'est vous qui donnez le rythme." }
+  ],
+  "temoignages": [
+    { "nom": "Karine", "sur": "", "texte": "Rencontrer Corinne, c'est rencontrer la bienveillance, une écoute sans faille, avancer à son rythme quelle que soit votre demande." },
+    { "nom": "Mathilde", "sur": "Art-thérapie", "texte": "Corinne écoute, partage et guide. Je ne suis pas douée pour le dessin mais, lors de mes deux séances d'art-thérapie, j'ai réussi à exprimer grâce à la peinture mes ressentis." },
+    { "nom": "Filipe", "sur": "Coaching emploi", "texte": "Grâce à Corinne, j'ai pu formuler mes différentes compétences acquises pendant mes expériences professionnelles et personnelles. Un grand merci déjà pour m'avoir redonné confiance en moi." },
+    { "nom": "Monique", "sur": "Art-thérapie", "texte": "J'ai participé à une séance d'art-thérapie, ce fut une très belle découverte. Corinne est vraiment très à l'écoute et sans jugement aucun." },
+    { "nom": "Anne-Sophie", "sur": "Séance découverte d'art-thérapie", "texte": "Ta voix, ta douceur créent un bain de bien-être qui permet de me relâcher, me détendre. C'était pour moi une après-midi bien-être." },
+    { "nom": "Sophie", "sur": "Soins énergétiques", "texte": "Corinne est une personne bienveillante, pleine d'empathie et très disponible. Je ne peux que la recommander. Un grand merci !" }
+  ],
+  "tarifs": [
+    { "id": "art-therapie", "titre": "Art-thérapie", "lignes": [{ "prix": "80 €", "quoi": "la première séance", "duree": "1 h 30 à 1 h 45" }, { "prix": "70 €", "quoi": "la séance de suivi", "duree": "1 h 15 à 1 h 30" }] },
+    { "id": "liberation", "titre": "Libération quantique et émotionnelle", "lignes": [{ "prix": "70 €", "quoi": "la séance", "duree": "90 min au plus, en visio ou au cabinet" }] },
+    { "id": "coaching", "titre": "Coaching de transition et Reiki", "lignes": [{ "prix": "", "quoi": "Tarif sur demande, par téléphone ou lors du premier échange", "duree": "" }] }
+  ],
+  "mediations": [
+    { "titre": "La peinture", "texte": "Laisser la couleur dire ce qui est là." },
+    { "titre": "L'écriture", "texte": "Poser des mots, autrement." },
+    { "titre": "Le modelage", "texte": "Donner une forme à ce que l'on ressent." },
+    { "titre": "Le mouvement", "texte": "Passer par le corps et les sens." }
+  ],
+  "artPourQui": ["Un besoin de lâcher prise et de libérer votre potentiel", "Des émotions difficiles à vivre", "Des blocages ou des peurs", "Une transition personnelle ou professionnelle", "L'envie de poser sur vous un regard bienveillant"],
+  "artFormats": [
+    { "titre": "En individuel", "texte": "Un parcours sur mesure et évolutif, à votre rythme, au cabinet à Nuaillé.", "detail": "80 € la première séance, puis 70 €" },
+    { "titre": "En atelier de groupe", "texte": "Des ateliers d'initiation, à domicile, en entreprise ou en association.", "detail": "Sur demande" }
+  ],
+  "situations": [
+    "Une période de changement ou de transition, personnelle ou professionnelle",
+    "Une perte de sens, de motivation ou de repères",
+    "Un besoin de retrouver l'équilibre face à la surcharge, au stress ou à l'épuisement",
+    "Des doutes sur vos capacités, votre légitimité ou votre place",
+    "Une difficulté à poser vos limites, à dire non ou à affirmer vos choix",
+    "Une évolution ou une reconversion professionnelle à préciser"
+  ],
+  "situationsCourtes": ["Changement ou transition", "Perte de sens ou de repères", "Surcharge, stress, épuisement", "Doutes sur ma légitimité", "Poser mes limites", "Évolution ou reconversion"],
+  "cadre": [
+    { "titre": "L'écoute", "texte": "Un espace où ce que vous traversez peut se dire." },
+    { "titre": "La bienveillance", "texte": "Aucun jugement, aucune direction imposée." },
+    { "titre": "La confidentialité", "texte": "Ce qui se dit en séance reste en séance." },
+    { "titre": "Votre rythme", "texte": "Vous avancez comme cela vous convient." }
+  ],
+  "liberationTemps": ["Un échange sur votre demande", "Une écoute guidée", "Un temps de partage, si vous le souhaitez", "Un temps de clôture"],
+  "liberationFaits": [{ "v": "70 €", "l": "la séance" }, { "v": "90 min", "l": "au plus" }, { "v": "En visio", "l": "partout en France, ou au cabinet" }],
+  "reikiFaits": [{ "v": "Au cabinet", "l": "à Nuaillé" }, { "v": "Individuel", "l": "sur rendez-vous" }, { "v": "Tarif", "l": "sur demande" }],
+  "prestations": [
+    { "v": "art-therapie", "titre": "Art-thérapie", "texte": "80 € la première séance, puis 70 €" },
+    { "v": "coaching", "titre": "Coaching de transition", "texte": "Tarif sur demande" },
+    { "v": "liberation", "titre": "Libération quantique et émotionnelle", "texte": "70 € la séance" },
+    { "v": "reiki", "titre": "Reiki", "texte": "Tarif sur demande" },
+    { "v": "decouverte", "titre": "Je ne sais pas encore", "texte": "Un rendez-vous découverte pour en parler" },
+    { "v": "oeuvre", "titre": "Une œuvre m'intéresse", "texte": "Une question sur une toile de Corinne" }
+  ]
+}

@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Échangeons : prendre rendez-vous avec Corinne Fonteneau, Armonia</title>
+<meta name="description" content="Prenez rendez-vous au cabinet Armonia, 13 place du Gerbier à Nuaillé, ou à distance : réservation en ligne, téléphone 06 74 29 30 31, tarifs et accès.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://armonia-maquette.vercel.app/echangeons">
+<style>:root{--fond:#FAF5EC;--texte:#16335B;--voile-fond:#BF3F1A;--ouverture-fond:#FAF5EC;--menu-fond:#FAF5EC}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--texte); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); } .ouverture-panneau { gap: 22px; } .intro-goutte { position: relative; display: block; width: 92px; height: 92px; } .intro-coeur { position: absolute; inset: 0; background: #BF3F1A; border-radius: 58% 42% 55% 45% / 48% 60% 40% 52%; transform: translateY(-34vh) scale(.45, .62); } .intro-halo { position: absolute; inset: -34px; border-radius: 50% 50% 46% 54% / 55% 45% 55% 45%; background: #DCEBE8; transform: scale(0); } .ouverture-logo { width: min(298px, 64vw); height: auto; } .ouverture-ligne { margin: 0; font-size: .82rem; letter-spacing: .18em; text-transform: uppercase; }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules/fpe.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#FAF5EC">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Armonia">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Échangeons : prendre rendez-vous avec Corinne Fonteneau, Armonia">
+<meta property="og:description" content="Prenez rendez-vous au cabinet Armonia, 13 place du Gerbier à Nuaillé, ou à distance : réservation en ligne, téléphone 06 74 29 30 31, tarifs et accès.">
+<meta property="og:url" content="https://armonia-maquette.vercel.app/echangeons">
+<meta property="og:image" content="https://armonia-maquette.vercel.app/assets/partage/contact-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Échangeons : prendre rendez-vous avec Corinne Fonteneau, cabinet Armonia à Nuaillé">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Armonia, Corinne Fonteneau","url":"https://armonia-maquette.vercel.app/","telephone":"+33674293031","description":"Art-thérapie, coaching de transition et pratiques énergétiques à Nuaillé, près de Cholet.","address":{"@type":"PostalAddress","streetAddress":"13 place du Gerbier","postalCode":"49340","addressLocality":"Nuaillé","addressCountry":"FR"},"sameAs":["https://www.facebook.com/Corinne.ARMONIA","https://www.linkedin.com/in/corinne-armonia"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair.png" alt="" width="186" height="50"><span data-voile-libelle>Échangeons</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <span class="intro-goutte" data-ouverture-objet><span class="intro-halo"></span><span class="intro-coeur"></span></span>
+  <img class="ouverture-logo" src="/assets/images/logo.png" alt="" width="298" height="80">
+  <p class="ouverture-ligne">Transitions de vie et mieux-être</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Armonia, retour à l&#39;accueil" data-libelle="Bienvenue">
+      <img src="/assets/images/logo.png" alt="" width="149" height="40">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/art-therapie" data-libelle="Art-thérapie">Art-thérapie</a></li><li><a href="/coaching-de-transition" data-libelle="Coaching de transition">Coaching de transition</a></li><li><a href="/energie-et-liberations" data-libelle="Énergie et libérations">Énergie et libérations</a></li><li><a href="/echangeons" data-libelle="Échangeons" aria-current="page">Échangeons</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/echangeons#rendez-vous" data-libelle="Échangeons">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Bienvenue">Bienvenue</a></li><li style="--i:1"><a href="/art-therapie" class="menu-lien" data-libelle="Art-thérapie">Art-thérapie</a></li><li style="--i:2"><a href="/coaching-de-transition" class="menu-lien" data-libelle="Coaching de transition">Coaching de transition</a></li><li style="--i:3"><a href="/energie-et-liberations" class="menu-lien" data-libelle="Énergie et libérations">Énergie et libérations</a></li><li style="--i:4"><a href="/echangeons" class="menu-lien" data-libelle="Échangeons" aria-current="page">Échangeons</a></li></ul>
+  <p><a class="bouton" href="tel:+33674293031">Appeler 06 74 29 30 31</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-numero conteneur" id="debut">
+  <div class="ouv-numero-texte">
+    <p class="surtitre ouv-fondu">Échangeons</p>
+    <h1 class="ouv-numero-titre"><span class="ligne-masque"><span class="ouv-ligne">Faisons <em>connaissance</em></span></span></h1>
+    <p class="chapo ouv-fondu masque-ecran-tres-bas">Un rendez-vous découverte pour parler de vos besoins, en ligne ou par téléphone.</p>
+    <p class="ouv-numero-tel ouv-fondu" data-info-cle>
+      <a href="tel:+33674293031" aria-label="Appeler Corinne au 06 74 29 30 31">06 74 29 30 31</a>
+      <svg class="numero-trait" viewBox="0 0 600 30" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M4 18 C 120 2, 260 28, 380 12 S 540 4, 596 16" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg>
+    </p>
+    <p class="hero-actions ouv-fondu">
+      <a class="bouton" href="#rendez-vous" data-action-principale data-survol="magnetique">Préparer mon rendez-vous</a>
+      <a class="lien-fleche" href="https://www.sensflow.app/book/armonia-art-therapie-coaching-corinne" target="_blank" rel="noopener">Réserver en ligne sur SensFlow <span class="visuellement-cache">(nouvel onglet)</span></a>
+    </p>
+  </div>
+  <figure class="ouv-numero-portrait">
+    <svg class="tache ouv-numero-tache" viewBox="0 0 100 100" aria-hidden="true" data-audit-ignorer preserveAspectRatio="none"><path d="M52 2c19-2 39 9 45 28 6 20-1 44-18 57-18 13-45 15-62 1C1 74-4 49 5 29 13 12 33 4 52 2z" fill="currentColor"/></svg>
+    <figure class="media ouv-numero-media" data-iris-centre style="--cadrage:52% 38%">
+  <picture>
+    <img src="/assets/images/corinne-640.webp" srcset="/assets/images/corinne-480.webp 480w, /assets/images/corinne-640.webp 640w" sizes="(max-width: 760px) 44vw, 22vw" alt="Corinne Fonteneau, souriante, devant une plante verte" width="640" height="800" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+    <figcaption class="masque-ecran-tres-bas">Corinne Fonteneau</figcaption>
+  </figure>
+</section>
+<section class="rdv fond-lavis fpe" id="rendez-vous" data-module="formulaire-par-etapes" aria-labelledby="rdv-titre">
+  <div class="conteneur rdv-grille">
+    <div class="rdv-tete">
+      <p class="surtitre " data-anime>Rendez-vous</p>
+      <h2 class="titre" id="rdv-titre" data-anime="lignes">Préparez votre <em>rendez-vous</em></h2>
+      <p class="chapo" data-anime>Quatre étapes courtes. Vous pouvez revenir en arrière et tout vérifier avant l&#39;envoi.</p>
+      <p class="petit rdv-simule" data-anime>Démonstration : aucune donnée n&#39;est envoyée.</p>
+      <p class="rdv-direct" data-anime>Vous préférez réserver directement un créneau ?<br><a class="lien-fleche" href="https://www.sensflow.app/book/armonia-art-therapie-coaching-corinne" target="_blank" rel="noopener">Réserver en ligne sur SensFlow <span class="visuellement-cache">(nouvel onglet)</span></a></p>
+    </div>
+    <div class="fpe__carton" data-anime data-visuel>
+      <form class="fpe__form" action="#" method="post" novalidate>
+        <div class="fpe__progression">
+          <ol class="fpe__reperes" aria-label="Progression"></ol>
+          <div class="fpe__barre" aria-hidden="true"><span></span></div>
+          <p class="fpe__etat" aria-live="polite"></p>
+        </div>
+        <fieldset class="fpe__etape" data-etape="Votre demande">
+          <legend class="fpe__legende"><h3 class="fpe__titre">Pour quoi souhaitez-vous venir ?</h3></legend>
+          <div class="fpe__groupe fpe__cartes" data-libelle="Demande">
+            <label class="fpe__carte"><input type="radio" name="demande" value="art-therapie" required>
+              <svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M6 26c2-6 6-8 9-8M15 18 26 5l2 2-11 13zM6 26c4 1 8-1 9-5"/></svg>
+              <span class="fpe__carte-titre">Art-thérapie</span><span class="fpe__carte-texte">80 € la première séance, puis 70 €</span></label><label class="fpe__carte"><input type="radio" name="demande" value="coaching">
+              <svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 28V14M16 14C16 8 10 6 6 6M16 14c0-6 6-8 10-8"/></svg>
+              <span class="fpe__carte-titre">Coaching de transition</span><span class="fpe__carte-texte">Tarif sur demande</span></label><label class="fpe__carte"><input type="radio" name="demande" value="liberation">
+              <svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="3"/><circle cx="16" cy="16" r="8"/><circle cx="16" cy="16" r="13"/></svg>
+              <span class="fpe__carte-titre">Libération quantique et émotionnelle</span><span class="fpe__carte-texte">70 € la séance</span></label><label class="fpe__carte"><input type="radio" name="demande" value="reiki">
+              <svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 20c3-6 8-6 11 0s8 6 11 0M5 12c3-6 8-6 11 0s8 6 11 0"/></svg>
+              <span class="fpe__carte-titre">Reiki</span><span class="fpe__carte-texte">Tarif sur demande</span></label><label class="fpe__carte"><input type="radio" name="demande" value="decouverte">
+              <svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M6 9h20v13H13l-5 4v-4H6z"/></svg>
+              <span class="fpe__carte-titre">Je ne sais pas encore</span><span class="fpe__carte-texte">Un rendez-vous découverte pour en parler</span></label><label class="fpe__carte"><input type="radio" name="demande" value="oeuvre">
+              <svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><rect x="6" y="6" width="20" height="20" rx="1"/><path d="M6 21l6-6 5 5 3-3 6 6"/></svg>
+              <span class="fpe__carte-titre">Une œuvre m&#39;intéresse</span><span class="fpe__carte-texte">Une question sur une toile de Corinne</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="fpe__etape" data-etape="Le format">
+          <legend class="fpe__legende"><h3 class="fpe__titre">Comment préférez-vous échanger ?</h3></legend>
+          <div class="fpe__groupe fpe__puces" data-libelle="Format">
+            <label class="fpe__puce"><input type="radio" name="format" value="cabinet" required><span class="fpe__choix-texte">Au cabinet, à Nuaillé</span></label>
+            <label class="fpe__puce"><input type="radio" name="format" value="visio"><span class="fpe__choix-texte">À distance, en visio</span></label>
+            <label class="fpe__puce"><input type="radio" name="format" value="telephone"><span class="fpe__choix-texte">Par téléphone, pour un premier échange</span></label>
+          </div>
+          <div class="fpe__champ" data-champ-situation hidden>
+            <label for="rdv-situation">Votre situation</label>
+            <input id="rdv-situation" name="situation" data-libelle="Votre situation">
+          </div>
+          <div class="fpe__champ">
+            <label for="rdv-message">Un mot sur ce qui vous amène (facultatif)</label>
+            <textarea id="rdv-message" name="message" rows="4"></textarea>
+          </div>
+        </fieldset>
+        <fieldset class="fpe__etape" data-etape="Vos coordonnées">
+          <legend class="fpe__legende"><h3 class="fpe__titre">Comment vous joindre ?</h3></legend>
+          <div class="fpe__grille">
+            <div class="fpe__champ"><label for="rdv-prenom">Prénom <i aria-hidden="true">*</i></label><input id="rdv-prenom" name="prenom" autocomplete="given-name" required></div>
+            <div class="fpe__champ"><label for="rdv-nom">Nom <i aria-hidden="true">*</i></label><input id="rdv-nom" name="nom" autocomplete="family-name" required></div>
+            <div class="fpe__champ"><label for="rdv-tel">Téléphone <i aria-hidden="true">*</i></label><input id="rdv-tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" pattern="[0-9 +().\-]{8,20}" required></div>
+            <div class="fpe__champ"><label for="rdv-email">E-mail</label><input id="rdv-email" name="email" type="email" autocomplete="email"></div>
+          </div>
+          <label class="fpe__case"><input type="checkbox" name="accord" value="oui" required data-libelle="Accord" data-hors-recap><span class="fpe__choix-texte">J&#39;accepte que ces informations servent uniquement à répondre à ma demande. <i aria-hidden="true">*</i></span></label>
+          <p class="fpe__aide">Les champs marqués d&#39;un astérisque sont obligatoires. Vos données servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.</p>
+        </fieldset>
+        <fieldset class="fpe__etape" data-etape="Récapitulatif" data-recap>
+          <legend class="fpe__legende"><h3 class="fpe__titre">Tout est juste ?</h3></legend>
+          <div class="fpe__recap"><p>Le récapitulatif de vos réponses s&#39;affiche ici.</p></div>
+        </fieldset>
+        <div class="fpe__nav">
+          <button class="fpe__bouton fpe__bouton--ligne" type="button" data-precedent>Retour</button>
+          <button class="fpe__bouton" type="button" data-suivant data-retour="Revenir au récapitulatif">Continuer</button>
+          <button class="fpe__bouton" type="submit">Envoyer la demande</button>
+        </div>
+      </form>
+      <div class="fpe__fin" hidden>
+        <svg class="fpe__coche" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><path d="M20 33l8 8 16-17"/></svg>
+        <h3>Merci, votre demande est prête.</h3>
+        <p data-resume></p>
+        <p>Démonstration : rien n&#39;a été envoyé. Sur le site en ligne, Corinne recevra votre demande et vous rappellera.</p>
+        <button class="fpe__bouton fpe__bouton--ligne" type="button" data-recommencer>Nouvelle demande</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="lieu conteneur" id="cabinet">
+  <div class="lieu-texte">
+    <p class="surtitre " data-anime>Le cabinet</p>
+    <h2 class="titre " data-anime="lignes">À Nuaillé, près de <em>Cholet</em></h2>
+    <dl class="lieu-infos" data-anime="cascade">
+      <div><dt>Adresse</dt><dd>13 place du Gerbier, 49340 Nuaillé</dd></div>
+      <div><dt>Téléphone</dt><dd><a href="tel:+33674293031">06 74 29 30 31</a></dd></div>
+      <div><dt>Horaires</dt><dd>Sur rendez-vous. Réservation en ligne possible 24 h sur 24.</dd></div>
+      <div><dt>À distance</dt><dd>Séances de libération quantique en visio, partout en France.</dd></div>
+    </dl>
+    <p data-anime><a class="lien-fleche" href="https://www.google.com/maps/search/?api=1&amp;query=13+place+du+Gerbier+49340+Nuaill%C3%A9" target="_blank" rel="noopener">Voir l&#39;itinéraire <span class="visuellement-cache">(nouvel onglet)</span></a></p>
+  </div>
+  <figure class="carte" data-visuel role="img" aria-label="Carte schématique : Nuaillé, au nord-est de Cholet, dans le Maine-et-Loire">
+    <div class="carte-plan">
+    <svg viewBox="0 0 600 440" aria-hidden="true" data-fx="trace">
+      <path class="carte-foret" d="M380 60c40-18 96-6 118 28 20 30 8 74-24 90-36 18-84 6-104-26-18-30-18-76 10-92z"/>
+      <path class="carte-ville" d="M96 300c22-22 64-26 90-8 24 18 30 54 12 78-20 26-62 32-90 14-28-20-34-60-12-84z"/>
+      <path data-fx-trait d="M150 338 C 220 300, 290 262, 352 218 S 420 168, 436 150" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+      <path class="carte-route" d="M20 396 C 80 372, 110 356, 150 338 M150 338 C 170 380, 200 410, 240 432 M436 150 C 480 120, 530 96, 590 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 8"/>
+      <circle class="carte-point" cx="150" cy="338" r="9"/>
+      <g class="carte-epingle" data-effet="epingle"><path d="M436 150c-16-22-24-36-24-48a24 24 0 1 1 48 0c0 12-8 26-24 48z"/><circle cx="436" cy="101" r="8" fill="#FAF5EC"/></g>
+      <path class="carte-nord" d="M548 372 l10-34 10 34 -10-8z"/>
+    </svg>
+    <span class="carte-nom carte-nom--cholet" data-repere>Cholet</span>
+    <span class="carte-nom carte-nom--nuaille" data-repere><strong>Nuaillé</strong><br>Cabinet Armonia</span>
+    <span class="carte-nom carte-nom--nord" aria-hidden="true">N</span>
+    </div>
+    <figcaption>Carte schématique, sans échelle.</figcaption>
+  </figure>
+</section>
+<section class="grille-tarifs fond-lavis" id="tarifs">
+  <div class="conteneur">
+    <p class="surtitre " data-anime>Tarifs</p>
+    <h2 class="titre " data-anime="lignes">Les tarifs, <em>clairement</em></h2>
+    <div data-visuel><ul class="tarifs tarifs--large" data-anime="cascade"><li class="tarif">
+  <h3>Art-thérapie</h3>
+  <p class="tarif-ligne"><strong class="tarif-prix" data-prix>80 €</strong> <span>la première séance<br><small>1 h 30 à 1 h 45</small></span></p><p class="tarif-ligne"><strong class="tarif-prix" data-prix>70 €</strong> <span>la séance de suivi<br><small>1 h 15 à 1 h 30</small></span></p>
+</li><li class="tarif">
+  <h3>Libération quantique et émotionnelle</h3>
+  <p class="tarif-ligne"><strong class="tarif-prix" data-prix>70 €</strong> <span>la séance<br><small>90 min au plus, en visio ou au cabinet</small></span></p>
+</li><li class="tarif">
+  <h3>Coaching de transition et Reiki</h3>
+  <p class="tarif-ligne"><span>Tarif sur demande, par téléphone ou lors du premier échange</span></p>
+</li></ul></div>
+    <p class="petit" data-anime>Paiement en espèces ou par virement. En cas d&#39;imprévu, merci de prévenir au moins 24 h à l&#39;avance. Les séances payées en ligne ne sont pas remboursables, mais peuvent être reportées.</p>
+  </div>
+</section>
+<section class="appel" id="rencontre">
+  <svg class="rosace appel-rosace" viewBox="0 0 200 200" aria-hidden="true" data-effet="rosace" data-visuel data-audit-ignorer>
+  <g class="rosace-tour" fill="none" stroke="currentColor" stroke-width=".7" stroke-linecap="round">
+    <circle pathLength="1" cx="100" cy="100" r="96"/>
+    <g class="rosace-a"><path pathLength="1" d="M162.0 100.0 Q177.1 85.4 195.0 100.0 Q177.1 114.6 162.0 100.0Z"/><path pathLength="1" d="M157.3 123.7 Q176.8 116.1 187.8 136.4 Q165.7 143.0 157.3 123.7Z"/><path pathLength="1" d="M143.8 143.8 Q164.8 144.3 167.2 167.2 Q144.3 164.8 143.8 143.8Z"/><path pathLength="1" d="M123.7 157.3 Q143.0 165.7 136.4 187.8 Q116.1 176.8 123.7 157.3Z"/><path pathLength="1" d="M100.0 162.0 Q114.6 177.1 100.0 195.0 Q85.4 177.1 100.0 162.0Z"/><path pathLength="1" d="M76.3 157.3 Q83.9 176.8 63.6 187.8 Q57.0 165.7 76.3 157.3Z"/><path pathLength="1" d="M56.2 143.8 Q55.7 164.8 32.8 167.2 Q35.2 144.3 56.2 143.8Z"/><path pathLength="1" d="M42.7 123.7 Q34.3 143.0 12.2 136.4 Q23.2 116.1 42.7 123.7Z"/><path pathLength="1" d="M38.0 100.0 Q22.9 114.6 5.0 100.0 Q22.9 85.4 38.0 100.0Z"/><path pathLength="1" d="M42.7 76.3 Q23.2 83.9 12.2 63.6 Q34.3 57.0 42.7 76.3Z"/><path pathLength="1" d="M56.2 56.2 Q35.2 55.7 32.8 32.8 Q55.7 35.2 56.2 56.2Z"/><path pathLength="1" d="M76.3 42.7 Q57.0 34.3 63.6 12.2 Q83.9 23.2 76.3 42.7Z"/><path pathLength="1" d="M100.0 38.0 Q85.4 22.9 100.0 5.0 Q114.6 22.9 100.0 38.0Z"/><path pathLength="1" d="M123.7 42.7 Q116.1 23.2 136.4 12.2 Q143.0 34.3 123.7 42.7Z"/><path pathLength="1" d="M143.8 56.2 Q144.3 35.2 167.2 32.8 Q164.8 55.7 143.8 56.2Z"/><path pathLength="1" d="M157.3 76.3 Q165.7 57.0 187.8 63.6 Q176.8 83.9 157.3 76.3Z"/></g>
+    <g class="rosace-b"><path pathLength="1" d="M134.0 100.0 Q148.1 86.4 166.0 100.0 Q148.1 113.6 134.0 100.0Z"/><path pathLength="1" d="M129.4 117.0 Q148.5 112.3 157.2 133.0 Q134.9 135.8 129.4 117.0Z"/><path pathLength="1" d="M117.0 129.4 Q135.8 134.9 133.0 157.2 Q112.3 148.5 117.0 129.4Z"/><path pathLength="1" d="M100.0 134.0 Q113.6 148.1 100.0 166.0 Q86.4 148.1 100.0 134.0Z"/><path pathLength="1" d="M83.0 129.4 Q87.7 148.5 67.0 157.2 Q64.2 134.9 83.0 129.4Z"/><path pathLength="1" d="M70.6 117.0 Q65.1 135.8 42.8 133.0 Q51.5 112.3 70.6 117.0Z"/><path pathLength="1" d="M66.0 100.0 Q51.9 113.6 34.0 100.0 Q51.9 86.4 66.0 100.0Z"/><path pathLength="1" d="M70.6 83.0 Q51.5 87.7 42.8 67.0 Q65.1 64.2 70.6 83.0Z"/><path pathLength="1" d="M83.0 70.6 Q64.2 65.1 67.0 42.8 Q87.7 51.5 83.0 70.6Z"/><path pathLength="1" d="M100.0 66.0 Q86.4 51.9 100.0 34.0 Q113.6 51.9 100.0 66.0Z"/><path pathLength="1" d="M117.0 70.6 Q112.3 51.5 133.0 42.8 Q135.8 65.1 117.0 70.6Z"/><path pathLength="1" d="M129.4 83.0 Q134.9 64.2 157.2 67.0 Q148.5 87.7 129.4 83.0Z"/></g>
+    <g class="rosace-c"><path pathLength="1" d="M110.0 100.0 Q120.5 89.6 136.0 100.0 Q120.5 110.4 110.0 100.0Z"/><path pathLength="1" d="M107.1 107.1 Q121.9 107.1 125.5 125.5 Q107.1 121.9 107.1 107.1Z"/><path pathLength="1" d="M100.0 110.0 Q110.4 120.5 100.0 136.0 Q89.6 120.5 100.0 110.0Z"/><path pathLength="1" d="M92.9 107.1 Q92.9 121.9 74.5 125.5 Q78.1 107.1 92.9 107.1Z"/><path pathLength="1" d="M90.0 100.0 Q79.5 110.4 64.0 100.0 Q79.5 89.6 90.0 100.0Z"/><path pathLength="1" d="M92.9 92.9 Q78.1 92.9 74.5 74.5 Q92.9 78.1 92.9 92.9Z"/><path pathLength="1" d="M100.0 90.0 Q89.6 79.5 100.0 64.0 Q110.4 79.5 100.0 90.0Z"/><path pathLength="1" d="M107.1 92.9 Q107.1 78.1 125.5 74.5 Q121.9 92.9 107.1 92.9Z"/></g>
+    <circle pathLength="1" cx="100" cy="100" r="8"/>
+  </g>
+</svg>
+  <div class="conteneur appel-contenu">
+    <h2 class="titre appel-titre" data-anime="lignes">Un créneau en <em>quelques clics</em></h2>
+    <p class="appel-texte" data-anime>La réservation en ligne est ouverte 24 h sur 24. Vous pouvez aussi appeler Corinne.</p>
+    <p class="appel-actions" data-anime>
+      <a class="bouton" href="https://www.sensflow.app/book/armonia-art-therapie-coaching-corinne" target="_blank" rel="noopener" data-survol="magnetique">Réserver en ligne sur SensFlow <span class="visuellement-cache">(nouvel onglet)</span></a>
+      <a class="bouton bouton--contour" href="tel:+33674293031">06 74 29 30 31</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair.png" alt="Armonia" width="224" height="60" loading="lazy">
+      <p>Accompagnement des transitions de vie et du mieux-être</p>
+      <p>Corinne Fonteneau, art-thérapeute certifiée et praticienne holistique</p>
+    </div>
+    <div>
+      <p><strong>Échangeons</strong></p>
+      <p>13 place du Gerbier, 49340 Nuaillé<br><a href="tel:+33674293031">06 74 29 30 31</a><br>Sur rendez-vous, au cabinet ou à distance</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Bienvenue">Bienvenue</a></li><li><a href="/art-therapie" data-libelle="Art-thérapie">Art-thérapie</a></li><li><a href="/coaching-de-transition" data-libelle="Coaching de transition">Coaching de transition</a></li><li><a href="/energie-et-liberations" data-libelle="Énergie et libérations">Énergie et libérations</a></li><li><a href="/echangeons" data-libelle="Échangeons" aria-current="page">Échangeons</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Suivre Corinne</strong></p>
+      <ul>
+        <li><a href="https://www.facebook.com/Corinne.ARMONIA" target="_blank" rel="noopener">Facebook <span class="visuellement-cache">(nouvel onglet)</span></a></li>
+        <li><a href="https://www.linkedin.com/in/corinne-armonia" target="_blank" rel="noopener">LinkedIn <span class="visuellement-cache">(nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales (à compléter) · Politique de confidentialité (à compléter)</p><p>Maquette de démonstration : les formulaires sont simulés, rien n&#39;est envoyé.</p><p>© Armonia</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33674293031">Appeler</a>
+  <a class="bouton" href="/echangeons#rendez-vous" data-libelle="Échangeons">Rendez-vous</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+{
+  "client": "Armonia",
+  "activite": "bien-être",
+  "direction": "Papier et pigments",
+  "date": "2026-11-17T13:32:28.832Z",
+  "images": [
+    {
+      "nom": "grok/accueil-approche-energie",
+      "fichier": "accueil-approche-energie-v2.jpg",
+      "page": "Accueil",
+      "emplacement": "Trois approches : carte Énergie et libérations (à refaire : trop proche de la carte Équilibre)",
+      "role": "portrait",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "texture",
+      "pieges": [],
+      "consigne": "Top-down close view of perfectly clear still water filling almost the whole frame, in a wide pale stoneware basin, one single droplet has just fallen in the center and makes fine concentric ripples, soft daylight reflections on the water, the water is completely colorless and transparent, absolutely no pigment, no paint, no ink, no brush, no paper, no flower, no stone, no candle, only water, ripples and the pale rim of the basin on raw linen. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Soft natural documentary photography, calm, bright and warm mood, palette of warm paper cream, pale aqua, deep navy blue and a small touch of vermilion, soft morning window light from the left, tactile raw linen, pale wood, stoneware and thick watercolor paper, set in a small village in the hedgerow countryside of western France on a clear spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/art-therapie-ouverture",
+      "fichier": "art-therapie-ouverture-v2.jpg",
+      "page": "Art-thérapie",
+      "emplacement": "Ouverture plein cadre (à refaire en pleine définition : l'image reçue était un agrandissement flou) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Wide view of a small bright village art workshop room: a long pale wooden table by tall windows, glass jars of brushes, pans and tubes of paint, a stack of blank paper sheets, a lump of grey modelling clay on a wooden board, a wooden shelf with jars, a vase of wild flowers, wooden chairs, nobody present, pale plaster walls, no finished painting or drawing anywhere, nothing like a professional studio or a classroom, sharp and detailed everywhere. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, calm, bright and warm mood, palette of warm paper cream, pale aqua, deep navy blue and a small touch of vermilion, soft morning window light from the left, tactile raw linen, pale wood, stoneware and thick watercolor paper, set in a small village in the hedgerow countryside of western France on a clear spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/art-therapie-ouverture",
+      "fichier": "art-therapie-ouverture-mobile-v2.jpg",
+      "page": "Art-thérapie",
+      "emplacement": "Ouverture plein cadre (à refaire en pleine définition : l'image reçue était un agrandissement flou) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Wide view of a small bright village art workshop room: a long pale wooden table by tall windows, glass jars of brushes, pans and tubes of paint, a stack of blank paper sheets, a lump of grey modelling clay on a wooden board, a wooden shelf with jars, a vase of wild flowers, wooden chairs, nobody present, pale plaster walls, no finished painting or drawing anywhere, nothing like a professional studio or a classroom, sharp and detailed everywhere. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright and warm mood, palette of warm paper cream, pale aqua, deep navy blue and a small touch of vermilion, soft morning window light from the left, tactile raw linen, pale wood, stoneware and thick watercolor paper, set in a small village in the hedgerow countryside of western France on a clear spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/energie-ouverture",
+      "fichier": "energie-ouverture-v2.jpg",
+      "page": "Énergie et libérations",
+      "emplacement": "Bandeau sous le grand titre (à refaire : sans bol chantant) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A quiet small village practice room seen from the side: a simple treatment table covered with a cream cotton sheet, a folded cream wool blanket and a small linen cushion on it, a tall window with a linen curtain glowing with soft daylight, a glass carafe of water and one glass on a small wooden stool, one green plant, pale plaster walls, wooden floor, nobody present, nothing like a spa or a hotel, no singing bowl, no metal bowl, no mallet, no yoga mat, no powder, no candle, no statue, no painting, no paper. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright and warm mood, palette of warm paper cream, pale aqua, deep navy blue and a small touch of vermilion, soft morning window light from the left, tactile raw linen, pale wood, stoneware and thick watercolor paper, set in a small village in the hedgerow countryside of western France on a clear spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/energie-ouverture",
+      "fichier": "energie-ouverture-mobile-v2.jpg",
+      "page": "Énergie et libérations",
+      "emplacement": "Bandeau sous le grand titre (à refaire : sans bol chantant) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A quiet small village practice room seen from the side: a simple treatment table covered with a cream cotton sheet, a folded cream wool blanket and a small linen cushion on it, a tall window with a linen curtain glowing with soft daylight, a glass carafe of water and one glass on a small wooden stool, one green plant, pale plaster walls, wooden floor, nobody present, nothing like a spa or a hotel, no singing bowl, no metal bowl, no mallet, no yoga mat, no powder, no candle, no statue, no painting, no paper. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright and warm mood, palette of warm paper cream, pale aqua, deep navy blue and a small touch of vermilion, soft morning window light from the left, tactile raw linen, pale wood, stoneware and thick watercolor paper, set in a small village in the hedgerow countryside of western France on a clear spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/energie-reiki",
+      "fichier": "energie-reiki-v2.jpg",
+      "page": "Énergie et libérations",
+      "emplacement": "Pratique énergétique, Reiki : séance au cabinet (à refaire : sans bol chantant)",
+      "role": "produit",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Close view of the head end of a treatment table covered with a cream cotton sheet: a folded cream wool blanket and a small linen cushion, soft daylight from the side through a linen curtain, shallow depth of field, pale plaster wall behind, plain and calm, nobody present, no bowl of any kind, no singing bowl, no mallet, no yoga mat, no powder, no candle, no stone, no flower, no paper, no painting. Landscape composition, aspect ratio 3:2. Soft natural documentary photography, calm, bright and warm mood, palette of warm paper cream, pale aqua, deep navy blue and a small touch of vermilion, soft morning window light from the left, tactile raw linen, pale wood, stoneware and thick watercolor paper, set in a small village in the hedgerow countryside of western France on a clear spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

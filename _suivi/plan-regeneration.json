@@ -1,0 +1,52 @@
+[
+ {
+  "source": "recu/grok/accueil-approche-energie-v2.jpg",
+  "nom": "grok/accueil-approche-energie",
+  "role": "portrait",
+  "page": "Accueil",
+  "emplacement": "Trois approches : carte Énergie et libérations (à refaire : trop proche de la carte Équilibre)",
+  "priorite": "Indispensable",
+  "gabarit": "texture",
+  "consigne_scene": "Top-down close view of perfectly clear still water filling almost the whole frame, in a wide pale stoneware basin, one single droplet has just fallen in the center and makes fine concentric ripples, soft daylight reflections on the water, the water is completely colorless and transparent, absolutely no pigment, no paint, no ink, no brush, no paper, no flower, no stone, no candle, only water, ripples and the pale rim of the basin on raw linen"
+ },
+ {
+  "source": "recu/grok/art-therapie-ouverture-v2.jpg",
+  "source_mobile": "recu/grok/art-therapie-ouverture-mobile-v2.jpg",
+  "nom": "grok/art-therapie-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "Art-thérapie",
+  "emplacement": "Ouverture plein cadre (à refaire en pleine définition : l'image reçue était un agrandissement flou)",
+  "priorite": "Indispensable",
+  "consigne_scene": "Wide view of a small bright village art workshop room: a long pale wooden table by tall windows, glass jars of brushes, pans and tubes of paint, a stack of blank paper sheets, a lump of grey modelling clay on a wooden board, a wooden shelf with jars, a vase of wild flowers, wooden chairs, nobody present, pale plaster walls, no finished painting or drawing anywhere, nothing like a professional studio or a classroom, sharp and detailed everywhere"
+ },
+ {
+  "source": "recu/grok/energie-ouverture-v2.jpg",
+  "source_mobile": "recu/grok/energie-ouverture-mobile-v2.jpg",
+  "nom": "grok/energie-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "haut",
+  "page": "Énergie et libérations",
+  "emplacement": "Bandeau sous le grand titre (à refaire : sans bol chantant)",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "consigne_scene": "A quiet small village practice room seen from the side: a simple treatment table covered with a cream cotton sheet, a folded cream wool blanket and a small linen cushion on it, a tall window with a linen curtain glowing with soft daylight, a glass carafe of water and one glass on a small wooden stool, one green plant, pale plaster walls, wooden floor, nobody present, nothing like a spa or a hotel, no singing bowl, no metal bowl, no mallet, no yoga mat, no powder, no candle, no statue, no painting, no paper"
+ },
+ {
+  "source": "recu/grok/energie-reiki-v2.jpg",
+  "nom": "grok/energie-reiki",
+  "role": "produit",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "page": "Énergie et libérations",
+  "emplacement": "Pratique énergétique, Reiki : séance au cabinet (à refaire : sans bol chantant)",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "consigne_scene": "Close view of the head end of a treatment table covered with a cream cotton sheet: a folded cream wool blanket and a small linen cushion, soft daylight from the side through a linen curtain, shallow depth of field, pale plaster wall behind, plain and calm, nobody present, no bowl of any kind, no singing bowl, no mallet, no yoga mat, no powder, no candle, no stone, no flower, no paper, no painting"
+ }
+]

@@ -1,0 +1,2008 @@
+{
+  "toile-mandala-bleu": {
+    "nom": "toile-mandala-bleu",
+    "source": "recu/site/corinne-fonteneau.jpg",
+    "role": "galerie",
+    "alt": "Mandala bleu et vermillon, acrylique sur toile de Corinne Fonteneau",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5a332729862aee24",
+    "ratio": "1978:2000",
+    "largeurs": [
+      640,
+      1000,
+      1400
+    ],
+    "mobile": null,
+    "cadrage": "47% 50%",
+    "sujet": {
+      "x": 0.5,
+      "y": 24.9,
+      "l": 85.4,
+      "h": 57.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1978,
+      "height": 2000,
+      "source": [
+        1978,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "toile-mandala-bleu-640.webp",
+      "toile-mandala-bleu-1000.webp",
+      "toile-mandala-bleu-1400.webp"
+    ],
+    "poids": {
+      "toile-mandala-bleu-640.webp": 118980,
+      "toile-mandala-bleu-1000.webp": 262238,
+      "toile-mandala-bleu-1400.webp": 307184
+    },
+    "media": "c.media({ nom: 'toile-mandala-bleu', alt: \"Mandala bleu et vermillon, acrylique sur toile de Corinne Fonteneau\", cadrage: '47% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1978 / 2000' })"
+  },
+  "toile-yin-yang": {
+    "nom": "toile-yin-yang",
+    "source": "recu/site/yin-yang-acrylique-40.jpg",
+    "role": "galerie",
+    "alt": "Yin Yang, soleil et terre enlacés, acrylique de Corinne Fonteneau",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0ccc5a56d5766209",
+    "ratio": "1920:1566",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "46% 49%",
+    "sujet": {
+      "x": 2.6,
+      "y": 10.2,
+      "l": 74.5,
+      "h": 89.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1566,
+      "source": [
+        1920,
+        1566
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "toile-yin-yang-480.webp",
+      "toile-yin-yang-800.webp",
+      "toile-yin-yang-1200.webp"
+    ],
+    "poids": {
+      "toile-yin-yang-480.webp": 33358,
+      "toile-yin-yang-800.webp": 76128,
+      "toile-yin-yang-1200.webp": 141612
+    },
+    "media": "c.media({ nom: 'toile-yin-yang', alt: \"Yin Yang, soleil et terre enlacés, acrylique de Corinne Fonteneau\", cadrage: '46% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1920 / 1566' })"
+  },
+  "toile-fenetre-lotus": {
+    "nom": "toile-fenetre-lotus",
+    "source": "recu/site/fenetre-fleur-lotus-aquarelle.jpg",
+    "role": "galerie",
+    "alt": "Fenêtre sur… Fleur de lotus, aquarelle et encre de Chine de Corinne Fonteneau",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ccbcf0ae14c61a65",
+    "ratio": "1291:888",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "49% 44%",
+    "sujet": {
+      "x": 19.7,
+      "y": 16.9,
+      "l": 58,
+      "h": 59.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1291,
+      "height": 888,
+      "source": [
+        1291,
+        888
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "toile-fenetre-lotus-480.webp",
+      "toile-fenetre-lotus-800.webp",
+      "toile-fenetre-lotus-1200.webp"
+    ],
+    "poids": {
+      "toile-fenetre-lotus-480.webp": 27864,
+      "toile-fenetre-lotus-800.webp": 56726,
+      "toile-fenetre-lotus-1200.webp": 100290
+    },
+    "media": "c.media({ nom: 'toile-fenetre-lotus', alt: \"Fenêtre sur… Fleur de lotus, aquarelle et encre de Chine de Corinne Fonteneau\", cadrage: '49% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1291 / 888' })"
+  },
+  "toile-zebres": {
+    "nom": "toile-zebres",
+    "source": "recu/site/zebres-family-aquarelle-encre.jpg",
+    "role": "galerie",
+    "alt": "Zèbres, Family : cinq zèbres vus de dos, aquarelle et encre de Chine",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e5c1c9acee9b4e8e",
+    "ratio": "1034:822",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 18.1,
+      "y": 26.7,
+      "l": 62.3,
+      "h": 54.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1034,
+      "height": 822,
+      "source": [
+        1034,
+        822
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1034 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-zebres-480.webp",
+      "toile-zebres-800.webp"
+    ],
+    "poids": {
+      "toile-zebres-480.webp": 25130,
+      "toile-zebres-800.webp": 52040
+    },
+    "media": "c.media({ nom: 'toile-zebres', alt: \"Zèbres, Family : cinq zèbres vus de dos, aquarelle et encre de Chine\", cadrage: '49% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1034 / 822' })"
+  },
+  "toile-soleil-feu": {
+    "nom": "toile-soleil-feu",
+    "source": "recu/site/soleil-feu-acrylique-40.jpg",
+    "role": "galerie",
+    "alt": "Soleil de feu, acrylique de Corinne Fonteneau",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "cd0880679029e858",
+    "ratio": "648:647",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "48% 51%",
+    "sujet": {
+      "x": 4.7,
+      "y": 18,
+      "l": 84.6,
+      "h": 82
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 648,
+      "height": 647,
+      "source": [
+        648,
+        647
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "648 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-soleil-feu-480.webp",
+      "toile-soleil-feu-640.webp"
+    ],
+    "poids": {
+      "toile-soleil-feu-480.webp": 36558,
+      "toile-soleil-feu-640.webp": 57016
+    },
+    "media": "c.media({ nom: 'toile-soleil-feu', alt: \"Soleil de feu, acrylique de Corinne Fonteneau\", cadrage: '48% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '648 / 647' })"
+  },
+  "toile-elephant": {
+    "nom": "toile-elephant",
+    "source": "recu/site/elephant-acrylique-100-x.jpg",
+    "role": "galerie",
+    "alt": "Éléphant aux oreilles colorées, acrylique de Corinne Fonteneau",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "076506b972135e9a",
+    "ratio": "804:987",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 34%",
+    "sujet": {
+      "x": 36.8,
+      "y": 23.5,
+      "l": 23.5,
+      "h": 20.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.44,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 804,
+      "height": 987,
+      "source": [
+        804,
+        987
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "804 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-elephant-480.webp",
+      "toile-elephant-800.webp"
+    ],
+    "poids": {
+      "toile-elephant-480.webp": 39492,
+      "toile-elephant-800.webp": 83738
+    },
+    "media": "c.media({ nom: 'toile-elephant', alt: \"Éléphant aux oreilles colorées, acrylique de Corinne Fonteneau\", cadrage: '49% 34%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '804 / 987' })"
+  },
+  "toile-papillons": {
+    "nom": "toile-papillons",
+    "source": "recu/site/papillons-aquarelle-encre-chine.jpg",
+    "role": "galerie",
+    "alt": "Papillons, aquarelle et encre de Chine de Corinne Fonteneau",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "45b8294bb1bef711",
+    "ratio": "882:682",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "45% 45%",
+    "sujet": {
+      "x": 1.7,
+      "y": 13.1,
+      "l": 93.1,
+      "h": 80.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 882,
+      "height": 682,
+      "source": [
+        882,
+        682
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "882 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-papillons-480.webp",
+      "toile-papillons-800.webp"
+    ],
+    "poids": {
+      "toile-papillons-480.webp": 34924,
+      "toile-papillons-800.webp": 74536
+    },
+    "media": "c.media({ nom: 'toile-papillons', alt: \"Papillons, aquarelle et encre de Chine de Corinne Fonteneau\", cadrage: '45% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '882 / 682' })"
+  },
+  "toile-tortuga": {
+    "nom": "toile-tortuga",
+    "source": "recu/site/tortuga-aquarelle-encre-chine.jpg",
+    "role": "galerie",
+    "alt": "Tortuga, une tortue marine, aquarelle et encre de Chine",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "4633f5c7427e57fb",
+    "ratio": "810:522",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 49%",
+    "sujet": {
+      "x": 17.9,
+      "y": 20.2,
+      "l": 69.8,
+      "h": 66.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.43,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 810,
+      "height": 522,
+      "source": [
+        810,
+        522
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "810 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-tortuga-480.webp",
+      "toile-tortuga-800.webp"
+    ],
+    "poids": {
+      "toile-tortuga-480.webp": 30362,
+      "toile-tortuga-800.webp": 69310
+    },
+    "media": "c.media({ nom: 'toile-tortuga', alt: \"Tortuga, une tortue marine, aquarelle et encre de Chine\", cadrage: '49% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '810 / 522' })"
+  },
+  "toile-lotus-rouge": {
+    "nom": "toile-lotus-rouge",
+    "source": "recu/site/corinne-fonteneau-4.jpg",
+    "role": "galerie",
+    "alt": "Lotus rouge et ses racines, acrylique sur toile de Corinne Fonteneau",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "89a538e684223c1d",
+    "ratio": "1954:2000",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "48% 38%",
+    "sujet": {
+      "x": 14.3,
+      "y": 3.5,
+      "l": 68.3,
+      "h": 57.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.54,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.43,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.38,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1954,
+      "height": 2000,
+      "source": [
+        1954,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "toile-lotus-rouge-480.webp",
+      "toile-lotus-rouge-800.webp",
+      "toile-lotus-rouge-1200.webp"
+    ],
+    "poids": {
+      "toile-lotus-rouge-480.webp": 76522,
+      "toile-lotus-rouge-800.webp": 234516,
+      "toile-lotus-rouge-1200.webp": 317272
+    },
+    "media": "c.media({ nom: 'toile-lotus-rouge', alt: \"Lotus rouge et ses racines, acrylique sur toile de Corinne Fonteneau\", cadrage: '48% 38%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1954 / 2000' })"
+  },
+  "toile-arbre-automne": {
+    "nom": "toile-arbre-automne",
+    "source": "recu/site/arbre-vie-automne-acrylique.jpg",
+    "role": "galerie",
+    "alt": "Arbre de vie, Automne, acrylique de Corinne Fonteneau",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0c4a7314ae33746c",
+    "ratio": "568:577",
+    "largeurs": [
+      480,
+      560
+    ],
+    "mobile": null,
+    "cadrage": "51% 49%",
+    "sujet": {
+      "x": 38.2,
+      "y": 17.6,
+      "l": 27.9,
+      "h": 64.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.45,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.23,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 568,
+      "height": 577,
+      "source": [
+        568,
+        577
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "568 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-arbre-automne-480.webp",
+      "toile-arbre-automne-560.webp"
+    ],
+    "poids": {
+      "toile-arbre-automne-480.webp": 41366,
+      "toile-arbre-automne-560.webp": 52636
+    },
+    "media": "c.media({ nom: 'toile-arbre-automne', alt: \"Arbre de vie, Automne, acrylique de Corinne Fonteneau\", cadrage: '51% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '568 / 577' })"
+  },
+  "toile-arbre-hiver": {
+    "nom": "toile-arbre-hiver",
+    "source": "recu/site/arbre-vie-hiver-acrylique.jpg",
+    "role": "galerie",
+    "alt": "Arbre de vie, Hiver, acrylique de Corinne Fonteneau",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "800ac543a472b91a",
+    "ratio": "568:569",
+    "largeurs": [
+      480,
+      560
+    ],
+    "mobile": null,
+    "cadrage": "44% 52%",
+    "sujet": {
+      "x": 11.4,
+      "y": 18.9,
+      "l": 47.1,
+      "h": 80.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.38,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.37,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 568,
+      "height": 569,
+      "source": [
+        568,
+        569
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "568 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-arbre-hiver-480.webp",
+      "toile-arbre-hiver-560.webp"
+    ],
+    "poids": {
+      "toile-arbre-hiver-480.webp": 46080,
+      "toile-arbre-hiver-560.webp": 58122
+    },
+    "media": "c.media({ nom: 'toile-arbre-hiver', alt: \"Arbre de vie, Hiver, acrylique de Corinne Fonteneau\", cadrage: '44% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '568 / 569' })"
+  },
+  "toile-arbre-ete": {
+    "nom": "toile-arbre-ete",
+    "source": "recu/site/arbre-vie-ete-acrylique.jpg",
+    "role": "galerie",
+    "alt": "Arbre de vie, Été, acrylique de Corinne Fonteneau",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "cc7d354f2fb44dff",
+    "ratio": "568:568",
+    "largeurs": [
+      480,
+      560
+    ],
+    "mobile": null,
+    "cadrage": "39% 49%",
+    "sujet": {
+      "x": 0.5,
+      "y": 0,
+      "l": 62,
+      "h": 99
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.49,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.48,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 568,
+      "height": 568,
+      "source": [
+        568,
+        568
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "568 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-arbre-ete-480.webp",
+      "toile-arbre-ete-560.webp"
+    ],
+    "poids": {
+      "toile-arbre-ete-480.webp": 33546,
+      "toile-arbre-ete-560.webp": 41588
+    },
+    "media": "c.media({ nom: 'toile-arbre-ete', alt: \"Arbre de vie, Été, acrylique de Corinne Fonteneau\", cadrage: '39% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '568 / 568' })"
+  },
+  "toile-arbre-medaillon": {
+    "nom": "toile-arbre-medaillon",
+    "source": "recu/site/arbre-vie-medaillon-beige.jpg",
+    "role": "galerie",
+    "alt": "Arbre de vie, Médaillon beige, acrylique de Corinne Fonteneau",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "8ef9cd3588bbab74",
+    "ratio": "568:567",
+    "largeurs": [
+      480,
+      560
+    ],
+    "mobile": null,
+    "cadrage": "48% 45%",
+    "sujet": {
+      "x": 2.6,
+      "y": 6.4,
+      "l": 90.6,
+      "h": 83.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 568,
+      "height": 567,
+      "source": [
+        568,
+        567
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "568 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-arbre-medaillon-480.webp",
+      "toile-arbre-medaillon-560.webp"
+    ],
+    "poids": {
+      "toile-arbre-medaillon-480.webp": 36792,
+      "toile-arbre-medaillon-560.webp": 44038
+    },
+    "media": "c.media({ nom: 'toile-arbre-medaillon', alt: \"Arbre de vie, Médaillon beige, acrylique de Corinne Fonteneau\", cadrage: '48% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '568 / 567' })"
+  },
+  "toile-spirale": {
+    "nom": "toile-spirale",
+    "source": "recu/site/spirale-chemin-vie-aquarelle.jpg",
+    "role": "galerie",
+    "alt": "Spirale, Chemin de vie, aquarelle et encre de Chine de Corinne Fonteneau",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f6ba462757c2cbfa",
+    "ratio": "660:834",
+    "largeurs": [
+      480,
+      660
+    ],
+    "mobile": null,
+    "cadrage": "56% 40%",
+    "sujet": {
+      "x": 12.6,
+      "y": 3.6,
+      "l": 81,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 660,
+      "height": 834,
+      "source": [
+        660,
+        834
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "660 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "toile-spirale-480.webp",
+      "toile-spirale-660.webp"
+    ],
+    "poids": {
+      "toile-spirale-480.webp": 44378,
+      "toile-spirale-660.webp": 79526
+    },
+    "media": "c.media({ nom: 'toile-spirale', alt: \"Spirale, Chemin de vie, aquarelle et encre de Chine de Corinne Fonteneau\", cadrage: '56% 40%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '660 / 834' })"
+  },
+  "corinne": {
+    "nom": "corinne",
+    "source": "recu/site/faisons-plus-ample-connaissance.jpg",
+    "role": "portrait",
+    "alt": "Corinne Fonteneau, souriante, devant une plante verte",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "75b8de79a5f15672",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "52% 38%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 98.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 40,
+      "width": 692,
+      "height": 865,
+      "source": [
+        692,
+        1024
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "692 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "corinne-480.webp",
+      "corinne-640.webp"
+    ],
+    "poids": {
+      "corinne-480.webp": 34310,
+      "corinne-640.webp": 53882
+    },
+    "media": "c.media({ nom: 'corinne', alt: \"Corinne Fonteneau, souriante, devant une plante verte\", cadrage: '52% 38%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "grok/accueil-chemin-equilibre": {
+    "nom": "grok/accueil-chemin-equilibre",
+    "source": "recu/grok/accueil-chemin-equilibre.jpg",
+    "role": "carte-service",
+    "alt": "Un bol d'eau claire où se diffuse une goutte de pigment, un pinceau posé sur le bord",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "924d7276d2b60762",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "41% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1400,
+      "height": 2100,
+      "source": [
+        1400,
+        2100
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-chemin-equilibre-480.webp",
+      "grok/accueil-chemin-equilibre-640.webp",
+      "grok/accueil-chemin-equilibre-784.webp"
+    ],
+    "poids": {
+      "grok/accueil-chemin-equilibre-480.webp": 60714,
+      "grok/accueil-chemin-equilibre-640.webp": 102098,
+      "grok/accueil-chemin-equilibre-784.webp": 141828
+    },
+    "media": "c.media({ nom: 'grok/accueil-chemin-equilibre', alt: \"Un bol d'eau claire où se diffuse une goutte de pigment, un pinceau posé sur le bord\", cadrage: '41% 52%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/accueil-chemin-emploi": {
+    "nom": "grok/accueil-chemin-emploi",
+    "source": "recu/grok/accueil-chemin-emploi.jpg",
+    "role": "carte-service",
+    "alt": "Un bureau en bois devant une fenêtre : un carnet vierge, un crayon et une tasse",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "6c7f70401a0f7de8",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "44% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1400,
+      "height": 2100,
+      "source": [
+        1400,
+        2100
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-chemin-emploi-480.webp",
+      "grok/accueil-chemin-emploi-640.webp",
+      "grok/accueil-chemin-emploi-784.webp"
+    ],
+    "poids": {
+      "grok/accueil-chemin-emploi-480.webp": 24868,
+      "grok/accueil-chemin-emploi-640.webp": 34434,
+      "grok/accueil-chemin-emploi-784.webp": 43924
+    },
+    "media": "c.media({ nom: 'grok/accueil-chemin-emploi', alt: \"Un bureau en bois devant une fenêtre : un carnet vierge, un crayon et une tasse\", cadrage: '44% 56%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/accueil-approche-art": {
+    "nom": "grok/accueil-approche-art",
+    "source": "recu/grok/accueil-approche-art.jpg",
+    "role": "portrait",
+    "alt": "Des pinceaux dans un pot en verre, une boîte d'aquarelle et une feuille aux lavis de couleur",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "dca17c5aea094baf",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "45% 59%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.2,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1400,
+      "height": 1750,
+      "source": [
+        1400,
+        1750
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-approche-art-480.webp",
+      "grok/accueil-approche-art-640.webp",
+      "grok/accueil-approche-art-784.webp"
+    ],
+    "poids": {
+      "grok/accueil-approche-art-480.webp": 29500,
+      "grok/accueil-approche-art-640.webp": 41302,
+      "grok/accueil-approche-art-784.webp": 51722
+    },
+    "media": "c.media({ nom: 'grok/accueil-approche-art', alt: \"Des pinceaux dans un pot en verre, une boîte d'aquarelle et une feuille aux lavis de couleur\", cadrage: '45% 59%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "grok/accueil-approche-coaching": {
+    "nom": "grok/accueil-approche-coaching",
+    "source": "recu/grok/accueil-approche-coaching.jpg",
+    "role": "portrait",
+    "alt": "Une pièce claire aux murs de pierre : une table en bois, une chaise et un bouquet devant la fenêtre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "49789c3dc69a44d4",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "40% 58%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.2,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1400,
+      "height": 1750,
+      "source": [
+        1400,
+        1750
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-approche-coaching-480.webp",
+      "grok/accueil-approche-coaching-640.webp",
+      "grok/accueil-approche-coaching-784.webp"
+    ],
+    "poids": {
+      "grok/accueil-approche-coaching-480.webp": 25364,
+      "grok/accueil-approche-coaching-640.webp": 35140,
+      "grok/accueil-approche-coaching-784.webp": 44120
+    },
+    "media": "c.media({ nom: 'grok/accueil-approche-coaching', alt: \"Une pièce claire aux murs de pierre : une table en bois, une chaise et un bouquet devant la fenêtre\", cadrage: '40% 58%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "grok/accueil-approche-energie": {
+    "nom": "grok/accueil-approche-energie",
+    "source": "recu/grok/accueil-approche-energie-v2.jpg",
+    "role": "portrait",
+    "alt": "Des ondes concentriques à la surface d'une eau claire, dans une vasque en grès",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "e5861fba40cdf590",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "57% 63%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        1600,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-approche-energie-480.webp",
+      "grok/accueil-approche-energie-640.webp",
+      "grok/accueil-approche-energie-784.webp"
+    ],
+    "poids": {
+      "grok/accueil-approche-energie-480.webp": 41152,
+      "grok/accueil-approche-energie-640.webp": 67314,
+      "grok/accueil-approche-energie-784.webp": 93742
+    },
+    "media": "c.media({ nom: 'grok/accueil-approche-energie', alt: \"Des ondes concentriques à la surface d'une eau claire, dans une vasque en grès\", cadrage: '57% 63%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "grok/art-therapie-ouverture": {
+    "nom": "grok/art-therapie-ouverture",
+    "source": "recu/grok/art-therapie-ouverture-v2.jpg",
+    "role": "ouverture",
+    "alt": "Un atelier lumineux : pinceaux dans un pot, boîte d'aquarelle et feuille aux lavis de couleur sur une grande table, devant une fenêtre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "8de1d1d6dd2992ee",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "49% 51%"
+    },
+    "cadrage": "41% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/art-therapie-ouverture-640.webp",
+      "grok/art-therapie-ouverture-1280.webp",
+      "grok/art-therapie-ouverture-1920.webp",
+      "grok/art-therapie-ouverture-mobile-640.webp",
+      "grok/art-therapie-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/art-therapie-ouverture-640.webp": 41322,
+      "grok/art-therapie-ouverture-1280.webp": 91032,
+      "grok/art-therapie-ouverture-1920.webp": 144552,
+      "grok/art-therapie-ouverture-mobile-640.webp": 64654,
+      "grok/art-therapie-ouverture-mobile-1080.webp": 116734
+    },
+    "media": "c.media({ nom: 'grok/art-therapie-ouverture', alt: \"Un atelier lumineux : pinceaux dans un pot, boîte d'aquarelle et feuille aux lavis de couleur sur une grande table, devant une fenêtre\", cadrage: '41% 48%', cadrageMobile: '49% 51%', sizes: '100vw', priorite: true })"
+  },
+  "grok/art-therapie-pigments": {
+    "nom": "grok/art-therapie-pigments",
+    "source": "recu/grok/art-therapie-pigments.jpg",
+    "role": "produit",
+    "alt": "Des pigments bleu et vermillon qui se mêlent dans l'eau sur un papier épais",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "200ffb037b593f0c",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "52% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/art-therapie-pigments-640.webp",
+      "grok/art-therapie-pigments-1280.webp"
+    ],
+    "poids": {
+      "grok/art-therapie-pigments-640.webp": 42400,
+      "grok/art-therapie-pigments-1280.webp": 94400
+    },
+    "media": "c.media({ nom: 'grok/art-therapie-pigments', alt: \"Des pigments bleu et vermillon qui se mêlent dans l'eau sur un papier épais\", cadrage: '52% 56%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/art-therapie-mediations": {
+    "nom": "grok/art-therapie-mediations",
+    "source": "recu/grok/art-therapie-mediations.jpg",
+    "role": "produit",
+    "alt": "De la terre à modeler, un carnet, un outil en bois et une aquarelle sur une table",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "8c5d056f6efef0bc",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "47% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/art-therapie-mediations-640.webp",
+      "grok/art-therapie-mediations-1280.webp"
+    ],
+    "poids": {
+      "grok/art-therapie-mediations-640.webp": 29522,
+      "grok/art-therapie-mediations-1280.webp": 66910
+    },
+    "media": "c.media({ nom: 'grok/art-therapie-mediations', alt: \"De la terre à modeler, un carnet, un outil en bois et une aquarelle sur une table\", cadrage: '47% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/coaching-ouverture": {
+    "nom": "grok/coaching-ouverture",
+    "source": "recu/grok/coaching-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Un chemin d'herbe entre deux haies qui se sépare en deux au lever du jour",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "2018318dc7b95954",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1000,
+      1400
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 40%"
+    },
+    "cadrage": "44% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.2,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1400,
+      "height": 1750,
+      "source": [
+        1400,
+        1750
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/coaching-ouverture-640.webp",
+      "grok/coaching-ouverture-1000.webp",
+      "grok/coaching-ouverture-1400.webp",
+      "grok/coaching-ouverture-mobile-640.webp",
+      "grok/coaching-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/coaching-ouverture-640.webp": 98802,
+      "grok/coaching-ouverture-1000.webp": 162648,
+      "grok/coaching-ouverture-1400.webp": 234682,
+      "grok/coaching-ouverture-mobile-640.webp": 104512,
+      "grok/coaching-ouverture-mobile-1080.webp": 181948
+    },
+    "media": "c.media({ nom: 'grok/coaching-ouverture', alt: \"Un chemin d'herbe entre deux haies qui se sépare en deux au lever du jour\", cadrage: '44% 40%', cadrageMobile: '50% 40%', sizes: '100vw', priorite: true })"
+  },
+  "grok/coaching-avancer": {
+    "nom": "grok/coaching-avancer",
+    "source": "recu/grok/coaching-avancer.jpg",
+    "role": "produit",
+    "alt": "Un carnet à spirale vierge, un crayon et une tasse sur une table en bois",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "66994249690e901d",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "48% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/coaching-avancer-640.webp",
+      "grok/coaching-avancer-1280.webp"
+    ],
+    "poids": {
+      "grok/coaching-avancer-640.webp": 24528,
+      "grok/coaching-avancer-1280.webp": 54168
+    },
+    "media": "c.media({ nom: 'grok/coaching-avancer', alt: \"Un carnet à spirale vierge, un crayon et une tasse sur une table en bois\", cadrage: '48% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/energie-ouverture": {
+    "nom": "grok/energie-ouverture",
+    "source": "recu/grok/energie-ouverture-v2.jpg",
+    "role": "ouverture",
+    "alt": "Une pièce calme : table de soin couverte d'un drap clair, couverture pliée, bouquet et lumière douce sur le mur",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "a11c601d6ef26862",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "57% 64%"
+    },
+    "cadrage": "49% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/energie-ouverture-640.webp",
+      "grok/energie-ouverture-1280.webp",
+      "grok/energie-ouverture-1920.webp",
+      "grok/energie-ouverture-mobile-640.webp",
+      "grok/energie-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/energie-ouverture-640.webp": 21484,
+      "grok/energie-ouverture-1280.webp": 46750,
+      "grok/energie-ouverture-1920.webp": 77002,
+      "grok/energie-ouverture-mobile-640.webp": 42320,
+      "grok/energie-ouverture-mobile-1080.webp": 80900
+    },
+    "media": "c.media({ nom: 'grok/energie-ouverture', alt: \"Une pièce calme : table de soin couverte d'un drap clair, couverture pliée, bouquet et lumière douce sur le mur\", cadrage: '49% 48%', cadrageMobile: '57% 64%', sizes: '100vw', priorite: true })"
+  },
+  "grok/energie-distance": {
+    "nom": "grok/energie-distance",
+    "source": "recu/grok/energie-distance.jpg",
+    "role": "produit",
+    "alt": "Une tasse et un petit bouquet sur le rebord d'une fenêtre ouverte sur la campagne",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "8e8a1f9a44fb9448",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "38% 61%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1100,
+      "height": 733,
+      "source": [
+        1100,
+        733
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1100 px de large",
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/energie-distance-640.webp",
+      "grok/energie-distance-1100.webp"
+    ],
+    "poids": {
+      "grok/energie-distance-640.webp": 24156,
+      "grok/energie-distance-1100.webp": 44520
+    },
+    "media": "c.media({ nom: 'grok/energie-distance', alt: \"Une tasse et un petit bouquet sur le rebord d'une fenêtre ouverte sur la campagne\", cadrage: '38% 61%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/energie-reiki": {
+    "nom": "grok/energie-reiki",
+    "source": "recu/grok/energie-reiki-v2.jpg",
+    "role": "produit",
+    "alt": "Une table de soin, un coussin de lin et une couverture pliée près d'une fenêtre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "61f866be6a74d884",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "49% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1752,
+      "height": 1168,
+      "source": [
+        1752,
+        1168
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/energie-reiki-640.webp",
+      "grok/energie-reiki-1280.webp"
+    ],
+    "poids": {
+      "grok/energie-reiki-640.webp": 33448,
+      "grok/energie-reiki-1280.webp": 73958
+    },
+    "media": "c.media({ nom: 'grok/energie-reiki', alt: \"Une table de soin, un coussin de lin et une couverture pliée près d'une fenêtre\", cadrage: '49% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  }
+}

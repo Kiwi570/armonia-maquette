@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Armonia : art-thérapie, coaching de transition et mieux-être à Nuaillé, près de Cholet</title>
+<meta name="description" content="Corinne Fonteneau vous accompagne dans vos transitions de vie : art-thérapie, coaching de transition, libération quantique et Reiki, au cabinet à Nuaillé (49) ou à distance.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://armonia-maquette.vercel.app/">
+<style>:root{--fond:#FAF5EC;--texte:#16335B;--voile-fond:#BF3F1A;--ouverture-fond:#FAF5EC;--menu-fond:#FAF5EC}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--texte); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); } .ouverture-panneau { gap: 22px; } .intro-goutte { position: relative; display: block; width: 92px; height: 92px; } .intro-coeur { position: absolute; inset: 0; background: #BF3F1A; border-radius: 58% 42% 55% 45% / 48% 60% 40% 52%; transform: translateY(-34vh) scale(.45, .62); } .intro-halo { position: absolute; inset: -34px; border-radius: 50% 50% 46% 54% / 55% 45% 55% 45%; background: #DCEBE8; transform: scale(0); } .ouverture-logo { width: min(298px, 64vw); height: auto; } .ouverture-ligne { margin: 0; font-size: .82rem; letter-spacing: .18em; text-transform: uppercase; }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#FAF5EC">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Armonia">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Armonia : art-thérapie, coaching de transition et mieux-être à Nuaillé, près de Cholet">
+<meta property="og:description" content="Corinne Fonteneau vous accompagne dans vos transitions de vie : art-thérapie, coaching de transition, libération quantique et Reiki, au cabinet à Nuaillé (49) ou à distance.">
+<meta property="og:url" content="https://armonia-maquette.vercel.app/">
+<meta property="og:image" content="https://armonia-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Armonia, accompagnement des transitions de vie et du mieux-être, avec un mandala peint par Corinne Fonteneau">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Armonia, Corinne Fonteneau","url":"https://armonia-maquette.vercel.app/","telephone":"+33674293031","description":"Art-thérapie, coaching de transition et pratiques énergétiques à Nuaillé, près de Cholet.","address":{"@type":"PostalAddress","streetAddress":"13 place du Gerbier","postalCode":"49340","addressLocality":"Nuaillé","addressCountry":"FR"},"sameAs":["https://www.facebook.com/Corinne.ARMONIA","https://www.linkedin.com/in/corinne-armonia"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair.png" alt="" width="186" height="50"><span data-voile-libelle>Bienvenue</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <span class="intro-goutte" data-ouverture-objet><span class="intro-halo"></span><span class="intro-coeur"></span></span>
+  <img class="ouverture-logo" src="/assets/images/logo.png" alt="" width="298" height="80">
+  <p class="ouverture-ligne">Transitions de vie et mieux-être</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Armonia, retour à l&#39;accueil" data-libelle="Bienvenue" aria-current="page">
+      <img src="/assets/images/logo.png" alt="" width="149" height="40">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/art-therapie" data-libelle="Art-thérapie">Art-thérapie</a></li><li><a href="/coaching-de-transition" data-libelle="Coaching de transition">Coaching de transition</a></li><li><a href="/energie-et-liberations" data-libelle="Énergie et libérations">Énergie et libérations</a></li><li><a href="/echangeons" data-libelle="Échangeons">Échangeons</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/echangeons#rendez-vous" data-libelle="Échangeons">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Bienvenue" aria-current="page">Bienvenue</a></li><li style="--i:1"><a href="/art-therapie" class="menu-lien" data-libelle="Art-thérapie">Art-thérapie</a></li><li style="--i:2"><a href="/coaching-de-transition" class="menu-lien" data-libelle="Coaching de transition">Coaching de transition</a></li><li style="--i:3"><a href="/energie-et-liberations" class="menu-lien" data-libelle="Énergie et libérations">Énergie et libérations</a></li><li style="--i:4"><a href="/echangeons" class="menu-lien" data-libelle="Échangeons">Échangeons</a></li></ul>
+  <p><a class="bouton" href="tel:+33674293031">Appeler 06 74 29 30 31</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero" id="debut">
+  <div class="hero-texte">
+    <p class="surtitre ouv-fondu">Cabinet Armonia · Nuaillé, près de Cholet</p>
+    <h1 class="hero-titre"><span class="ligne-masque"><span class="ouv-ligne">Mieux vous</span></span><span class="ligne-masque"><span class="ouv-ligne">comprendre,</span></span><span class="ligne-masque"><span class="ouv-ligne">retrouver votre</span></span><span class="ligne-masque"><span class="ouv-ligne"><em>équilibre</em></span></span></h1>
+    <p class="hero-intro ouv-fondu masque-ecran-tres-bas">Art-thérapie, coaching de transition et pratiques énergétiques : Corinne Fonteneau vous accompagne dans vos transitions de vie, à votre rythme.</p>
+    <p class="hero-actions ouv-fondu">
+      <a href="/echangeons#rendez-vous" class="bouton" data-libelle="Échangeons" data-action-principale data-survol="magnetique">Prendre rendez-vous</a>
+      <a class="lien-fleche masque-ecran-tres-bas" href="#approches">Découvrir les approches</a>
+    </p>
+    <p class="hero-info ouv-fondu" data-info-cle>Au cabinet à Nuaillé ou à distance · sur rendez-vous</p>
+  </div>
+  <div class="hero-visuel">
+    <svg class="tache hero-tache hero-tache--a" viewBox="0 0 100 100" aria-hidden="true" data-audit-ignorer preserveAspectRatio="none"><path d="M61 4c20 3 35 20 37 41 2 22-9 44-30 51-22 8-48 1-60-19C-3 58 0 31 16 15 28 4 45 1 61 4z" fill="currentColor"/></svg><svg class="tache hero-tache hero-tache--b" viewBox="0 0 100 100" aria-hidden="true" data-audit-ignorer preserveAspectRatio="none"><path d="M52 2c19-2 39 9 45 28 6 20-1 44-18 57-18 13-45 15-62 1C1 74-4 49 5 29 13 12 33 4 52 2z" fill="currentColor"/></svg>
+    <svg class="rosace hero-rosace" viewBox="0 0 200 200" aria-hidden="true" data-effet="rosace" data-visuel data-audit-ignorer>
+  <g class="rosace-tour" fill="none" stroke="currentColor" stroke-width=".7" stroke-linecap="round">
+    <circle pathLength="1" cx="100" cy="100" r="96"/>
+    <g class="rosace-a"><path pathLength="1" d="M162.0 100.0 Q177.1 85.4 195.0 100.0 Q177.1 114.6 162.0 100.0Z"/><path pathLength="1" d="M157.3 123.7 Q176.8 116.1 187.8 136.4 Q165.7 143.0 157.3 123.7Z"/><path pathLength="1" d="M143.8 143.8 Q164.8 144.3 167.2 167.2 Q144.3 164.8 143.8 143.8Z"/><path pathLength="1" d="M123.7 157.3 Q143.0 165.7 136.4 187.8 Q116.1 176.8 123.7 157.3Z"/><path pathLength="1" d="M100.0 162.0 Q114.6 177.1 100.0 195.0 Q85.4 177.1 100.0 162.0Z"/><path pathLength="1" d="M76.3 157.3 Q83.9 176.8 63.6 187.8 Q57.0 165.7 76.3 157.3Z"/><path pathLength="1" d="M56.2 143.8 Q55.7 164.8 32.8 167.2 Q35.2 144.3 56.2 143.8Z"/><path pathLength="1" d="M42.7 123.7 Q34.3 143.0 12.2 136.4 Q23.2 116.1 42.7 123.7Z"/><path pathLength="1" d="M38.0 100.0 Q22.9 114.6 5.0 100.0 Q22.9 85.4 38.0 100.0Z"/><path pathLength="1" d="M42.7 76.3 Q23.2 83.9 12.2 63.6 Q34.3 57.0 42.7 76.3Z"/><path pathLength="1" d="M56.2 56.2 Q35.2 55.7 32.8 32.8 Q55.7 35.2 56.2 56.2Z"/><path pathLength="1" d="M76.3 42.7 Q57.0 34.3 63.6 12.2 Q83.9 23.2 76.3 42.7Z"/><path pathLength="1" d="M100.0 38.0 Q85.4 22.9 100.0 5.0 Q114.6 22.9 100.0 38.0Z"/><path pathLength="1" d="M123.7 42.7 Q116.1 23.2 136.4 12.2 Q143.0 34.3 123.7 42.7Z"/><path pathLength="1" d="M143.8 56.2 Q144.3 35.2 167.2 32.8 Q164.8 55.7 143.8 56.2Z"/><path pathLength="1" d="M157.3 76.3 Q165.7 57.0 187.8 63.6 Q176.8 83.9 157.3 76.3Z"/></g>
+    <g class="rosace-b"><path pathLength="1" d="M134.0 100.0 Q148.1 86.4 166.0 100.0 Q148.1 113.6 134.0 100.0Z"/><path pathLength="1" d="M129.4 117.0 Q148.5 112.3 157.2 133.0 Q134.9 135.8 129.4 117.0Z"/><path pathLength="1" d="M117.0 129.4 Q135.8 134.9 133.0 157.2 Q112.3 148.5 117.0 129.4Z"/><path pathLength="1" d="M100.0 134.0 Q113.6 148.1 100.0 166.0 Q86.4 148.1 100.0 134.0Z"/><path pathLength="1" d="M83.0 129.4 Q87.7 148.5 67.0 157.2 Q64.2 134.9 83.0 129.4Z"/><path pathLength="1" d="M70.6 117.0 Q65.1 135.8 42.8 133.0 Q51.5 112.3 70.6 117.0Z"/><path pathLength="1" d="M66.0 100.0 Q51.9 113.6 34.0 100.0 Q51.9 86.4 66.0 100.0Z"/><path pathLength="1" d="M70.6 83.0 Q51.5 87.7 42.8 67.0 Q65.1 64.2 70.6 83.0Z"/><path pathLength="1" d="M83.0 70.6 Q64.2 65.1 67.0 42.8 Q87.7 51.5 83.0 70.6Z"/><path pathLength="1" d="M100.0 66.0 Q86.4 51.9 100.0 34.0 Q113.6 51.9 100.0 66.0Z"/><path pathLength="1" d="M117.0 70.6 Q112.3 51.5 133.0 42.8 Q135.8 65.1 117.0 70.6Z"/><path pathLength="1" d="M129.4 83.0 Q134.9 64.2 157.2 67.0 Q148.5 87.7 129.4 83.0Z"/></g>
+    <g class="rosace-c"><path pathLength="1" d="M110.0 100.0 Q120.5 89.6 136.0 100.0 Q120.5 110.4 110.0 100.0Z"/><path pathLength="1" d="M107.1 107.1 Q121.9 107.1 125.5 125.5 Q107.1 121.9 107.1 107.1Z"/><path pathLength="1" d="M100.0 110.0 Q110.4 120.5 100.0 136.0 Q89.6 120.5 100.0 110.0Z"/><path pathLength="1" d="M92.9 107.1 Q92.9 121.9 74.5 125.5 Q78.1 107.1 92.9 107.1Z"/><path pathLength="1" d="M90.0 100.0 Q79.5 110.4 64.0 100.0 Q79.5 89.6 90.0 100.0Z"/><path pathLength="1" d="M92.9 92.9 Q78.1 92.9 74.5 74.5 Q92.9 78.1 92.9 92.9Z"/><path pathLength="1" d="M100.0 90.0 Q89.6 79.5 100.0 64.0 Q110.4 79.5 100.0 90.0Z"/><path pathLength="1" d="M107.1 92.9 Q107.1 78.1 125.5 74.5 Q121.9 92.9 107.1 92.9Z"/></g>
+    <circle pathLength="1" cx="100" cy="100" r="8"/>
+  </g>
+</svg>
+    <figure class="toile hero-toile" data-iris-centre>
+      <div class="toile-cadre"><figure class="media toile-media" style="--cadrage:50% 50%;aspect-ratio:1978 / 2000">
+  <picture>
+    <img src="/assets/images/toile-mandala-bleu-1400.webp" srcset="/assets/images/toile-mandala-bleu-640.webp 640w, /assets/images/toile-mandala-bleu-1000.webp 1000w, /assets/images/toile-mandala-bleu-1400.webp 1400w" sizes="(max-width: 760px) 62vw, 34vw" alt="Mandala bleu et vermillon, acrylique sur toile de Corinne Fonteneau" width="1400" height="1416" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure></div>
+      <figcaption class="toile-cartel masque-ecran-tres-bas"><span>Acrylique sur toile, Corinne Fonteneau</span></figcaption>
+    </figure>
+  </div>
+</section>
+<section class="chemins fond-lavis" id="chemins">
+  <svg class="chemins-trait" viewBox="0 0 1200 600" preserveAspectRatio="none" aria-hidden="true" data-effet="deux-chemins" data-audit-ignorer>
+    <path class="chemin-a" pathLength="1" d="M600 0 C 600 120, 380 140, 300 260 S 220 480, 300 600"/>
+    <path class="chemin-b" pathLength="1" d="M600 0 C 600 120, 820 140, 900 260 S 980 480, 900 600"/>
+  </svg>
+  <div class="conteneur chemins-tete">
+    <p class="surtitre " data-anime>Deux parcours sur mesure</p>
+    <h2 class="titre " data-anime="lignes">Deux chemins, une même <em>intention</em></h2>
+    <p class="chapo" data-anime>Que vous cherchiez un mieux-être ou une nouvelle direction professionnelle, l&#39;accompagnement part de vous : de ce que vous traversez, de vos besoins et de vos ressources.</p>
+  </div>
+  <div class="conteneur chemins-grille" data-anime="cascade">
+    <article class="chemin" id="chemin-equilibre">
+      <figure class="media chemin-media" data-grok data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/accueil-chemin-equilibre-784.webp" srcset="/assets/images/grok/accueil-chemin-equilibre-480.webp 480w, /assets/images/grok/accueil-chemin-equilibre-640.webp 640w, /assets/images/grok/accueil-chemin-equilibre-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="Un bol d&#39;eau claire où se diffuse une goutte de pigment, un pinceau posé sur le bord" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <div class="chemin-texte">
+        <p class="surtitre">Accompagnement mieux-être</p>
+        <h3>Retrouver mon équilibre</h3>
+        <p>Pour les femmes qui se sentent fatiguées, perdues ou désorientées.</p>
+        <ul class="puces"><li>Coaching</li><li>Art-thérapie</li><li>Expression de soi</li><li>Travail émotionnel et psycho-corporel</li></ul>
+        <a href="/coaching-de-transition#parcours" class="lien-fleche" data-libelle="Coaching de transition">Voir ce parcours</a>
+      </div>
+    </article><article class="chemin" id="chemin-emploi">
+      <figure class="media chemin-media" data-grok data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/accueil-chemin-emploi-784.webp" srcset="/assets/images/grok/accueil-chemin-emploi-480.webp 480w, /assets/images/grok/accueil-chemin-emploi-640.webp 640w, /assets/images/grok/accueil-chemin-emploi-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="Un bureau en bois devant une fenêtre, un carnet vierge ouvert, un crayon et une tasse" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <div class="chemin-texte">
+        <p class="surtitre">Transitions professionnelles</p>
+        <h3>Tremplin vers l&#39;emploi</h3>
+        <p>Pour les personnes qui souhaitent clarifier un projet professionnel.</p>
+        <ul class="puces"><li>Coaching</li><li>Outils RH</li><li>Expression orale</li><li>Posture professionnelle</li><li>Travail sur la confiance</li></ul>
+        <a href="/coaching-de-transition#parcours" class="lien-fleche" data-libelle="Coaching de transition">Voir ce parcours</a>
+      </div>
+    </article>
+  </div>
+</section>
+<section class="reconnaitre conteneur" id="ce-qui-vous-amene">
+  <svg class="tache reconnaitre-tache" viewBox="0 0 100 100" aria-hidden="true" data-audit-ignorer preserveAspectRatio="none"><path d="M44 6c17-6 38-1 48 15 11 17 9 42-4 58-13 16-37 23-57 15C12 86 0 66 2 46 4 27 26 12 44 6z" fill="currentColor"/></svg>
+  <p class="surtitre " data-anime>Vous traversez peut-être</p>
+  <h2 class="visuellement-cache">Ce qui vous amène</h2>
+  <ul class="reconnaitre-liste" data-visuel><li data-anime="mots">Une transition de vie.</li><li data-anime="mots">Une reconversion.</li><li data-anime="mots">Une perte de sens ou de motivation.</li><li data-anime="mots">Du stress, de l&#39;anxiété, un épuisement.</li><li data-anime="mots">Des relations difficiles.</li><li data-anime="mots">Apprendre à dire non, et à dire oui.</li></ul>
+  <p class="reconnaitre-fin" data-anime>Il n&#39;est pas nécessaire d&#39;avoir un projet précis pour commencer.</p>
+</section>
+<section class="approches conteneur" id="approches">
+  <div class="approches-tete">
+    <p class="surtitre " data-anime>Trois approches</p>
+    <h2 class="titre " data-anime="lignes">Une approche <em>intégrative</em>, adaptée à vos besoins</h2>
+    <p class="chapo" data-anime>Coaching, art-thérapie, pratiques psychocorporelles et énergétiques : elles se choisissent et se combinent selon votre situation et votre rythme.</p>
+  </div>
+  <div class="approches-grille" data-anime="cascade">
+    <article class="approche" data-survol="incline" data-survol-force="4">
+      <figure class="media approche-media" data-grok data-effet="tache" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/accueil-approche-art-784.webp" srcset="/assets/images/grok/accueil-approche-art-480.webp 480w, /assets/images/grok/accueil-approche-art-640.webp 640w, /assets/images/grok/accueil-approche-art-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="Une table de peinture vue de dessus : palette d&#39;aquarelle, pinceaux dans un pot d&#39;eau, grande feuille blanche" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <p class="approche-format">En individuel ou en groupe</p>
+      <h3>Art-thérapie humaniste</h3>
+      <p>Exprimer, créer et symboliser autrement. Peinture, écriture, modelage, mouvement : aucune compétence artistique n&#39;est nécessaire.</p>
+      <a href="/art-therapie" class="lien-fleche" data-libelle="Art-thérapie">Découvrir l&#39;art-thérapie</a>
+    </article><article class="approche" data-survol="incline" data-survol-force="4">
+      <figure class="media approche-media" data-grok data-effet="tache" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/accueil-approche-coaching-784.webp" srcset="/assets/images/grok/accueil-approche-coaching-480.webp 480w, /assets/images/grok/accueil-approche-coaching-640.webp 640w, /assets/images/grok/accueil-approche-coaching-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="Deux fauteuils face à face près d&#39;une fenêtre, deux tasses sur une table basse" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <p class="approche-format">En présentiel ou à distance</p>
+      <h3>Coaching de transition</h3>
+      <p>Clarifier les possibles et se mettre en mouvement, dans un cadre d&#39;écoute, de bienveillance et de confidentialité.</p>
+      <a href="/coaching-de-transition" class="lien-fleche" data-libelle="Coaching de transition">Découvrir le coaching</a>
+    </article><article class="approche" data-survol="incline" data-survol-force="4">
+      <figure class="media approche-media" data-grok data-effet="tache" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/accueil-approche-energie-784.webp" srcset="/assets/images/grok/accueil-approche-energie-480.webp 480w, /assets/images/grok/accueil-approche-energie-640.webp 640w, /assets/images/grok/accueil-approche-energie-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="Des ondes concentriques à la surface d&#39;une eau calme dans une vasque en grès" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <p class="approche-format">Au cabinet ou en visio</p>
+      <h3>Énergie et libérations</h3>
+      <p>Libération quantique et Reiki : deux pratiques de bien-être pour explorer ce qui se répète et se recentrer.</p>
+      <a href="/energie-et-liberations" class="lien-fleche" data-libelle="Énergie et libérations">Découvrir ces pratiques</a>
+    </article>
+  </div>
+</section>
+<section class="leviers" id="leviers" aria-labelledby="leviers-titre">
+  <h2 class="visuellement-cache" id="leviers-titre">Les leviers de l&#39;accompagnement</h2>
+  <ul class="visuellement-cache"><li>Connaissance de soi</li><li>Confiance en soi</li><li>Libération émotionnelle</li><li>Prise de parole</li><li>Créativité</li></ul>
+  <div class="leviers-mots" data-fx="mots-geants" data-fx-force="18" aria-hidden="true" data-ruban data-visuel>
+    <p data-fx-rangee><span>Connaissance de soi</span><span>Confiance en soi</span><span>Libération émotionnelle</span></p>
+    <p data-fx-rangee data-sens="-1"><span>Prise de parole</span><span>Créativité</span><span>Connaissance de soi</span></p>
+  </div>
+</section>
+<section class="oeuvres fond-lavis" id="oeuvres">
+  <div class="conteneur oeuvres-tete">
+    <div>
+      <p class="surtitre " data-anime>EXP&#39;Oser sa créativité</p>
+      <h2 class="titre " data-anime="lignes">Elle accompagne, et elle <em>peint</em></h2>
+    </div>
+    <p class="chapo" data-anime>Acryliques, aquarelles et encres de Chine : Corinne expose ses propres créations. En voici quelques-unes, avec leur format et leur prix.</p>
+  </div>
+  <div class="oeuvres-fenetre" data-effet="accrochage">
+    <div class="oeuvres-piste" data-galerie tabindex="0" role="region" aria-label="Œuvres de Corinne Fonteneau, défilement horizontal">
+      <figure class="toile oeuvre">
+  <div class="toile-cadre"><figure class="media toile-media" style="--cadrage:50% 50%;aspect-ratio:1920 / 1566">
+  <picture>
+    <img src="/assets/images/toile-yin-yang-1200.webp" srcset="/assets/images/toile-yin-yang-480.webp 480w, /assets/images/toile-yin-yang-800.webp 800w, /assets/images/toile-yin-yang-1200.webp 1200w" sizes="(max-width: 760px) 70vw, 30vw" alt="Yin Yang, soleil et terre enlacés, acrylique de Corinne Fonteneau" width="1200" height="979" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+  <figcaption class="toile-cartel">
+    <strong>Yin Yang</strong>
+    <span>Acrylique · 40 × 40 cm</span>
+    <span class="toile-prix" data-prix>140 €</span>
+  </figcaption>
+</figure><figure class="toile oeuvre">
+  <div class="toile-cadre"><figure class="media toile-media" style="--cadrage:50% 50%;aspect-ratio:1291 / 888">
+  <picture>
+    <img src="/assets/images/toile-fenetre-lotus-1200.webp" srcset="/assets/images/toile-fenetre-lotus-480.webp 480w, /assets/images/toile-fenetre-lotus-800.webp 800w, /assets/images/toile-fenetre-lotus-1200.webp 1200w" sizes="(max-width: 760px) 70vw, 30vw" alt="Fenêtre sur… Fleur de lotus, aquarelle et encre de Chine de Corinne Fonteneau" width="1200" height="825" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+  <figcaption class="toile-cartel">
+    <strong>Fenêtre sur… Fleur de lotus</strong>
+    <span>Aquarelle et encre de Chine · 40 × 30 cm</span>
+    <span class="toile-prix" data-prix>165 €</span>
+  </figcaption>
+</figure><figure class="toile oeuvre">
+  <div class="toile-cadre"><figure class="media toile-media" style="--cadrage:50% 50%;aspect-ratio:1954 / 2000">
+  <picture>
+    <img src="/assets/images/toile-lotus-rouge-1200.webp" srcset="/assets/images/toile-lotus-rouge-480.webp 480w, /assets/images/toile-lotus-rouge-800.webp 800w, /assets/images/toile-lotus-rouge-1200.webp 1200w" sizes="(max-width: 760px) 70vw, 30vw" alt="Lotus rouge et ses racines, acrylique sur toile de Corinne Fonteneau" width="1200" height="1228" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+  <figcaption class="toile-cartel">
+    <strong>Corinne Fonteneau</strong>
+    <span>Acrylique sur toile</span>
+  </figcaption>
+</figure><figure class="toile oeuvre">
+  <div class="toile-cadre"><figure class="media toile-media" style="--cadrage:50% 50%;aspect-ratio:1034 / 822">
+  <picture>
+    <img src="/assets/images/toile-zebres-800.webp" srcset="/assets/images/toile-zebres-480.webp 480w, /assets/images/toile-zebres-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Zèbres, Family : cinq zèbres vus de dos, aquarelle et encre de Chine" width="800" height="636" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+  <figcaption class="toile-cartel">
+    <strong>Zèbres, Family</strong>
+    <span>Aquarelle et encre de Chine · 40 × 30 cm</span>
+    <span class="toile-prix" data-prix>165 €</span>
+  </figcaption>
+</figure><figure class="toile oeuvre">
+  <div class="toile-cadre"><figure class="media toile-media" style="--cadrage:50% 50%;aspect-ratio:804 / 987">
+  <picture>
+    <img src="/assets/images/toile-elephant-800.webp" srcset="/assets/images/toile-elephant-480.webp 480w, /assets/images/toile-elephant-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Éléphant aux oreilles colorées, acrylique de Corinne Fonteneau" width="800" height="982" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+  <figcaption class="toile-cartel">
+    <strong>Éléphant</strong>
+    <span>Acrylique · 100 × 80 cm</span>
+    <span class="toile-prix" data-prix>280 €</span>
+  </figcaption>
+</figure><figure class="toile oeuvre">
+  <div class="toile-cadre"><figure class="media toile-media" style="--cadrage:50% 50%;aspect-ratio:882 / 682">
+  <picture>
+    <img src="/assets/images/toile-papillons-800.webp" srcset="/assets/images/toile-papillons-480.webp 480w, /assets/images/toile-papillons-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Papillons, aquarelle et encre de Chine de Corinne Fonteneau" width="800" height="619" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+  <figcaption class="toile-cartel">
+    <strong>Papillons</strong>
+    <span>Aquarelle et encre de Chine · 40 × 30 cm</span>
+    <span class="toile-prix" data-prix>165 €</span>
+  </figcaption>
+</figure><figure class="toile oeuvre">
+  <div class="toile-cadre"><figure class="media toile-media" style="--cadrage:50% 50%;aspect-ratio:648 / 647">
+  <picture>
+    <img src="/assets/images/toile-soleil-feu-640.webp" srcset="/assets/images/toile-soleil-feu-480.webp 480w, /assets/images/toile-soleil-feu-640.webp 640w" sizes="(max-width: 760px) 70vw, 30vw" alt="Soleil de feu, acrylique de Corinne Fonteneau" width="640" height="639" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+  <figcaption class="toile-cartel">
+    <strong>Soleil de feu</strong>
+    <span>Acrylique · 40 × 40 cm</span>
+    <span class="toile-prix" data-prix>85 €</span>
+  </figcaption>
+</figure><figure class="toile oeuvre">
+  <div class="toile-cadre"><figure class="media toile-media" style="--cadrage:50% 50%;aspect-ratio:810 / 522">
+  <picture>
+    <img src="/assets/images/toile-tortuga-800.webp" srcset="/assets/images/toile-tortuga-480.webp 480w, /assets/images/toile-tortuga-800.webp 800w" sizes="(max-width: 760px) 70vw, 30vw" alt="Tortuga, une tortue marine, aquarelle et encre de Chine" width="800" height="516" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+  <figcaption class="toile-cartel">
+    <strong>Tortuga</strong>
+    <span>Aquarelle et encre de Chine · 40 × 30 cm</span>
+    <span class="toile-prix" data-prix>165 €</span>
+  </figcaption>
+</figure>
+    </div>
+  </div>
+  <p class="conteneur oeuvres-pied" data-anime>
+    <span class="oeuvres-glisser">Faites glisser pour voir les toiles</span>
+    <a href="/echangeons?demande=oeuvre#rendez-vous" class="lien-fleche" data-libelle="Échangeons">Une toile vous parle ? Écrivez à Corinne</a>
+  </p>
+</section>
+<section class="corinne conteneur" id="corinne">
+  <div class="corinne-portrait">
+    <svg class="tache corinne-tache" viewBox="0 0 100 100" aria-hidden="true" data-audit-ignorer preserveAspectRatio="none"><path d="M52 2c19-2 39 9 45 28 6 20-1 44-18 57-18 13-45 15-62 1C1 74-4 49 5 29 13 12 33 4 52 2z" fill="currentColor"/></svg>
+    <figure class="media corinne-media" data-effet="tache" style="--cadrage:52% 38%">
+  <picture>
+    <img src="/assets/images/corinne-640.webp" srcset="/assets/images/corinne-480.webp 480w, /assets/images/corinne-640.webp 640w" sizes="(max-width: 760px) 60vw, 24vw" alt="Corinne Fonteneau, souriante, devant une plante verte" width="640" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+  <div class="corinne-texte">
+    <p class="surtitre " data-anime>Corinne Fonteneau</p>
+    <h2 class="titre " data-anime="lignes">Derrière chaque difficulté, <em>une personne</em></h2>
+    <p data-anime>Après une quinzaine d&#39;années dans les ressources humaines, Corinne a choisi d&#39;accompagner celles et ceux qui traversent des questionnements, des changements ou des difficultés, au travail comme dans leur vie personnelle.</p>
+    <p data-anime>Formée au coaching, à l&#39;art-thérapie, au Reiki et à la libération des mémoires inconscientes, elle propose un espace d&#39;écoute, de confiance et de liberté, pour retrouver votre capacité à choisir, à agir et à avancer.</p>
+    <ul class="valeurs" data-anime="cascade"><li>Écoute et bienveillance</li><li>Respect du rythme et des choix de chacun</li><li>Reconnaissance des ressources personnelles</li></ul>
+    <p data-anime><a href="/echangeons" class="lien-fleche" data-libelle="Échangeons">Faire connaissance</a></p>
+  </div>
+</section>
+<section class="temoignages fond-lavis" id="temoignages">
+  <div class="conteneur">
+    <p class="surtitre " data-anime>Témoignages</p>
+    <h2 class="titre " data-anime="lignes">Ce sont elles et eux qui en parlent <em>le mieux</em></h2>
+    <div class="temoignages-grille" data-anime="cascade" data-visuel>
+      <figure class="temoignage temoignage--0" data-fx="vitesse" data-fx-force="1.5">
+        <svg class="temoignage-guillemet" viewBox="0 0 40 30" aria-hidden="true"><path d="M2 28C2 14 8 4 18 2l1 4c-5 2-8 6-8 11h7v11zm20 0c0-14 6-24 16-26l1 4c-5 2-8 6-8 11h7v11z" fill="currentColor"/></svg>
+        <blockquote><p>Rencontrer Corinne, c&#39;est rencontrer la bienveillance, une écoute sans faille, avancer à son rythme quelle que soit votre demande.</p></blockquote>
+        <figcaption><strong>Karine</strong></figcaption>
+      </figure><figure class="temoignage temoignage--1" data-fx="vitesse" data-fx-force="1.5">
+        <svg class="temoignage-guillemet" viewBox="0 0 40 30" aria-hidden="true"><path d="M2 28C2 14 8 4 18 2l1 4c-5 2-8 6-8 11h7v11zm20 0c0-14 6-24 16-26l1 4c-5 2-8 6-8 11h7v11z" fill="currentColor"/></svg>
+        <blockquote><p>Corinne écoute, partage et guide. Je ne suis pas douée pour le dessin mais, lors de mes deux séances d&#39;art-thérapie, j&#39;ai réussi à exprimer grâce à la peinture mes ressentis.</p></blockquote>
+        <figcaption><strong>Mathilde</strong><span>Art-thérapie</span></figcaption>
+      </figure><figure class="temoignage temoignage--2" data-fx="vitesse" data-fx-force="1.5">
+        <svg class="temoignage-guillemet" viewBox="0 0 40 30" aria-hidden="true"><path d="M2 28C2 14 8 4 18 2l1 4c-5 2-8 6-8 11h7v11zm20 0c0-14 6-24 16-26l1 4c-5 2-8 6-8 11h7v11z" fill="currentColor"/></svg>
+        <blockquote><p>Grâce à Corinne, j&#39;ai pu formuler mes différentes compétences acquises pendant mes expériences professionnelles et personnelles. Un grand merci déjà pour m&#39;avoir redonné confiance en moi.</p></blockquote>
+        <figcaption><strong>Filipe</strong><span>Coaching emploi</span></figcaption>
+      </figure><figure class="temoignage temoignage--0" data-fx="vitesse" data-fx-force="1.5">
+        <svg class="temoignage-guillemet" viewBox="0 0 40 30" aria-hidden="true"><path d="M2 28C2 14 8 4 18 2l1 4c-5 2-8 6-8 11h7v11zm20 0c0-14 6-24 16-26l1 4c-5 2-8 6-8 11h7v11z" fill="currentColor"/></svg>
+        <blockquote><p>J&#39;ai participé à une séance d&#39;art-thérapie, ce fut une très belle découverte. Corinne est vraiment très à l&#39;écoute et sans jugement aucun.</p></blockquote>
+        <figcaption><strong>Monique</strong><span>Art-thérapie</span></figcaption>
+      </figure><figure class="temoignage temoignage--1" data-fx="vitesse" data-fx-force="1.5">
+        <svg class="temoignage-guillemet" viewBox="0 0 40 30" aria-hidden="true"><path d="M2 28C2 14 8 4 18 2l1 4c-5 2-8 6-8 11h7v11zm20 0c0-14 6-24 16-26l1 4c-5 2-8 6-8 11h7v11z" fill="currentColor"/></svg>
+        <blockquote><p>Ta voix, ta douceur créent un bain de bien-être qui permet de me relâcher, me détendre. C&#39;était pour moi une après-midi bien-être.</p></blockquote>
+        <figcaption><strong>Anne-Sophie</strong><span>Séance découverte d&#39;art-thérapie</span></figcaption>
+      </figure><figure class="temoignage temoignage--2" data-fx="vitesse" data-fx-force="1.5">
+        <svg class="temoignage-guillemet" viewBox="0 0 40 30" aria-hidden="true"><path d="M2 28C2 14 8 4 18 2l1 4c-5 2-8 6-8 11h7v11zm20 0c0-14 6-24 16-26l1 4c-5 2-8 6-8 11h7v11z" fill="currentColor"/></svg>
+        <blockquote><p>Corinne est une personne bienveillante, pleine d&#39;empathie et très disponible. Je ne peux que la recommander. Un grand merci !</p></blockquote>
+        <figcaption><strong>Sophie</strong><span>Soins énergétiques</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+<section class="pratique conteneur" id="tarifs">
+  <div class="pratique-tarifs">
+    <p class="surtitre " data-anime>Tarifs et questions</p>
+    <h2 class="titre " data-anime="lignes">Avant de <em>venir</em></h2>
+    <ul class="tarifs " data-anime="cascade"><li class="tarif">
+  <h3>Art-thérapie</h3>
+  <p class="tarif-ligne"><strong class="tarif-prix" data-prix>80 €</strong> <span>la première séance<br><small>1 h 30 à 1 h 45</small></span></p><p class="tarif-ligne"><strong class="tarif-prix" data-prix>70 €</strong> <span>la séance de suivi<br><small>1 h 15 à 1 h 30</small></span></p>
+</li><li class="tarif">
+  <h3>Libération quantique et émotionnelle</h3>
+  <p class="tarif-ligne"><strong class="tarif-prix" data-prix>70 €</strong> <span>la séance<br><small>90 min au plus, en visio ou au cabinet</small></span></p>
+</li><li class="tarif">
+  <h3>Coaching de transition et Reiki</h3>
+  <p class="tarif-ligne"><span>Tarif sur demande, par téléphone ou lors du premier échange</span></p>
+</li></ul>
+    <p class="petit" data-anime>Paiement en espèces ou par virement. En cas d&#39;imprévu, merci de prévenir au moins 24 h à l&#39;avance.</p>
+    <figure class="citation" data-anime data-visuel>
+      <blockquote><p>Ils ne savaient pas que c&#39;était impossible… Alors ils l&#39;ont fait !</p></blockquote>
+      <figcaption>Mark Twain</figcaption>
+    </figure>
+  </div>
+  <div class="pratique-faq" id="faq">
+    <h3 class="faq-titre" data-anime>Questions fréquentes</h3>
+    <details class="faq-item" data-anime><summary>Faut-il savoir dessiner ou peindre ?</summary><p>Non. Aucune compétence artistique n&#39;est nécessaire : c&#39;est le chemin qui compte, pas le résultat. Dessin, peinture, écriture ou mouvement sont proposés sans jugement ni objectif de performance.</p></details><details class="faq-item" data-anime><summary>Combien de séances faut-il prévoir ?</summary><p>Il n&#39;y a pas de nombre fixe. Une séance peut suffire, ou un accompagnement progressif peut se mettre en place, avec des points réguliers.</p></details><details class="faq-item" data-anime><summary>Où ont lieu les séances ?</summary><p>Au cabinet Armonia, à Nuaillé, près de Cholet (49). Les séances de libération quantique peuvent aussi se faire à distance, en visio, partout en France : il suffit d&#39;une connexion internet et d&#39;un endroit calme.</p></details><details class="faq-item" data-anime><summary>Comment choisir entre les approches ?</summary><p>L&#39;art-thérapie convient quand les mots ne suffisent pas. La libération quantique et émotionnelle s&#39;intéresse aux ressentis, aux émotions et aux blocages. Un échange permet de choisir ensemble.</p></details><details class="faq-item" data-anime><summary>Dois-je raconter toute mon histoire ?</summary><p>Non. Vous décidez de ce que vous souhaitez partager.</p></details><details class="faq-item" data-anime><summary>Ces pratiques remplacent-elles un suivi médical ?</summary><p>Non. Elles s&#39;inscrivent dans une démarche de bien-être et ne remplacent pas un accompagnement médical ou psychologique lorsque celui-ci est nécessaire.</p></details>
+  </div>
+</section>
+<section class="appel" id="rencontre">
+  <svg class="rosace appel-rosace" viewBox="0 0 200 200" aria-hidden="true" data-effet="rosace" data-visuel data-audit-ignorer>
+  <g class="rosace-tour" fill="none" stroke="currentColor" stroke-width=".7" stroke-linecap="round">
+    <circle pathLength="1" cx="100" cy="100" r="96"/>
+    <g class="rosace-a"><path pathLength="1" d="M162.0 100.0 Q177.1 85.4 195.0 100.0 Q177.1 114.6 162.0 100.0Z"/><path pathLength="1" d="M157.3 123.7 Q176.8 116.1 187.8 136.4 Q165.7 143.0 157.3 123.7Z"/><path pathLength="1" d="M143.8 143.8 Q164.8 144.3 167.2 167.2 Q144.3 164.8 143.8 143.8Z"/><path pathLength="1" d="M123.7 157.3 Q143.0 165.7 136.4 187.8 Q116.1 176.8 123.7 157.3Z"/><path pathLength="1" d="M100.0 162.0 Q114.6 177.1 100.0 195.0 Q85.4 177.1 100.0 162.0Z"/><path pathLength="1" d="M76.3 157.3 Q83.9 176.8 63.6 187.8 Q57.0 165.7 76.3 157.3Z"/><path pathLength="1" d="M56.2 143.8 Q55.7 164.8 32.8 167.2 Q35.2 144.3 56.2 143.8Z"/><path pathLength="1" d="M42.7 123.7 Q34.3 143.0 12.2 136.4 Q23.2 116.1 42.7 123.7Z"/><path pathLength="1" d="M38.0 100.0 Q22.9 114.6 5.0 100.0 Q22.9 85.4 38.0 100.0Z"/><path pathLength="1" d="M42.7 76.3 Q23.2 83.9 12.2 63.6 Q34.3 57.0 42.7 76.3Z"/><path pathLength="1" d="M56.2 56.2 Q35.2 55.7 32.8 32.8 Q55.7 35.2 56.2 56.2Z"/><path pathLength="1" d="M76.3 42.7 Q57.0 34.3 63.6 12.2 Q83.9 23.2 76.3 42.7Z"/><path pathLength="1" d="M100.0 38.0 Q85.4 22.9 100.0 5.0 Q114.6 22.9 100.0 38.0Z"/><path pathLength="1" d="M123.7 42.7 Q116.1 23.2 136.4 12.2 Q143.0 34.3 123.7 42.7Z"/><path pathLength="1" d="M143.8 56.2 Q144.3 35.2 167.2 32.8 Q164.8 55.7 143.8 56.2Z"/><path pathLength="1" d="M157.3 76.3 Q165.7 57.0 187.8 63.6 Q176.8 83.9 157.3 76.3Z"/></g>
+    <g class="rosace-b"><path pathLength="1" d="M134.0 100.0 Q148.1 86.4 166.0 100.0 Q148.1 113.6 134.0 100.0Z"/><path pathLength="1" d="M129.4 117.0 Q148.5 112.3 157.2 133.0 Q134.9 135.8 129.4 117.0Z"/><path pathLength="1" d="M117.0 129.4 Q135.8 134.9 133.0 157.2 Q112.3 148.5 117.0 129.4Z"/><path pathLength="1" d="M100.0 134.0 Q113.6 148.1 100.0 166.0 Q86.4 148.1 100.0 134.0Z"/><path pathLength="1" d="M83.0 129.4 Q87.7 148.5 67.0 157.2 Q64.2 134.9 83.0 129.4Z"/><path pathLength="1" d="M70.6 117.0 Q65.1 135.8 42.8 133.0 Q51.5 112.3 70.6 117.0Z"/><path pathLength="1" d="M66.0 100.0 Q51.9 113.6 34.0 100.0 Q51.9 86.4 66.0 100.0Z"/><path pathLength="1" d="M70.6 83.0 Q51.5 87.7 42.8 67.0 Q65.1 64.2 70.6 83.0Z"/><path pathLength="1" d="M83.0 70.6 Q64.2 65.1 67.0 42.8 Q87.7 51.5 83.0 70.6Z"/><path pathLength="1" d="M100.0 66.0 Q86.4 51.9 100.0 34.0 Q113.6 51.9 100.0 66.0Z"/><path pathLength="1" d="M117.0 70.6 Q112.3 51.5 133.0 42.8 Q135.8 65.1 117.0 70.6Z"/><path pathLength="1" d="M129.4 83.0 Q134.9 64.2 157.2 67.0 Q148.5 87.7 129.4 83.0Z"/></g>
+    <g class="rosace-c"><path pathLength="1" d="M110.0 100.0 Q120.5 89.6 136.0 100.0 Q120.5 110.4 110.0 100.0Z"/><path pathLength="1" d="M107.1 107.1 Q121.9 107.1 125.5 125.5 Q107.1 121.9 107.1 107.1Z"/><path pathLength="1" d="M100.0 110.0 Q110.4 120.5 100.0 136.0 Q89.6 120.5 100.0 110.0Z"/><path pathLength="1" d="M92.9 107.1 Q92.9 121.9 74.5 125.5 Q78.1 107.1 92.9 107.1Z"/><path pathLength="1" d="M90.0 100.0 Q79.5 110.4 64.0 100.0 Q79.5 89.6 90.0 100.0Z"/><path pathLength="1" d="M92.9 92.9 Q78.1 92.9 74.5 74.5 Q92.9 78.1 92.9 92.9Z"/><path pathLength="1" d="M100.0 90.0 Q89.6 79.5 100.0 64.0 Q110.4 79.5 100.0 90.0Z"/><path pathLength="1" d="M107.1 92.9 Q107.1 78.1 125.5 74.5 Q121.9 92.9 107.1 92.9Z"/></g>
+    <circle pathLength="1" cx="100" cy="100" r="8"/>
+  </g>
+</svg>
+  <div class="conteneur appel-contenu">
+    <h2 class="titre appel-titre" data-anime="lignes">Et si nous faisions <em>connaissance</em> ?</h2>
+    <p class="appel-texte" data-anime>Un rendez-vous découverte, en ligne ou par téléphone, pour échanger sur vos besoins et choisir l&#39;approche qui vous convient.</p>
+    <p class="appel-actions" data-anime>
+      <a href="/echangeons#rendez-vous" class="bouton" data-libelle="Échangeons" data-survol="magnetique">Prendre rendez-vous</a>
+      <a class="bouton bouton--contour" href="tel:+33674293031">06 74 29 30 31</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair.png" alt="Armonia" width="224" height="60" loading="lazy">
+      <p>Accompagnement des transitions de vie et du mieux-être</p>
+      <p>Corinne Fonteneau, art-thérapeute certifiée et praticienne holistique</p>
+    </div>
+    <div>
+      <p><strong>Échangeons</strong></p>
+      <p>13 place du Gerbier, 49340 Nuaillé<br><a href="tel:+33674293031">06 74 29 30 31</a><br>Sur rendez-vous, au cabinet ou à distance</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p><strong>Sommaire</strong></p>
+      <ul><li><a href="/" data-libelle="Bienvenue" aria-current="page">Bienvenue</a></li><li><a href="/art-therapie" data-libelle="Art-thérapie">Art-thérapie</a></li><li><a href="/coaching-de-transition" data-libelle="Coaching de transition">Coaching de transition</a></li><li><a href="/energie-et-liberations" data-libelle="Énergie et libérations">Énergie et libérations</a></li><li><a href="/echangeons" data-libelle="Échangeons">Échangeons</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Suivre Corinne</strong></p>
+      <ul>
+        <li><a href="https://www.facebook.com/Corinne.ARMONIA" target="_blank" rel="noopener">Facebook <span class="visuellement-cache">(nouvel onglet)</span></a></li>
+        <li><a href="https://www.linkedin.com/in/corinne-armonia" target="_blank" rel="noopener">LinkedIn <span class="visuellement-cache">(nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales (à compléter) · Politique de confidentialité (à compléter)</p><p>Maquette de démonstration : les formulaires sont simulés, rien n&#39;est envoyé.</p><p>© Armonia</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33674293031">Appeler</a>
+  <a class="bouton" href="/echangeons#rendez-vous" data-libelle="Échangeons">Rendez-vous</a>
+</div>
+</body>
+</html>
