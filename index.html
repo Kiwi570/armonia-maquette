@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -34,14 +34,14 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#FAF5EC">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -100,13 +100,17 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
   <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
   <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Bienvenue" aria-current="page">Bienvenue</a></li><li style="--i:1"><a href="/art-therapie" class="menu-lien" data-libelle="Art-thérapie">Art-thérapie</a></li><li style="--i:2"><a href="/coaching-de-transition" class="menu-lien" data-libelle="Coaching de transition">Coaching de transition</a></li><li style="--i:3"><a href="/energie-et-liberations" class="menu-lien" data-libelle="Énergie et libérations">Énergie et libérations</a></li><li style="--i:4"><a href="/echangeons" class="menu-lien" data-libelle="Échangeons">Échangeons</a></li></ul>
-  <p><a class="bouton" href="tel:+33674293031">Appeler 06 74 29 30 31</a></p>
+  <p class="menu-actions">
+    <a class="bouton" href="/echangeons#rendez-vous" data-libelle="Échangeons">Prendre rendez-vous</a>
+    <a class="bouton bouton--contour" href="tel:+33674293031">Appeler 06 74 29 30 31</a>
+  </p>
+  <p class="menu-adresse">13 place du Gerbier, 49340 Nuaillé · sur rendez-vous</p>
 </div>
 <main id="contenu" tabindex="-1">
 <section class="hero" id="debut">
   <div class="hero-texte">
     <p class="surtitre ouv-fondu">Cabinet Armonia · Nuaillé, près de Cholet</p>
-    <h1 class="hero-titre"><span class="ligne-masque"><span class="ouv-ligne">Mieux vous</span></span><span class="ligne-masque"><span class="ouv-ligne">comprendre,</span></span><span class="ligne-masque"><span class="ouv-ligne">retrouver votre</span></span><span class="ligne-masque"><span class="ouv-ligne"><em>équilibre</em></span></span></h1>
+    <h1 class="hero-titre"><span class="ligne-masque"><span class="ouv-ligne">Mieux vous</span></span> <span class="ligne-masque"><span class="ouv-ligne">comprendre,</span></span> <span class="ligne-masque"><span class="ouv-ligne">retrouver votre</span></span> <span class="ligne-masque"><span class="ouv-ligne"><em>équilibre</em></span></span> </h1>
     <p class="hero-intro ouv-fondu masque-ecran-tres-bas">Art-thérapie, coaching de transition et pratiques énergétiques : Corinne Fonteneau vous accompagne dans vos transitions de vie, à votre rythme.</p>
     <p class="hero-actions ouv-fondu">
       <a href="/echangeons#rendez-vous" class="bouton" data-libelle="Échangeons" data-action-principale data-survol="magnetique">Prendre rendez-vous</a>
@@ -125,7 +129,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <circle pathLength="1" cx="100" cy="100" r="8"/>
   </g>
 </svg>
-    <figure class="toile hero-toile" data-iris-centre>
+    <figure class="toile hero-toile" data-iris-centre data-survol="incline" data-survol-force="5">
       <div class="toile-cadre"><figure class="media toile-media" style="--cadrage:50% 50%;aspect-ratio:1978 / 2000">
   <picture>
     <img src="/assets/images/toile-mandala-bleu-1400.webp" srcset="/assets/images/toile-mandala-bleu-640.webp 640w, /assets/images/toile-mandala-bleu-1000.webp 1000w, /assets/images/toile-mandala-bleu-1400.webp 1400w" sizes="(max-width: 760px) 62vw, 34vw" alt="Mandala bleu et vermillon, acrylique sur toile de Corinne Fonteneau" width="1400" height="1416" fetchpriority="high" loading="eager" decoding="async">
@@ -147,26 +151,26 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
   <div class="conteneur chemins-grille" data-anime="cascade">
     <article class="chemin" id="chemin-equilibre">
-      <figure class="media chemin-media" data-grok data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
+      <figure class="media chemin-media" data-grok data-fx="parallaxe" data-fx-force="6" style="--cadrage:45% 40%">
   <picture>
     <img src="/assets/images/grok/accueil-chemin-equilibre-784.webp" srcset="/assets/images/grok/accueil-chemin-equilibre-480.webp 480w, /assets/images/grok/accueil-chemin-equilibre-640.webp 640w, /assets/images/grok/accueil-chemin-equilibre-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="Un bol d&#39;eau claire où se diffuse une goutte de pigment, un pinceau posé sur le bord" width="784" height="1176" loading="lazy" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
       <div class="chemin-texte">
-        <p class="surtitre">Accompagnement mieux-être</p>
+        <p class="surtitre">Parcours mieux-être</p>
         <h3>Retrouver mon équilibre</h3>
         <p>Pour les femmes qui se sentent fatiguées, perdues ou désorientées.</p>
         <ul class="puces"><li>Coaching</li><li>Art-thérapie</li><li>Expression de soi</li><li>Travail émotionnel et psycho-corporel</li></ul>
         <a href="/coaching-de-transition#parcours" class="lien-fleche" data-libelle="Coaching de transition">Voir ce parcours</a>
       </div>
     </article><article class="chemin" id="chemin-emploi">
-      <figure class="media chemin-media" data-grok data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
+      <figure class="media chemin-media" data-grok data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 35%">
   <picture>
     <img src="/assets/images/grok/accueil-chemin-emploi-784.webp" srcset="/assets/images/grok/accueil-chemin-emploi-480.webp 480w, /assets/images/grok/accueil-chemin-emploi-640.webp 640w, /assets/images/grok/accueil-chemin-emploi-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="Un bureau en bois devant une fenêtre, un carnet vierge ouvert, un crayon et une tasse" width="784" height="1176" loading="lazy" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
       <div class="chemin-texte">
-        <p class="surtitre">Transitions professionnelles</p>
+        <p class="surtitre">Parcours emploi</p>
         <h3>Tremplin vers l&#39;emploi</h3>
         <p>Pour les personnes qui souhaitent clarifier un projet professionnel.</p>
         <ul class="puces"><li>Coaching</li><li>Outils RH</li><li>Expression orale</li><li>Posture professionnelle</li><li>Travail sur la confiance</li></ul>
@@ -176,11 +180,17 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="reconnaitre conteneur" id="ce-qui-vous-amene">
-  <svg class="tache reconnaitre-tache" viewBox="0 0 100 100" aria-hidden="true" data-audit-ignorer preserveAspectRatio="none"><path d="M44 6c17-6 38-1 48 15 11 17 9 42-4 58-13 16-37 23-57 15C12 86 0 66 2 46 4 27 26 12 44 6z" fill="currentColor"/></svg>
-  <p class="surtitre " data-anime>Vous traversez peut-être</p>
-  <h2 class="visuellement-cache">Ce qui vous amène</h2>
-  <ul class="reconnaitre-liste" data-visuel><li data-anime="mots">Une transition de vie.</li><li data-anime="mots">Une reconversion.</li><li data-anime="mots">Une perte de sens ou de motivation.</li><li data-anime="mots">Du stress, de l&#39;anxiété, un épuisement.</li><li data-anime="mots">Des relations difficiles.</li><li data-anime="mots">Apprendre à dire non, et à dire oui.</li></ul>
-  <p class="reconnaitre-fin" data-anime>Il n&#39;est pas nécessaire d&#39;avoir un projet précis pour commencer.</p>
+  <div class="reconnaitre-texte">
+    <p class="surtitre " data-anime>Vous traversez peut-être</p>
+    <h2 class="visuellement-cache">Ce qui vous amène</h2>
+    <ul class="reconnaitre-liste"><li data-anime="mots">Une transition de vie.</li><li data-anime="mots">Une reconversion.</li><li data-anime="mots">Une perte de sens ou de motivation.</li><li data-anime="mots">Du stress, de l&#39;anxiété, un épuisement.</li><li data-anime="mots">Des relations difficiles.</li><li data-anime="mots">Apprendre à dire non, et à dire oui.</li></ul>
+    <p class="reconnaitre-fin" data-anime>Il n&#39;est pas nécessaire d&#39;avoir un projet précis pour commencer.</p>
+  </div>
+  <figure class="reconnaitre-citation" data-visuel data-effet="tache">
+    <svg class="tache reconnaitre-tache" viewBox="0 0 100 100" aria-hidden="true" data-audit-ignorer preserveAspectRatio="none"><path d="M44 6c17-6 38-1 48 15 11 17 9 42-4 58-13 16-37 23-57 15C12 86 0 66 2 46 4 27 26 12 44 6z" fill="currentColor"/></svg>
+    <blockquote><p>Ils ne savaient pas que c&#39;était impossible… Alors ils l&#39;ont fait !</p></blockquote>
+    <figcaption>Mark Twain</figcaption>
+  </figure>
 </section>
 <section class="approches conteneur" id="approches">
   <div class="approches-tete">
@@ -349,6 +359,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <h2 class="titre " data-anime="lignes">Derrière chaque difficulté, <em>une personne</em></h2>
     <p data-anime>Après une quinzaine d&#39;années dans les ressources humaines, Corinne a choisi d&#39;accompagner celles et ceux qui traversent des questionnements, des changements ou des difficultés, au travail comme dans leur vie personnelle.</p>
     <p data-anime>Formée au coaching, à l&#39;art-thérapie, au Reiki et à la libération des mémoires inconscientes, elle propose un espace d&#39;écoute, de confiance et de liberté, pour retrouver votre capacité à choisir, à agir et à avancer.</p>
+    <p class="corinne-citation" data-anime>« Il y a une personne avec son histoire, ses émotions, ses besoins. »</p>
     <ul class="valeurs" data-anime="cascade"><li>Écoute et bienveillance</li><li>Respect du rythme et des choix de chacun</li><li>Reconnaissance des ressources personnelles</li></ul>
     <p data-anime><a href="/echangeons" class="lien-fleche" data-libelle="Échangeons">Faire connaissance</a></p>
   </div>
@@ -357,7 +368,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur">
     <p class="surtitre " data-anime>Témoignages</p>
     <h2 class="titre " data-anime="lignes">Ce sont elles et eux qui en parlent <em>le mieux</em></h2>
-    <div class="temoignages-grille" data-anime="cascade" data-visuel>
+    <div class="temoignages-grille" data-anime="cascade" data-visuel data-galerie tabindex="0" role="region" aria-label="Témoignages, défilement horizontal">
       <figure class="temoignage temoignage--0" data-fx="vitesse" data-fx-force="1.5">
         <svg class="temoignage-guillemet" viewBox="0 0 40 30" aria-hidden="true"><path d="M2 28C2 14 8 4 18 2l1 4c-5 2-8 6-8 11h7v11zm20 0c0-14 6-24 16-26l1 4c-5 2-8 6-8 11h7v11z" fill="currentColor"/></svg>
         <blockquote><p>Rencontrer Corinne, c&#39;est rencontrer la bienveillance, une écoute sans faille, avancer à son rythme quelle que soit votre demande.</p></blockquote>
@@ -384,10 +395,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <figcaption><strong>Sophie</strong><span>Soins énergétiques</span></figcaption>
       </figure>
     </div>
+    <p class="temoignages-glisser petit">Faites glisser pour lire les autres</p>
   </div>
 </section>
 <section class="pratique conteneur" id="tarifs">
-  <div class="pratique-tarifs">
+  <div class="pratique-tarifs" data-visuel>
     <p class="surtitre " data-anime>Tarifs et questions</p>
     <h2 class="titre " data-anime="lignes">Avant de <em>venir</em></h2>
     <ul class="tarifs " data-anime="cascade"><li class="tarif">
@@ -401,10 +413,6 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <p class="tarif-ligne"><span>Tarif sur demande, par téléphone ou lors du premier échange</span></p>
 </li></ul>
     <p class="petit" data-anime>Paiement en espèces ou par virement. En cas d&#39;imprévu, merci de prévenir au moins 24 h à l&#39;avance.</p>
-    <figure class="citation" data-anime data-visuel>
-      <blockquote><p>Ils ne savaient pas que c&#39;était impossible… Alors ils l&#39;ont fait !</p></blockquote>
-      <figcaption>Mark Twain</figcaption>
-    </figure>
   </div>
   <div class="pratique-faq" id="faq">
     <h3 class="faq-titre" data-anime>Questions fréquentes</h3>

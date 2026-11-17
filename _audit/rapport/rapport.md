@@ -1,29 +1,24 @@
 # Rapport d’audit
 
-Projet : `armonia-maquette` · 17/11/2026 19:24:48 · 3 min · 3 page(s) · audit complet ciblé sur /,/coaching-de-transition,/energie-et-liberations (étapes : mesures, ecran)
+Projet : `armonia-maquette` · 17/11/2026 20:45:44 · 2 min · 1 page(s) · audit complet ciblé sur / (étapes : fichiers, mesures, mouvement, films)
 
 ## Résumé
 
 - Statut : **tout a tourné, aucun échec**
-- Passe : `20261117-182132-complet-cible-partiel` · version ?v=1
+- Passe : `20261117-194319-complet-cible-partiel` · version ?v=2
 - Échecs : **0**
-- À regarder : **1**
+- À regarder : **3**
 - Non lancé : **0**
-- Contrôles passés : mesures (117), balayage (3)
+- Contrôles passés : vercel.json (1), .vercelignore (1), robots.txt (1), numéro de version (1), langues (1), mesures (39), balayage (1), films d’ouverture (2), films de transition (2), mouvement (2), effets du plan (4), souris immobile (2)
 
-## Passes de cette version (?v=1)
+## Passes de cette version (?v=2)
 
 Chaque passe garde son rapport dans `_audit/passes/` : une relance ciblée ne fait pas disparaître la preuve d’une passe plus large.
 
 | Passe | Niveau | Pages | Étapes | Échecs | À regarder | Non lancé | Statut |
 |---|---|---|---|---:|---:|---:|---|
-| 20261117-131446-rapide | rapide | toutes | toutes | 16 | 12 | 1 | échecs |
-| 20261117-132121-rapide-cible-partiel | rapide | /,/art-therapie,/coaching-de-transition,/energie-et-liberations,/echangeons | mesures, parcours, ecran, mouvement | 22 | 4 | 0 | échecs |
-| 20261117-172601-standard | standard | toutes | toutes | 10 | 10 | 1 | échecs |
-| 20261117-174401-complet-partiel | complet | toutes | mesures, ecran | 4 | 2 | 0 | échecs |
-| 20261117-175130-standard-cible-partiel | standard | /,/404,/art-therapie,/coaching-de-transition,/energie-et-liberations | mesures | 2 | 2 | 0 | échecs |
-| 20261117-180341-standard | standard | toutes | toutes | 0 | 9 | 1 | complet |
-| **20261117-182132-complet-cible-partiel** (celle-ci) | complet | /,/coaching-de-transition,/energie-et-liberations | mesures, ecran | 0 | 1 | 0 | complet |
+| 20261117-191822-complet | complet | toutes | toutes | 1 | 12 | 1 | échecs |
+| **20261117-194319-complet-cible-partiel** (celle-ci) | complet | / | fichiers, mesures, mouvement, films | 0 | 3 | 0 | complet |
 
 ## Échecs
 
@@ -31,9 +26,17 @@ Aucun.
 
 ## À regarder
 
-### section sans visuel (1)
+### « à compléter » visible (1)
 
-- **section sans visuel** — `/energie-et-liberations` — section#choisir « ÉCHANGEONS SUR VOS BESOINS Comment choisir ? L'art » — une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11) _(320×568 normal, 375×667 normal, 390×844 normal, 844×390 normal, 768×1024 normal, 1024×768 normal, +33)_
+- **« à compléter » visible** — `echangeons.html` — 1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)
+
+### retour avant : changement brusque (1)
+
+- **retour avant : changement brusque** — `/art-therapie` — à 88 ms (différence 31 %) (films/retour-avant-1366.png) _(1366×768 retour avant)_
+
+### retour arrière : changement brusque (1)
+
+- **retour arrière : changement brusque** — `/` — à 72 ms (différence 23 %) (films/retour-arrière-390.png) _(390×844 retour arrière)_
 
 ## Non lancé
 
@@ -42,10 +45,11 @@ Tout a été lancé.
 
 ## Repères
 
+- Numéro de version des fichiers : ?v=2
+- Journal v2 : 2 étape(s) notée(s), 24 min de travail pour 45 min de budget, 0 min d’attente de l’utilisateur.
 - Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.
-- Tient dans l'écran / : aucune section épinglée ou plein écran.
-- Tient dans l'écran /coaching-de-transition : aucune section épinglée ou plein écran.
-- Tient dans l'écran /energie-et-liberations : aucune section épinglée ou plein écran.
+- Ouverture / (1366×768) : 2585 ms depuis le premier octet
+- Ouverture / (390×844) : 2590 ms depuis le premier octet
 
 ## Fichiers
 

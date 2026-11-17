@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -34,14 +34,14 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#FAF5EC">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -100,13 +100,17 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
   <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
   <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Bienvenue">Bienvenue</a></li><li style="--i:1"><a href="/art-therapie" class="menu-lien" data-libelle="Art-thérapie">Art-thérapie</a></li><li style="--i:2"><a href="/coaching-de-transition" class="menu-lien" data-libelle="Coaching de transition" aria-current="page">Coaching de transition</a></li><li style="--i:3"><a href="/energie-et-liberations" class="menu-lien" data-libelle="Énergie et libérations">Énergie et libérations</a></li><li style="--i:4"><a href="/echangeons" class="menu-lien" data-libelle="Échangeons">Échangeons</a></li></ul>
-  <p><a class="bouton" href="tel:+33674293031">Appeler 06 74 29 30 31</a></p>
+  <p class="menu-actions">
+    <a class="bouton" href="/echangeons#rendez-vous" data-libelle="Échangeons">Prendre rendez-vous</a>
+    <a class="bouton bouton--contour" href="tel:+33674293031">Appeler 06 74 29 30 31</a>
+  </p>
+  <p class="menu-adresse">13 place du Gerbier, 49340 Nuaillé · sur rendez-vous</p>
 </div>
 <main id="contenu" tabindex="-1">
 <section class="ouv-arche" id="debut">
   <div class="ouv-arche-texte">
     <p class="surtitre ouv-fondu">Coaching des transitions</p>
-    <h1 class="ouv-arche-titre"><span class="ligne-masque"><span class="ouv-ligne">Clarifier</span></span><span class="ligne-masque"><span class="ouv-ligne">les possibles,</span></span><span class="ligne-masque"><span class="ouv-ligne">se mettre en</span></span><span class="ligne-masque"><span class="ouv-ligne"><em>mouvement</em></span></span></h1>
+    <h1 class="ouv-arche-titre"><span class="ligne-masque"><span class="ouv-ligne">Clarifier</span></span> <span class="ligne-masque"><span class="ouv-ligne">les possibles,</span></span> <span class="ligne-masque"><span class="ouv-ligne">se mettre en</span></span> <span class="ligne-masque"><span class="ouv-ligne"><em>mouvement</em></span></span> </h1>
     <p class="chapo ouv-fondu masque-ecran-tres-bas">Mieux vous connaître, clarifier vos besoins et mobiliser vos ressources pour passer à l&#39;action, concrètement.</p>
     <p class="hero-actions ouv-fondu">
       <a class="bouton" href="#point" data-action-principale data-survol="magnetique">Faire le point sur mon projet</a>
@@ -166,18 +170,18 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <h2 class="titre " data-anime="lignes">Mieux-être ou <em>emploi</em> : deux parcours</h2>
     <div class="parcours-grille" data-anime="cascade" data-visuel>
       <article class="parcours-carte" id="parcours-equilibre">
-        <p class="surtitre">Accompagnement mieux-être</p>
+        <p class="surtitre">Parcours mieux-être</p>
         <h3>Retrouver mon équilibre</h3>
         <p>Pour les femmes qui se sentent fatiguées, perdues ou désorientées.</p>
         <ul class="puces"><li>Coaching</li><li>Art-thérapie</li><li>Expression de soi</li><li>Travail émotionnel et psycho-corporel</li></ul>
       </article><article class="parcours-carte" id="parcours-emploi">
-        <p class="surtitre">Transitions professionnelles</p>
+        <p class="surtitre">Parcours emploi</p>
         <h3>Tremplin vers l&#39;emploi</h3>
         <p>Pour les personnes qui souhaitent clarifier un projet professionnel.</p>
         <ul class="puces"><li>Coaching</li><li>Outils RH</li><li>Expression orale</li><li>Posture professionnelle</li><li>Travail sur la confiance</li></ul>
       </article>
     </div>
-    <p class="situations-fin" data-anime>Le coaching se pratique aussi en entreprise et en organisme de formation.</p>
+    <p class="situations-fin note-pastille" data-anime>Le coaching se pratique aussi en entreprise et en organisme de formation.</p>
   </div>
 </section>
 <section class="point conteneur" id="point">
@@ -220,8 +224,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </g>
 </svg>
   <div class="conteneur appel-contenu">
-    <h2 class="titre appel-titre" data-anime="lignes">Et si nous faisions <em>connaissance</em> ?</h2>
-    <p class="appel-texte" data-anime>Un rendez-vous découverte, en ligne ou par téléphone, pour échanger sur vos besoins et choisir l&#39;approche qui vous convient.</p>
+    <h2 class="titre appel-titre" data-anime="lignes">Et si on faisait <em>le point</em> ?</h2>
+    <p class="appel-texte" data-anime>Un premier échange, en présentiel ou à distance, pour clarifier votre situation et vos envies.</p>
     <p class="appel-actions" data-anime>
       <a href="/echangeons?demande=coaching#rendez-vous" class="bouton" data-libelle="Échangeons" data-survol="magnetique">Prendre rendez-vous</a>
       <a class="bouton bouton--contour" href="tel:+33674293031">06 74 29 30 31</a>

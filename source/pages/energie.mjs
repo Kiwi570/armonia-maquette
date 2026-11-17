@@ -1,7 +1,7 @@
 /* Énergie et libérations : grand titre centré puis bandeau (image qui ondule), mention bien-être bien visible,
    libération quantique (faits, quatre temps), Reiki, comment choisir, appel final. */
 import { html } from '../../outils/gabarit.mjs';
-import { sur, titre, lignes, tache, appel } from '../gabarits/composants.mjs';
+import { sur, titre, lignes, tache, toile, appel } from '../gabarits/composants.mjs';
 
 export const page = { cle: 'energie', fichier: 'energie-et-liberations', imagePartage: 'grok/energie-ouverture' };
 
@@ -81,10 +81,12 @@ export default (c) => {
         ${c.lien('contact', { ancre: 'rendez-vous', params: 'demande=decouverte', classe: 'lien-fleche', texte: c.t('energie.choisir.lien2') })}
       </p>
     </div>
-    <svg class="choisir-trait" viewBox="0 0 600 40" preserveAspectRatio="none" aria-hidden="true" data-fx="trace" data-visuel><path d="M4 26 C 120 4, 240 38, 360 18 S 520 6, 596 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+    <div class="choisir-toile" data-effet="accrochage">
+      ${toile(c, d.oeuvres[0], { classe: 'oeuvre', sizes: '(max-width: 760px) 60vw, 20vw' })}
+    </div>
   </div>
 </section>
 
-${appel(c, { params: 'demande=decouverte' })}
+${appel(c, { cleTitre: 'energie.appelTitre', cleTexte: 'energie.appelTexte', params: 'demande=decouverte' })}
 `;
 };

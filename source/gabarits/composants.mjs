@@ -7,7 +7,7 @@ export const sur = (c, cle, classe = '') => html`<p class="surtitre ${classe}" d
 export const titre = (c, cle, classe = '') => html`<h2 class="titre ${classe}" data-anime="lignes">${c.tb(cle)}</h2>`;
 
 /* Lignes d'un titre d'ouverture : état de départ posé en CSS (.ouv-ligne), animées par site.js. */
-export const lignes = (c, cles) => cles.map((k) => html`<span class="ligne-masque"><span class="ouv-ligne">${c.tb(k)}</span></span>`);
+export const lignes = (c, cles) => cles.map((k) => html`<span class="ligne-masque"><span class="ouv-ligne">${c.tb(k)}</span></span> `);
 
 /* Rosace : anneaux de pétales qui se tracent puis tournent lentement (effet « rosace »). */
 export function rosace(classe = '') {

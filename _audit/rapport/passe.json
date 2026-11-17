@@ -1,15 +1,17 @@
 {
- "id": "20261117-182132-complet-cible-partiel",
- "date": "2026-11-17T18:24:48.066Z",
+ "id": "20261117-194319-complet-cible-partiel",
+ "date": "2026-11-17T19:45:44.360Z",
  "niveau": "complet",
- "pages": "/,/coaching-de-transition,/energie-et-liberations",
+ "pages": "/",
  "etapes": [
+  "fichiers",
   "mesures",
-  "ecran"
+  "mouvement",
+  "films"
  ],
- "version": "1",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 1,
+ "aRegarder": 3,
  "nonLances": 0,
  "manquants": 0,
  "statut": "complet"

@@ -1,4 +1,4 @@
-# Armonia — maquette v1
+# Armonia — maquette v2
 
 Maquette du site de Corinne Fonteneau (Armonia, Nuaillé près de Cholet) : art-thérapie, coaching de transition, énergie et libérations.
 Site actuel : armoniacf.jimdofree.com. Adresse de la maquette : https://armonia-maquette.vercel.app (adresse courte, à mettre dans le module Wix).
@@ -57,6 +57,11 @@ Vocabulaire : aucune promesse de résultat ; les mentions « ne remplace pas un 
 
 Retirer : `noindex` (balise robots de `source/gabarits/commun.mjs` et en-tête `X-Robots-Tag` de `vercel.json`), le formulaire de rendez-vous simulé et l'outil « Faites un point » simulé (à brancher sur un vrai envoi), la mention « Maquette de démonstration » du pied de page, les « à compléter » du pied de page, les phrases d'attente ci-dessus.
 Garder : la mention « Illustration générée » sur chaque image créée par intelligence artificielle.
+
+## Parcours à connaître
+
+- Les boutons « Réserver », « Demander une séance de Reiki », « Une toile vous parle ? » et l'outil « Faites un point » de la page Coaching ouvrent le formulaire de rendez-vous avec le choix déjà fait (paramètres `demande`, `format`, `situation` dans l'adresse).
+- Le lien « Réserver en ligne sur SensFlow » mène à la vraie réservation de Corinne, dans un nouvel onglet.
 
 ## Fichiers d'exemple du socle restés dans le projet
 

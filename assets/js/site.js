@@ -6,8 +6,8 @@
    - rosace       : une rosace qui se trace puis tourne avec le défilement ;
    - accrochage   : les toiles se posent une à une sous la cimaise, la rangée glisse au défilement ;
    - ondes, epingle : ondes concentriques (page Énergie), épingle qui se pose sur la carte (page Échangeons). */
-import { demarrer, boucle, etat, versObjet, aller, quand } from './socle/index.js?v=1';
-import { init as initFormulaire } from './modules/fpe.js?v=1';
+import { demarrer, boucle, etat, versObjet, aller, quand } from './socle/index.js?v=2';
+import { init as initFormulaire } from './modules/fpe.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -57,9 +57,15 @@ function respiration() {
   /* La toile ne flotte qu'une fois l'ouverture finie : l'intro mesure sa position pour finir sur elle. */
   let flotte = etat.pret;
   quand('pret', () => { flotte = true; });
+  /* Sous la souris, la toile s'incline (socle) : elle cesse de flotter, pour rester immobile quand la souris s'arrête. */
+  let survol = false;
+  if (toile) {
+    toile.addEventListener('pointerenter', (e) => { if (e.pointerType === 'mouse') survol = true; });
+    toile.addEventListener('pointerleave', () => { survol = false; });
+  }
   boucle(visuel, (dt, t) => {
     if (r) r.style.rotate = `${(t * 3) % 360}deg`;
-    if (toile && flotte) toile.style.translate = `0 ${(Math.sin(t * 0.8) * 7).toFixed(2)}px`;
+    if (toile && flotte && !survol) toile.style.translate = `0 ${(Math.sin(t * 0.8) * 7).toFixed(2)}px`;
     if (ta) ta.style.scale = (1 + 0.05 * Math.sin(t * 0.7)).toFixed(4);
     if (tb) tb.style.scale = (1 + 0.08 * Math.sin(t * 0.9 + 1.4)).toFixed(4);
   });
@@ -187,10 +193,10 @@ demarrer({
         .to(coeur, { scaleX: 1.2, scaleY: 0.8, duration: 0.12, ease: 'power2.out' }, 0.4)
         .to(coeur, { scaleX: 1, scaleY: 1, duration: 0.5, ease: 'elastic.out(1, 0.5)' }, 0.52)
         .fromTo(halo, { scale: 0 }, { scale: 1, duration: 0.6, ease: 'power2.out' }, 0.42)
-        .to('.ouverture-logo, .ouverture-ligne', { opacity: 0, duration: 0.25, ease: 'power1.in' }, 0.95);
+        .to('.ouverture-logo, .ouverture-ligne', { opacity: 0, duration: 0.22, ease: 'power1.in' }, 0.84);
     }
-    versObjet(tl, { a: 1.12, duree: 0.5, ouverture: 0.75, echelleMax: 4 });
-    premierEcran(tl, 1.62);
+    versObjet(tl, { a: 1.0, duree: 0.48, ouverture: 0.72, echelleMax: 4 });
+    premierEcran(tl, 1.46);
     return tl;
   },
   etatFinal() {

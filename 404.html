@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -34,14 +34,14 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#FAF5EC">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -100,7 +100,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
   <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
   <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Bienvenue">Bienvenue</a></li><li style="--i:1"><a href="/art-therapie" class="menu-lien" data-libelle="Art-thérapie">Art-thérapie</a></li><li style="--i:2"><a href="/coaching-de-transition" class="menu-lien" data-libelle="Coaching de transition">Coaching de transition</a></li><li style="--i:3"><a href="/energie-et-liberations" class="menu-lien" data-libelle="Énergie et libérations">Énergie et libérations</a></li><li style="--i:4"><a href="/echangeons" class="menu-lien" data-libelle="Échangeons">Échangeons</a></li></ul>
-  <p><a class="bouton" href="tel:+33674293031">Appeler 06 74 29 30 31</a></p>
+  <p class="menu-actions">
+    <a class="bouton" href="/echangeons#rendez-vous" data-libelle="Échangeons">Prendre rendez-vous</a>
+    <a class="bouton bouton--contour" href="tel:+33674293031">Appeler 06 74 29 30 31</a>
+  </p>
+  <p class="menu-adresse">13 place du Gerbier, 49340 Nuaillé · sur rendez-vous</p>
 </div>
 <main id="contenu" tabindex="-1">
 <section class="introuvable conteneur" id="debut">
@@ -114,7 +118,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <figcaption class="toile-cartel masque-ecran-tres-bas"><span>Spirale, Chemin de vie · aquarelle et encre de Chine, Corinne Fonteneau</span></figcaption>
   </figure>
   <div>
-    <h1 class="introuvable-titre"><span class="ligne-masque"><span class="ouv-ligne">Ce chemin ne mène <em>nulle part</em></span></span></h1>
+    <h1 class="introuvable-titre"><span class="ligne-masque"><span class="ouv-ligne">Ce chemin ne mène <em>nulle part</em></span></span> </h1>
     <p class="chapo ouv-fondu">La page que vous cherchez n&#39;existe pas ou plus. Reprenons depuis le début.</p>
     <p class="ouv-fondu"><a href="/" class="bouton" data-libelle="Bienvenue" data-action-principale>Revenir à l&#39;accueil</a></p>
   </div>

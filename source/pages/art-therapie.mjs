@@ -43,7 +43,7 @@ export default (c) => {
       ${titre(c, 'art.mediations.titre')}
       <ol class="mediations-liste" data-anime="cascade">${d.mediations.map((m, i) => html`<li><span class="num" aria-hidden="true">0${i + 1}</span><div><h3>${m.titre}</h3><p>${m.texte}</p></div></li>`)}</ol>
     </div>
-    ${c.media({ nom: 'grok/art-therapie-mediations', alt: c.donnees.images['grok/art-therapie-mediations']?.alt || '', classe: 'mediations-media', sizes: '(max-width: 760px) 92vw, 46vw', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}
+    ${c.media({ nom: 'grok/art-therapie-mediations', alt: c.donnees.images['grok/art-therapie-mediations']?.alt || '', cadrage: '64% 60%', classe: 'mediations-media', sizes: '(max-width: 760px) 92vw, 34vw', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}
   </div>
 </section>
 
@@ -85,6 +85,6 @@ export default (c) => {
   <p class="conteneur mention-cadre" data-anime>${c.t('art.mention')}</p>
 </section>
 
-${appel(c, { params: 'demande=art-therapie' })}
+${appel(c, { cleTitre: 'art.appelTitre', cleTexte: 'art.appelTexte', params: 'demande=art-therapie' })}
 `;
 };

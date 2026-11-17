@@ -73,7 +73,7 @@ export default (c) => {
         <ul class="puces">${x.outils.map((o) => html`<li>${o}</li>`)}</ul>
       </article>`)}
     </div>
-    <p class="situations-fin" data-anime>${c.t('coaching.parcours.aussi')}</p>
+    <p class="situations-fin note-pastille" data-anime>${c.t('coaching.parcours.aussi')}</p>
   </div>
 </section>
 
@@ -107,6 +107,6 @@ export default (c) => {
   </div>
 </section>
 
-${appel(c, { params: 'demande=coaching' })}
+${appel(c, { cleTitre: 'coaching.appelTitre', cleTexte: 'coaching.appelTexte', params: 'demande=coaching' })}
 `;
 };

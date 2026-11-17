@@ -37,7 +37,10 @@ h1 em, h2 em, .titre em { font-style: italic; color: var(--accent); }
 .titre { font-size: clamp(2.1rem, min(5.2vw, 9vh), 4.4rem); line-height: 1.04; margin-bottom: .5em; max-width: 16em; }
 .chapo { font-size: clamp(1.12rem, 1.02rem + .5vw, 1.36rem); line-height: 1.5; max-width: 36em; }
 .petit { font-size: max(13px, .9rem); color: var(--texte-doux); }
-.bouton { color: #fff; box-shadow: 0 10px 24px -12px color-mix(in srgb, var(--accent) 80%, transparent); }
+.bouton { position: relative; overflow: hidden; isolation: isolate; color: #fff; box-shadow: 0 10px 24px -12px color-mix(in srgb, var(--accent) 80%, transparent); }
+.bouton::before { content: ''; position: absolute; z-index: -1; left: 50%; top: 50%; width: 130%; aspect-ratio: 1; translate: -50% -50%; scale: 0; border-radius: 58% 42% 55% 45% / 48% 60% 40% 52%; background: color-mix(in srgb, #000 18%, var(--accent)); transition: scale .55s var(--courbe); }
+.bouton--contour::before { background: color-mix(in srgb, currentColor 14%, transparent); }
+@media (hover: hover) { .bouton:hover::before { scale: 1; } }
 .bouton--contour { color: inherit; box-shadow: inset 0 0 0 2px currentColor; }
 .lien-fleche { display: inline-flex; align-items: center; gap: .5em; min-height: 44px; font-weight: 600; text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: .35em; }
 .lien-fleche::after { content: '→'; color: var(--accent); transition: transform .3s var(--courbe); }
@@ -53,7 +56,8 @@ h1 em, h2 em, .titre em { font-style: italic; color: var(--accent); }
 .fond-lavis .media { background: color-mix(in srgb, var(--texte) 10%, var(--lavis)); }
 section { position: relative; }
 main > section { overflow-x: clip; }
-main > section:not(.hero):not([class^="ouv-"]):not(.appel):not(.leviers):not(.introuvable) { padding-block: var(--bloc); }
+main > section:not(.hero):not([class^="ouv-"]):not(.appel):not(.leviers):not(.introuvable) { padding-block: var(--bloc-haut, var(--bloc)) var(--bloc-bas, var(--bloc)); }
+.reconnaitre { --bloc-bas: calc(var(--bloc) * .3); }
 
 .mention-ia { font-size: 13px; }
 
@@ -76,6 +80,12 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-effet="tache"]:not(.tac
 .toile-cadre { padding: clamp(6px, .8vw, 12px); background: #fff; border-radius: 4px; box-shadow: 0 1px 0 rgba(22, 51, 91, .08), 0 24px 44px -24px rgba(22, 51, 91, .45); }
 .toile-media { border-radius: 2px; background: #fff; }
 .toile-media img { object-fit: contain; }
+/* Couleur d'attente proche de l'image : pas de case blanche avant le décodage (retour arrière, connexion lente). */
+.hero-toile .toile-media { background: #2E8FD6; }
+.ouv-plein-media { background: #C7A983; }
+.ouv-arche-media { background: #9AA56F; }
+.ouv-bandeau-media { background: #DDBE9C; }
+.ouv-numero-media, .corinne-media { background: #A9A6A4; }
 .toile-cartel { display: grid; gap: 2px; margin-top: 14px; font-size: max(13px, .88rem); color: var(--texte-doux); }
 .toile-cartel strong { font-family: var(--police-titres); font-weight: 400; font-size: 1.15rem; color: var(--texte); }
 .toile-prix { font-weight: 600; color: var(--texte); font-variant-numeric: tabular-nums; }
@@ -86,12 +96,30 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-effet="tache"]:not(.tac
 .rosace path, .rosace circle { stroke-dasharray: 1; stroke-dashoffset: 0; }
 html.js:not(.secours):not([data-arrivee="retour"]) .rosace:not(.rosace-tracee) :is(path, circle) { stroke-dashoffset: 1; }
 
+/* Curseur en goutte de pigment (souris seulement, posé par le socle). */
+.curseur { border-radius: 58% 42% 55% 45% / 48% 60% 40% 52%; }
+
+/* Petits survols : cartes qui se soulèvent, images qui s'approchent, toiles qui bougent sur leur fil. */
+.situation, .format, .parcours-carte, .tarif, .chemin { transition: translate .45s var(--courbe), box-shadow .45s var(--courbe); }
+.approche-media img, .duo-media img { transition: scale .9s var(--courbe); }
+.oeuvre .toile-cadre { transition: rotate .6s var(--courbe), translate .6s var(--courbe); }
+@media (hover: hover) {
+  :is(.situation, .format, .parcours-carte, .tarif, .chemin):hover { translate: 0 -5px; }
+  .approche:hover .approche-media img, .duo-visuel:hover .duo-media img { scale: 1.05; }
+  .oeuvre:hover .toile-cadre { rotate: -1.4deg; translate: 0 -6px; }
+  .oeuvre:nth-child(even):hover .toile-cadre { rotate: 1.4deg; }
+}
+
 /* ---------- En-tête, menu, voile ---------- */
 [data-entete] { border-bottom: 1px solid color-mix(in srgb, var(--texte) 10%, var(--fond)); }
 .entete-logo img { width: auto; height: 40px; }
 [data-nav] a { font-weight: 600; font-size: .97rem; }
 [data-nav] a[aria-current] { text-decoration-color: var(--accent); }
 [data-menu] .menu-lien { letter-spacing: -.01em; }
+[data-menu] { isolation: isolate; overflow-x: hidden; }
+[data-menu]::after { content: ''; position: absolute; z-index: -1; right: -22%; bottom: 4%; width: 78%; aspect-ratio: 1; background: var(--lavis); border-radius: 58% 42% 55% 45% / 48% 60% 40% 52%; pointer-events: none; }
+.menu-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 18px; }
+.menu-adresse { font-size: max(14px, .95rem); color: var(--texte-doux); max-width: 22em; }
 .voile-contenu img { width: min(186px, 50vw); height: auto; }
 [data-voile-libelle] { font-style: italic; }
 [data-barre-fixe] .bouton--contour { color: var(--texte); }
@@ -104,7 +132,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) .rosace:not(.rosace-tracee) :
 .hero-info { margin: 0; font-weight: 600; font-size: max(13px, .95rem); }
 p.hero-info::before { content: ''; display: inline-block; width: 9px; height: 9px; margin-right: .6em; border-radius: 50%; background: var(--accent); }
 .hero-visuel { position: relative; isolation: isolate; display: grid; place-items: center; min-height: 0; }
-.hero-toile { width: min(100%, 62svh, 520px); transform: rotate(-2deg); }
+.hero-toile { width: min(100%, 62svh, 520px); rotate: -2deg; }
 .hero-toile .toile-cartel { margin-top: 12px; text-align: right; }
 .hero-rosace { position: absolute; z-index: -1; width: 138%; max-width: none; left: 50%; top: 50%; translate: -50% -50%; opacity: .55; }
 .hero-tache { opacity: .9; }
@@ -121,17 +149,20 @@ html.js:not(.secours):not([data-arrivee="retour"]) .chemins-trait path { stroke-
 .chemins-tete, .chemins-grille { position: relative; }
 .chemins-tete { margin-bottom: clamp(28px, 4vw, 56px); }
 .chemins-grille { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(18px, 3vw, 40px); }
-.chemin { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1fr); background: var(--blanc); border-radius: var(--rayon); overflow: hidden; box-shadow: 0 30px 60px -40px rgba(22, 51, 91, .5); }
+.chemin { display: grid; grid-template-columns: minmax(0, .72fr) minmax(0, 1fr); background: var(--blanc); border-radius: var(--rayon); overflow: hidden; box-shadow: 0 30px 60px -40px rgba(22, 51, 91, .5); }
 .chemin-media { border-radius: 0; height: 100%; min-height: 360px; }
 .chemin-texte { padding: clamp(20px, 2.6vw, 36px); align-self: center; }
 .chemin-texte h3 { font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2.2rem); }
 
 /* ---------- Ce qui vous amène ---------- */
-.reconnaitre { isolation: isolate; }
-.reconnaitre-liste { list-style: none; margin: 0 0 1.2em; padding: 0; font-family: var(--police-titres); font-size: clamp(1.7rem, min(3.9vw, 6.4vh), 3.2rem); line-height: 1.32; letter-spacing: -.02em; }
+.reconnaitre { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 80px); align-items: center; }
+.reconnaitre-liste { list-style: none; margin: 0 0 1.2em; padding: 0; font-family: var(--police-titres); font-size: clamp(1.55rem, min(2.75vw, 6vh), 2.35rem); line-height: 1.36; letter-spacing: -.02em; }
 .reconnaitre-liste li:nth-child(even) { color: color-mix(in srgb, var(--texte) 62%, var(--fond)); font-style: italic; }
 .reconnaitre-fin { font-weight: 600; max-width: 30em; font-size: clamp(1.1rem, 1rem + .4vw, 1.3rem); }
-.reconnaitre-tache { width: min(46vw, 560px); height: min(46vw, 560px); right: -8%; top: 8%; }
+.reconnaitre-citation { position: relative; isolation: isolate; margin: 0; padding: clamp(40px, 6vw, 84px) clamp(28px, 4vw, 60px); text-align: center; }
+.reconnaitre-tache { inset: 0; width: 100%; height: 100%; }
+.reconnaitre-citation blockquote { margin: 0; font-family: var(--police-titres); font-style: italic; font-size: clamp(1.4rem, 1rem + 1.5vw, 2.3rem); line-height: 1.22; letter-spacing: -.01em; }
+.reconnaitre-citation figcaption { margin-top: 14px; font-size: max(13px, .9rem); font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
 
 /* ---------- Trois approches ---------- */
 .approches-tete { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); column-gap: clamp(24px, 5vw, 72px); align-items: end; margin-bottom: clamp(28px, 4vw, 56px); }
@@ -167,6 +198,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-effet="accrochage"] .oe
 .corinne-portrait { position: relative; isolation: isolate; justify-self: center; width: min(100%, 320px); }
 .corinne-media { aspect-ratio: 4 / 5; border-radius: 46% 54% 50% 50% / 40% 42% 58% 60%; }
 .corinne-tache { width: 130%; height: 120%; left: -22%; top: -6%; }
+.corinne-citation { margin: 1.2em 0 0; padding-left: 18px; border-left: 3px solid var(--accent); font-family: var(--police-titres); font-style: italic; font-size: clamp(1.2rem, 1.05rem + .6vw, 1.55rem); line-height: 1.3; }
 .valeurs { list-style: none; margin: 1.2em 0; padding: 0; display: grid; gap: 0; }
 .valeurs li { padding: 12px 0 12px 1.6em; border-top: 1px solid var(--ligne); position: relative; font-weight: 600; }
 .valeurs li::before { content: ''; position: absolute; left: 0; top: 1.25em; width: .7em; height: .7em; background: var(--accent); border-radius: 58% 42% 55% 45% / 48% 60% 40% 52%; }
@@ -183,6 +215,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-effet="accrochage"] .oe
 .temoignages-grille { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(16px, 2vw, 28px); margin-top: clamp(20px, 3vw, 40px); align-items: start; }
 .temoignage { margin: 0; padding: clamp(20px, 2.4vw, 34px); background: var(--blanc); border-radius: var(--rayon); box-shadow: 0 24px 50px -36px rgba(22, 51, 91, .55); }
 .temoignage--1 { margin-top: clamp(0px, 2.4vw, 36px); }
+.temoignages-glisser { display: none; margin: 10px 0 0; }
 .temoignage-guillemet { width: 34px; height: 26px; color: var(--accent); margin-bottom: 14px; }
 .temoignage blockquote { margin: 0; font-family: var(--police-titres); font-size: clamp(1.1rem, 1rem + .45vw, 1.34rem); line-height: 1.42; }
 .temoignage figcaption { display: grid; gap: 2px; margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--ligne); font-size: max(13px, .9rem); color: var(--texte-doux); }
@@ -223,6 +256,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-effet="accrochage"] .oe
 .appel-texte { max-width: 34em; font-size: clamp(1.1rem, 1rem + .4vw, 1.3rem); }
 .appel-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin: 1em 0 0; }
 .appel .bouton:not(.bouton--contour) { background: var(--fond); color: var(--encre); box-shadow: none; }
+.appel .bouton:not(.bouton--contour)::before { background: var(--lavis); }
 .appel :focus-visible, .pied :focus-visible { outline-color: var(--accent-clair); }
 .pied { background-color: var(--encre); color: var(--fond); padding: clamp(40px, 6vw, 80px) 0 calc(28px + var(--barres-h)); border-top: 1px solid color-mix(in srgb, var(--fond) 16%, var(--encre)); font-size: max(14px, .95rem); }
 .pied-grille { display: grid; grid-template-columns: minmax(0, 1.5fr) repeat(3, minmax(0, 1fr)); gap: clamp(20px, 4vw, 56px); }
@@ -279,12 +313,12 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-effet="accrochage"] .oe
 .duo-media { aspect-ratio: 3 / 2; }
 .duo-tache { width: 70%; height: 90%; right: -12%; top: -14%; }
 .duo--inverse .duo-tache { right: auto; left: -12%; }
-.mediations-grille { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: clamp(28px, 6vw, 96px); align-items: center; }
+.mediations-grille { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr); gap: clamp(28px, 6vw, 96px); align-items: center; }
 .mediations-liste { list-style: none; margin: 0; padding: 0; }
 .mediations-liste li { display: grid; grid-template-columns: 3.2em minmax(0, 1fr); gap: 8px; align-items: baseline; padding-block: 16px; border-top: 1px solid color-mix(in srgb, var(--texte) 22%, var(--lavis)); }
 .mediations-liste h3 { margin-bottom: .15em; }
 .mediations-liste p { margin: 0; }
-.mediations-media { aspect-ratio: 3 / 2; }
+.mediations-media { aspect-ratio: 1 / 1; }
 .pourqui-liste { list-style: none; margin: clamp(16px, 2vw, 28px) 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 clamp(24px, 5vw, 80px); font-family: var(--police-titres); font-size: clamp(1.25rem, 1.05rem + .9vw, 1.9rem); line-height: 1.2; }
 .pourqui-liste li { display: grid; grid-template-columns: 1.4em minmax(0, 1fr); gap: 12px; align-items: start; padding-block: 18px; border-top: 1px solid var(--ligne); }
 .pourqui-liste svg { width: 1.2em; height: 1.2em; margin-top: .05em; color: var(--accent); }
@@ -316,6 +350,8 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-effet="accrochage"] .oe
 .cadre-liste p { margin: 0; color: var(--texte-doux); }
 .parcours { overflow: hidden; }
 .parcours > .conteneur { position: relative; }
+.parcours .chemins-trait { opacity: .7; }
+.note-pastille { display: inline-block; padding: 8px 16px; border-radius: 999px; background: var(--lavis); box-shadow: 0 0 0 1px color-mix(in srgb, var(--texte) 14%, var(--lavis)); }
 .parcours-grille { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(16px, 3vw, 44px); margin-top: clamp(20px, 3vw, 40px); }
 .parcours-carte { padding: clamp(22px, 3vw, 44px); background: var(--blanc); border-radius: var(--rayon); box-shadow: 0 30px 60px -40px rgba(22, 51, 91, .5); }
 .parcours-carte h3 { font-size: clamp(1.7rem, 1.3rem + 1.6vw, 2.8rem); }
@@ -344,9 +380,9 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-effet="accrochage"] .oe
 .temps-carte ol { margin: 0; padding-left: 1.3em; }
 .temps-carte li { padding-block: 3px; }
 .temps-carte li::marker { color: var(--accent); font-weight: 600; }
-.choisir-grille { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(24px, 6vw, 96px); align-items: start; }
+.choisir-grille { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr) minmax(0, .5fr); gap: clamp(24px, 4vw, 64px); align-items: start; }
+.choisir-toile { padding-top: 44px; border-top: 2px solid color-mix(in srgb, var(--texte) 55%, var(--lavis)); }
 .choisir-grille .titre { margin: 0; }
-.choisir-trait { grid-column: 1 / -1; width: min(100%, 520px); height: 34px; color: var(--accent); overflow: visible; }
 
 /* ---------- Échangeons ---------- */
 .rdv-grille { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(28px, 5vw, 80px); align-items: start; }
@@ -376,7 +412,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-effet="accrochage"] .oe
 .carte-nom { position: absolute; font-size: max(13px, .9rem); line-height: 1.25; }
 .carte-nom strong { font-family: var(--police-titres); font-weight: 400; font-size: 1.35rem; }
 .carte-nom--cholet { left: 30%; top: 80%; font-family: var(--police-titres); font-size: 1.2rem; }
-.carte-nom--nuaille { left: 52%; top: 40%; }
+.carte-nom--nuaille { right: 33%; top: 9%; text-align: right; }
 .carte-nom--nord { right: 5.5%; top: 68%; font-weight: 600; }
 .carte figcaption { margin-top: 6px; font-size: max(13px, .8rem); color: color-mix(in srgb, var(--texte) 85%, var(--lavis)); }
 
@@ -408,8 +444,16 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-effet="accrochage"] .oe
   .ouv-bandeau-titre { font-size: clamp(2.5rem, 12vw, 4rem); }
   .ouv-bandeau-media { height: 34svh; min-height: 0; border-radius: 22px; margin-bottom: 8px; }
   .chemins-grille, .approches-grille, .approches-tete, .oeuvres-tete, .corinne, .seance-temps, .pratique, .duo, .mediations-grille, .pourqui-liste,
-  .formats-grille, .deroule-temps, .cadre, .parcours-grille, .point, .mention-bande-texte, .choisir-grille, .rdv-grille, .lieu, .temoignages-grille, .situations-grille { grid-template-columns: minmax(0, 1fr); }
+  .formats-grille, .deroule-temps, .cadre, .parcours-grille, .point, .mention-bande-texte, .rdv-grille, .lieu, .situations-grille { grid-template-columns: minmax(0, 1fr); }
   .approches-tete .chapo { grid-column: 1; grid-row: auto; }
+  .reconnaitre, .choisir-grille { grid-template-columns: minmax(0, 1fr); }
+  .reconnaitre-citation { padding: 44px 30px; }
+  .choisir-toile { width: min(62vw, 260px); }
+  .mediations-media { aspect-ratio: 3 / 2; }
+  /* Sur téléphone, les témoignages se font glisser au doigt. */
+  .temoignages-grille { display: flex; align-items: stretch; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; margin-inline: calc(-1 * var(--gouttiere)); padding: 6px var(--gouttiere) 16px; }
+  .temoignage { flex: 0 0 84%; scroll-snap-align: center; }
+  .temoignages-glisser { display: block; }
   .approche-media { aspect-ratio: 4 / 3; }
   .corinne-portrait { width: min(58vw, 240px); }
   .duo--inverse .duo-visuel, .duo-visuel { order: 2; }

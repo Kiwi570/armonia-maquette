@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -34,14 +34,14 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#FAF5EC">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -100,13 +100,17 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
   <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
   <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Bienvenue">Bienvenue</a></li><li style="--i:1"><a href="/art-therapie" class="menu-lien" data-libelle="Art-thérapie">Art-thérapie</a></li><li style="--i:2"><a href="/coaching-de-transition" class="menu-lien" data-libelle="Coaching de transition">Coaching de transition</a></li><li style="--i:3"><a href="/energie-et-liberations" class="menu-lien" data-libelle="Énergie et libérations" aria-current="page">Énergie et libérations</a></li><li style="--i:4"><a href="/echangeons" class="menu-lien" data-libelle="Échangeons">Échangeons</a></li></ul>
-  <p><a class="bouton" href="tel:+33674293031">Appeler 06 74 29 30 31</a></p>
+  <p class="menu-actions">
+    <a class="bouton" href="/echangeons#rendez-vous" data-libelle="Échangeons">Prendre rendez-vous</a>
+    <a class="bouton bouton--contour" href="tel:+33674293031">Appeler 06 74 29 30 31</a>
+  </p>
+  <p class="menu-adresse">13 place du Gerbier, 49340 Nuaillé · sur rendez-vous</p>
 </div>
 <main id="contenu" tabindex="-1">
 <section class="ouv-bandeau" id="debut">
   <div class="conteneur ouv-bandeau-texte">
     <p class="surtitre ouv-fondu">Pratiques énergétiques et quantiques</p>
-    <h1 class="ouv-bandeau-titre"><span class="ligne-masque"><span class="ouv-ligne">Énergie et <em>libérations</em></span></span></h1>
+    <h1 class="ouv-bandeau-titre"><span class="ligne-masque"><span class="ouv-ligne">Énergie et <em>libérations</em></span></span> </h1>
     <p class="chapo ouv-fondu masque-ecran-tres-bas">Deux pratiques de bien-être pour explorer ce qui se répète, s&#39;apaiser et se recentrer.</p>
     <p class="hero-actions ouv-fondu">
       <a href="/echangeons?demande=liberation#rendez-vous" class="bouton" data-libelle="Échangeons" data-action-principale data-survol="magnetique">Réserver une séance</a>
@@ -182,7 +186,20 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <a href="/echangeons?demande=decouverte#rendez-vous" class="lien-fleche" data-libelle="Échangeons">En parler avec Corinne</a>
       </p>
     </div>
-    <svg class="choisir-trait" viewBox="0 0 600 40" preserveAspectRatio="none" aria-hidden="true" data-fx="trace" data-visuel><path d="M4 26 C 120 4, 240 38, 360 18 S 520 6, 596 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+    <div class="choisir-toile" data-effet="accrochage">
+      <figure class="toile oeuvre">
+  <div class="toile-cadre"><figure class="media toile-media" style="--cadrage:50% 50%;aspect-ratio:1920 / 1566">
+  <picture>
+    <img src="/assets/images/toile-yin-yang-1200.webp" srcset="/assets/images/toile-yin-yang-480.webp 480w, /assets/images/toile-yin-yang-800.webp 800w, /assets/images/toile-yin-yang-1200.webp 1200w" sizes="(max-width: 760px) 60vw, 20vw" alt="Yin Yang, soleil et terre enlacés, acrylique de Corinne Fonteneau" width="1200" height="979" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+  <figcaption class="toile-cartel">
+    <strong>Yin Yang</strong>
+    <span>Acrylique · 40 × 40 cm</span>
+    <span class="toile-prix" data-prix>140 €</span>
+  </figcaption>
+</figure>
+    </div>
   </div>
 </section>
 <section class="appel" id="rencontre">
@@ -196,8 +213,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </g>
 </svg>
   <div class="conteneur appel-contenu">
-    <h2 class="titre appel-titre" data-anime="lignes">Et si nous faisions <em>connaissance</em> ?</h2>
-    <p class="appel-texte" data-anime>Un rendez-vous découverte, en ligne ou par téléphone, pour échanger sur vos besoins et choisir l&#39;approche qui vous convient.</p>
+    <h2 class="titre appel-titre" data-anime="lignes">Une question avant de <em>réserver</em> ?</h2>
+    <p class="appel-texte" data-anime>Corinne vous répond par téléphone, ou lors d&#39;un rendez-vous découverte.</p>
     <p class="appel-actions" data-anime>
       <a href="/echangeons?demande=decouverte#rendez-vous" class="bouton" data-libelle="Échangeons" data-survol="magnetique">Prendre rendez-vous</a>
       <a class="bouton bouton--contour" href="tel:+33674293031">06 74 29 30 31</a>

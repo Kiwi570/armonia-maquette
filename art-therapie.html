@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -34,14 +34,14 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#FAF5EC">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -100,7 +100,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
   <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
   <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Bienvenue">Bienvenue</a></li><li style="--i:1"><a href="/art-therapie" class="menu-lien" data-libelle="Art-thérapie" aria-current="page">Art-thérapie</a></li><li style="--i:2"><a href="/coaching-de-transition" class="menu-lien" data-libelle="Coaching de transition">Coaching de transition</a></li><li style="--i:3"><a href="/energie-et-liberations" class="menu-lien" data-libelle="Énergie et libérations">Énergie et libérations</a></li><li style="--i:4"><a href="/echangeons" class="menu-lien" data-libelle="Échangeons">Échangeons</a></li></ul>
-  <p><a class="bouton" href="tel:+33674293031">Appeler 06 74 29 30 31</a></p>
+  <p class="menu-actions">
+    <a class="bouton" href="/echangeons#rendez-vous" data-libelle="Échangeons">Prendre rendez-vous</a>
+    <a class="bouton bouton--contour" href="tel:+33674293031">Appeler 06 74 29 30 31</a>
+  </p>
+  <p class="menu-adresse">13 place du Gerbier, 49340 Nuaillé · sur rendez-vous</p>
 </div>
 <main id="contenu" tabindex="-1">
 <section class="ouv-plein" id="debut">
@@ -111,7 +115,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </figure>
   <div class="ouv-plein-texte">
     <p class="surtitre ouv-fondu">Art-thérapie humaniste</p>
-    <h1 class="ouv-plein-titre"><span class="ligne-masque"><span class="ouv-ligne">Exprimer, créer et <em>symboliser</em> autrement</span></span></h1>
+    <h1 class="ouv-plein-titre"><span class="ligne-masque"><span class="ouv-ligne">Exprimer, créer et <em>symboliser</em> autrement</span></span> </h1>
     <p class="chapo ouv-fondu masque-ecran-tres-bas">Laisser s&#39;exprimer les mains, les sens et le cœur pour oser être qui vous êtes vraiment.</p>
     <p class="hero-actions ouv-fondu">
       <a href="/echangeons?demande=art-therapie#rendez-vous" class="bouton" data-libelle="Échangeons" data-action-principale data-survol="magnetique">Réserver une séance</a>
@@ -144,9 +148,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <h2 class="titre " data-anime="lignes">Quatre façons de <em>dire</em></h2>
       <ol class="mediations-liste" data-anime="cascade"><li><span class="num" aria-hidden="true">01</span><div><h3>La peinture</h3><p>Laisser la couleur dire ce qui est là.</p></div></li><li><span class="num" aria-hidden="true">02</span><div><h3>L&#39;écriture</h3><p>Poser des mots, autrement.</p></div></li><li><span class="num" aria-hidden="true">03</span><div><h3>Le modelage</h3><p>Donner une forme à ce que l&#39;on ressent.</p></div></li><li><span class="num" aria-hidden="true">04</span><div><h3>Le mouvement</h3><p>Passer par le corps et les sens.</p></div></li></ol>
     </div>
-    <figure class="media mediations-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+    <figure class="media mediations-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:64% 60%">
   <picture>
-    <img src="/assets/images/grok/art-therapie-mediations-1280.webp" srcset="/assets/images/grok/art-therapie-mediations-640.webp 640w, /assets/images/grok/art-therapie-mediations-1280.webp 1280w" sizes="(max-width: 760px) 92vw, 46vw" alt="De la terre à modeler, un carnet, un outil en bois et une aquarelle sur une table" width="1280" height="853" loading="lazy" decoding="async">
+    <img src="/assets/images/grok/art-therapie-mediations-1280.webp" srcset="/assets/images/grok/art-therapie-mediations-640.webp 640w, /assets/images/grok/art-therapie-mediations-1280.webp 1280w" sizes="(max-width: 760px) 92vw, 34vw" alt="De la terre à modeler, un carnet, un outil en bois et une aquarelle sur une table" width="1280" height="853" loading="lazy" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
   </div>
@@ -245,8 +249,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </g>
 </svg>
   <div class="conteneur appel-contenu">
-    <h2 class="titre appel-titre" data-anime="lignes">Et si nous faisions <em>connaissance</em> ?</h2>
-    <p class="appel-texte" data-anime>Un rendez-vous découverte, en ligne ou par téléphone, pour échanger sur vos besoins et choisir l&#39;approche qui vous convient.</p>
+    <h2 class="titre appel-titre" data-anime="lignes">Envie d'<em>essayer</em> ?</h2>
+    <p class="appel-texte" data-anime>Une première séance pour découvrir l&#39;art-thérapie, sans prérequis et à votre rythme.</p>
     <p class="appel-actions" data-anime>
       <a href="/echangeons?demande=art-therapie#rendez-vous" class="bouton" data-libelle="Échangeons" data-survol="magnetique">Prendre rendez-vous</a>
       <a class="bouton bouton--contour" href="tel:+33674293031">06 74 29 30 31</a>

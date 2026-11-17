@@ -86,7 +86,7 @@ export default (c) => {
           <div class="fpe__grille">
             <div class="fpe__champ"><label for="rdv-prenom">${c.t('contact.rdv.prenom')} <i aria-hidden="true">*</i></label><input id="rdv-prenom" name="prenom" autocomplete="given-name" required></div>
             <div class="fpe__champ"><label for="rdv-nom">${c.t('contact.rdv.nom')} <i aria-hidden="true">*</i></label><input id="rdv-nom" name="nom" autocomplete="family-name" required></div>
-            <div class="fpe__champ"><label for="rdv-tel">${c.t('contact.rdv.tel')} <i aria-hidden="true">*</i></label><input id="rdv-tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" pattern="[0-9 +().\\-]{8,20}" required></div>
+            <div class="fpe__champ"><label for="rdv-tel">${c.t('contact.rdv.tel')} <i aria-hidden="true">*</i></label><input id="rdv-tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" pattern="[0-9+. \\-]{8,20}" required></div>
             <div class="fpe__champ"><label for="rdv-email">${c.t('contact.rdv.email')}</label><input id="rdv-email" name="email" type="email" autocomplete="email"></div>
           </div>
           <label class="fpe__case"><input type="checkbox" name="accord" value="oui" required data-libelle="Accord" data-hors-recap><span class="fpe__choix-texte">${c.t('contact.rdv.accord')} <i aria-hidden="true">*</i></span></label>

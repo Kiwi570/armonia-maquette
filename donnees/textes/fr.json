@@ -27,7 +27,9 @@
     "prixSurDemande": "Prix sur demande",
     "oeuvreLien": "Une toile vous parle ? Écrivez à Corinne",
     "actionBarre": "Rendez-vous",
-    "logoLien": "Armonia, retour à l'accueil"
+    "logoLien": "Armonia, retour à l'accueil",
+    "adresseCourte": "13 place du Gerbier, 49340 Nuaillé · sur rendez-vous",
+    "glisser": "Faites glisser pour lire les autres"
   },
   "pages": {
     "accueil": {
@@ -63,7 +65,7 @@
       "description": "Prenez rendez-vous au cabinet Armonia, 13 place du Gerbier à Nuaillé, ou à distance : réservation en ligne, téléphone 06 74 29 30 31, tarifs et accès.",
       "nav": "Échangeons",
       "partageAlt": "Échangeons : prendre rendez-vous avec Corinne Fonteneau, cabinet Armonia à Nuaillé",
-      "accroche": "Échangeons : faisons connaissance"
+      "accroche": "Échangeons, faisons connaissance"
     },
     "404": {
       "titre": "Page introuvable : Armonia",
@@ -117,12 +119,13 @@
       "titre": "Derrière chaque difficulté, <em>une personne</em>",
       "p1": "Après une quinzaine d'années dans les ressources humaines, Corinne a choisi d'accompagner celles et ceux qui traversent des questionnements, des changements ou des difficultés, au travail comme dans leur vie personnelle.",
       "p2": "Formée au coaching, à l'art-thérapie, au Reiki et à la libération des mémoires inconscientes, elle propose un espace d'écoute, de confiance et de liberté, pour retrouver votre capacité à choisir, à agir et à avancer.",
-      "citation": "Il y a une personne avec son histoire, ses émotions, ses besoins.",
+      "citation": "« Il y a une personne avec son histoire, ses émotions, ses besoins. »",
       "lien": "Faire connaissance"
     },
     "temoignages": {
       "sur": "Témoignages",
-      "titre": "Ce sont elles et eux qui en parlent <em>le mieux</em>"
+      "titre": "Ce sont elles et eux qui en parlent <em>le mieux</em>",
+      "region": "Témoignages, défilement horizontal"
     },
     "tarifs": {
       "sur": "Tarifs et questions",
@@ -168,7 +171,9 @@
       "titre": "Quatre <em>arbres de vie</em>",
       "texte": "Corinne peint, elle aussi. Ces quatre acryliques font partie de ses créations exposées."
     },
-    "mention": "L'art-thérapie ne remplace pas la médecine conventionnelle, un diagnostic ou un traitement prescrit par un professionnel de santé."
+    "mention": "L'art-thérapie ne remplace pas la médecine conventionnelle, un diagnostic ou un traitement prescrit par un professionnel de santé.",
+    "appelTitre": "Envie d'<em>essayer</em> ?",
+    "appelTexte": "Une première séance pour découvrir l'art-thérapie, sans prérequis et à votre rythme."
   },
   "coaching": {
     "sur": "Coaching des transitions",
@@ -217,7 +222,9 @@
       "envoyer": "Poursuivre avec ces réponses",
       "tarif": "Coaching de transition : tarif sur demande.",
       "simule": "Rien n'est enregistré : vos réponses servent seulement à préparer le formulaire de rendez-vous."
-    }
+    },
+    "appelTitre": "Et si on faisait <em>le point</em> ?",
+    "appelTexte": "Un premier échange, en présentiel ou à distance, pour clarifier votre situation et vos envies."
   },
   "energie": {
     "sur": "Pratiques énergétiques et quantiques",
@@ -250,8 +257,11 @@
       "titre": "Comment <em>choisir</em> ?",
       "texte": "L'art-thérapie convient quand les mots ne suffisent pas. La libération quantique et émotionnelle s'intéresse aux ressentis, aux émotions et aux blocages. Un échange avec Corinne permet de trouver l'approche la plus adaptée.",
       "lien1": "Voir l'art-thérapie",
-      "lien2": "En parler avec Corinne"
-    }
+      "lien2": "En parler avec Corinne",
+      "toile": "Une toile de Corinne"
+    },
+    "appelTitre": "Une question avant de <em>réserver</em> ?",
+    "appelTexte": "Corinne vous répond par téléphone, ou lors d'un rendez-vous découverte."
   },
   "contact": {
     "sur": "Échangeons",

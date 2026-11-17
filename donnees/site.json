@@ -2,11 +2,29 @@
   "nom": "Armonia",
   "adresse": "https://armonia-maquette.vercel.app",
   "siteActuel": "armoniacf.jimdofree.com",
-  "version": 1,
-  "langues": ["fr"],
-  "navigation": ["accueil", "art-therapie", "coaching", "energie", "contact"],
-  "actionEntete": { "page": "contact", "ancre": "rendez-vous" },
-  "couleurs": { "fond": "#FAF5EC", "texte": "#16335B", "voile": "#BF3F1A", "ouverture": "#FAF5EC", "menu": "#FAF5EC", "theme": "#FAF5EC" },
+  "version": 2,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "art-therapie",
+    "coaching",
+    "energie",
+    "contact"
+  ],
+  "actionEntete": {
+    "page": "contact",
+    "ancre": "rendez-vous"
+  },
+  "couleurs": {
+    "fond": "#FAF5EC",
+    "texte": "#16335B",
+    "voile": "#BF3F1A",
+    "ouverture": "#FAF5EC",
+    "menu": "#FAF5EC",
+    "theme": "#FAF5EC"
+  },
   "formeVoile": "iris",
   "contact": {
     "telephone": "06 74 29 30 31",
@@ -17,7 +35,9 @@
     "linkedin": "https://www.linkedin.com/in/corinne-armonia",
     "itineraire": "https://www.google.com/maps/search/?api=1&query=13+place+du+Gerbier+49340+Nuaill%C3%A9"
   },
-  "polices": ["/assets/fonts/fraunces-latin-400-normal.woff2"],
+  "polices": [
+    "/assets/fonts/fraunces-latin-400-normal.woff2"
+  ],
   "imagePartage": "toile-mandala-bleu-1000.webp",
-  "curseur": false
+  "curseur": true
 }
